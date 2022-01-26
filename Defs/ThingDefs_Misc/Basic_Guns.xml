@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <ThingDef Name="ERW_Style" Abstract="True">
+	
+        <recipeMaker>
+            <recipeUsers>
+                <li>TableCraftingWeaponss</li>
+            </recipeUsers>
+        <researchPrerequisite>ERW_Weapons_Start</researchPrerequisite>
+        </recipeMaker>
+	  
+    </ThingDef>
+
+</Defs>

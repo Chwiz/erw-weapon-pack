@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <!-- ================================= M4A1 Base Bullets ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_556x45_Rifle</defName>
+    <label>5.56x45mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+	  <stoppingPower>0.8</stoppingPower>
+	  <armorPenetrationBase>0.47</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+ 
+</Defs>

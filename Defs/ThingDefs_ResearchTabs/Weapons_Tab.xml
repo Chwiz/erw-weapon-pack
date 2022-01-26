@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <ResearchTabDef>
+        <defName>ERW_Weapon_Tab</defName>
+        <label>ERW — Weapon Pack</label>
+    </ResearchTabDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_Start</defName>
+    <label>Starter Weapons</label>
+    <description>Craft simple medicines and potions from mundane ingredients using alchemical synthesis.\n\nCan only be researched by someone capable of manipulating aether.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>1.1</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <!-- ================================= USA ==================================== -->
+
+    <!-- ===== No Mods ====== -->
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_USA</defName>
+    <label>USA</label>
+    <description>Craft simple medicines and potions from mundane ingredients using alchemical synthesis.\n\nCan only be researched by someone capable of manipulating aether.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_Start</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>2.1</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_USAPistols</defName>
+    <label>USA Pistols</label>
+    <description>Craft simple medicines and potions from mundane ingredients using alchemical synthesis.\n\nCan only be researched by someone capable of manipulating aether.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_USA</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>2.1</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_USASmg</defName>
+    <label>USA SMG</label>
+    <description>Craft simple medicines and potions from mundane ingredients using alchemical synthesis.\n\nCan only be researched by someone capable of manipulating aether.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_USAPistols</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>2.1</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_USARifles</defName>
+    <label>USA Rifles</label>
+    <description>Craft simple medicines and potions from mundane ingredients using alchemical synthesis.\n\nCan only be researched by someone capable of manipulating aether.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_USASmg</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>2.1</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_USASniper</defName>
+    <label>USA Sniper Rifles</label>
+    <description>Craft simple medicines and potions from mundane ingredients using alchemical synthesis.\n\nCan only be researched by someone capable of manipulating aether.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_USARifles</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>2.1</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_USAShotguns</defName>
+    <label>USA Shotguns</label>
+    <description>Craft simple medicines and potions from mundane ingredients using alchemical synthesis.\n\nCan only be researched by someone capable of manipulating aether.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_USASniper</li>
+    </prerequisites>
+    <researchViewX>6</researchViewX>
+    <researchViewY>2.1</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_USAMachineguns</defName>
+    <label>USA Machineguns</label>
+    <description>Craft simple medicines and potions from mundane ingredients using alchemical synthesis.\n\nCan only be researched by someone capable of manipulating aether.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_USAShotguns</li>
+    </prerequisites>
+    <researchViewX>7</researchViewX>
+    <researchViewY>2.1</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <!-- ===== With Mods ====== -->
+    
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_USARiflesMods</defName>
+    <label>USA Rifles Mods</label>
+    <description>Craft simple medicines and potions from mundane ingredients using alchemical synthesis.\n\nCan only be researched by someone capable of manipulating aether.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_USARifles</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>3.1</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <!-- ================================= Russia ==================================== -->
+    
+    <!-- ===== No Mods ====== -->
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_Russia</defName>
+    <label>Russia</label>
+    <description>Craft simple medicines and potions from mundane ingredients using alchemical synthesis.\n\nCan only be researched by someone capable of manipulating aether.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_Start</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0.1</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_RUPistols</defName>
+    <label>Russia Pistols</label>
+    <description>Craft simple medicines and potions from mundane ingredients using alchemical synthesis.\n\nCan only be researched by someone capable of manipulating aether.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_Russia</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0.1</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_RUSmg</defName>
+    <label>Russia SMG</label>
+    <description>Craft simple medicines and potions from mundane ingredients using alchemical synthesis.\n\nCan only be researched by someone capable of manipulating aether.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_RUPistols</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>0.1</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_RURifles</defName>
+    <label>Russia Rifles</label>
+    <description>Craft simple medicines and potions from mundane ingredients using alchemical synthesis.\n\nCan only be researched by someone capable of manipulating aether.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_RUSmg</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>0.1</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_RUSniper</defName>
+    <label>Russia Sniper Rifles</label>
+    <description>Craft simple medicines and potions from mundane ingredients using alchemical synthesis.\n\nCan only be researched by someone capable of manipulating aether.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_RURifles</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>0.1</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_RUShotguns</defName>
+    <label>Russia Shotguns</label>
+    <description>Craft simple medicines and potions from mundane ingredients using alchemical synthesis.\n\nCan only be researched by someone capable of manipulating aether.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_RUSniper</li>
+    </prerequisites>
+    <researchViewX>6</researchViewX>
+    <researchViewY>0.1</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_RUMachineguns</defName>
+    <label>Russia Machineguns</label>
+    <description>Craft simple medicines and potions from mundane ingredients using alchemical synthesis.\n\nCan only be researched by someone capable of manipulating aether.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_RUShotguns</li>
+    </prerequisites>
+    <researchViewX>7</researchViewX>
+    <researchViewY>0.1</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+    
+</Defs>

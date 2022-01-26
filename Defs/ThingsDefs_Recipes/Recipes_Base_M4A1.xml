@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <RecipeDef>
+    <defName>craftRecipe_m4a1</defName>
+    <label>Craft M4A1</label>
+    <description>Decomposes slag to extract metal.</description>
+    <jobString>Crafting M4A1.</jobString>
+    <workSkill>Crafting</workSkill>
+    <workAmount>1000</workAmount>
+    <products>
+        <ERW_Gun_M4A1_Rifle>1</ERW_Gun_M4A1_Rifle>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+            <thingDefs>
+                <li>Steel</li>
+            </thingDefs>
+            </filter>
+            <count>60</count>
+        </li>
+        <li>
+            <filter>
+            <thingDefs>
+                <li>ComponentIndustrial</li>
+            </thingDefs>
+            </filter>
+            <count>7</count>
+        </li>
+    </ingredients>
+  </RecipeDef>
+
+ </Defs>
