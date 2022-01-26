@@ -2,9 +2,9 @@
 
 <Defs>
 
-    <ThingDef ParentName="BuildingBase">
-        <defName>TableCraftingWeaponss</defName>
-        <label>Weapons Workbench</label>
+    <ThingDef ParentName="ERWBenchBase">
+        <defName>TableCraftingRifles</defName>
+        <label>USA Rifles Workbench</label>
         <thingClass>Building_WorkTable</thingClass>
         <description>A workbench equipped for crafting.</description>
         <graphicData>
@@ -18,9 +18,13 @@
                     <cornerBR>Damage/Corner</cornerBR>
                 </damageData>
         </graphicData>
-        <recipeMaker>
-            <researchPrerequisite>ERW_Weapons_Start</researchPrerequisite>
-        </recipeMaker>
+        <!-- <recipeMaker> -->
+            <researchPrerequisites>
+                <li>ERW_Weapons_Start</li>
+            </researchPrerequisites>
+        <!-- </recipeMaker> -->
+        <castEdgeShadows>true</castEdgeShadows>
+        <staticSunShadowHeight>0.20</staticSunShadowHeight>
         <costList>
             <WoodLog>50</WoodLog>
             <Steel>10</Steel>
@@ -45,9 +49,7 @@
         <hasInteractionCell>True</hasInteractionCell>
         <interactionCellOffset>(0,0,-1)</interactionCellOffset>
         <surfaceType>Item</surfaceType>
-        <recipes>
-            <li>craftRecipe_m4a1</li>
-        </recipes>
+
         <inspectorTabs>
             <li>ITab_Bills</li>
         </inspectorTabs>
@@ -55,15 +57,26 @@
             <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
         </building>
         <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>80</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Flickable"/>
             <li Class="CompProperties_AffectedByFacilities">
                 <linkableFacilities>
                 <li>ToolCabinet</li>
                 </linkableFacilities>
             </li>
+            <li Class="CompProperties_Breakdownable"/>
         </comps>
         <placeWorkers>
             <li>PlaceWorker_ShowFacilitiesConnections</li>
         </placeWorkers>
+    
+
+
+        <designatorDropdown>ERW_Benches</designatorDropdown>
     </ThingDef>
 
 </Defs>

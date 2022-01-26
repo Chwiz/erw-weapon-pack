@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <ThingDef Name="ERWBaseGunWithQuality" Abstract="True" ParentName="ERWBaseGun">
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+    </ThingDef>   
+
+    <ThingDef Name="ERWMakeableGun" ParentName="ERWBaseGunWithQuality" Abstract="True">
+        <recipeMaker>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+        <!-- <researchPrerequisite>
+            <li>ERW_Weapons_Start</li>
+        </researchPrerequisite> -->
+        </recipeMaker>
+    </ThingDef>
+
+
+    <ThingDef Name="ERW_Rifle" ParentName="ERWMakeableGun" Abstract="True">
+	
+        <recipeMaker>
+            <recipeUsers>
+                <li>TableCraftingRifles</li>
+            </recipeUsers>
+        </recipeMaker>
+	  
+    </ThingDef>
+
+    <!--==================================== Ranged ====================================-->
+
+    <ThingDef Name="ERWBaseGun" Abstract="True" ParentName="BaseWeapon">
+        <techLevel>Industrial</techLevel>
+        <smeltable>true</smeltable>
+        <!--<thingCategories>
+        <li>RN_RangedMain</li>
+        </thingCategories>-->
+        <inspectorTabs>
+        <li>ITab_Art</li>
+        </inspectorTabs>
+        <statBases>
+        <Flammability>0.5</Flammability>
+        </statBases>
+        <comps>
+        <li Class="CompProperties_Art">
+            <nameMaker>NamerArtWeaponGun</nameMaker>
+            <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+            <minQualityForArtistic>Excellent</minQualityForArtistic>
+        </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

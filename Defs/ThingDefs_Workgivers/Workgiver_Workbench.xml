@@ -9,7 +9,7 @@
             <workType>Crafting</workType>
             <priorityInType>3</priorityInType>
             <fixedBillGiverDefs>
-                <li>TableCraftingWeaponss</li>
+                <li>TableCraftingRifles</li>
             </fixedBillGiverDefs>
             <verb>Craft</verb>
             <gerund>Crafting at</gerund>
