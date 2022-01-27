@@ -3,14 +3,14 @@
 <Defs>
 
     <ThingDef ParentName="ERWBenchBase">
-        <defName>TableCraftingRifles</defName>
-        <label>USA Rifles Workbench</label>
+        <defName>TableCraftingShotguns</defName>
+        <label>Shotguns Workbench</label>
         <thingClass>Building_WorkTable</thingClass>
         <description>A workbench equipped for crafting.</description>
         <graphicData>
             <texPath>Things/Building/Production/Weapons_Workbench</texPath>
             <graphicClass>Graphic_Multi</graphicClass>
-            <drawSize>(3.5,1.5)</drawSize>
+            <drawSize>(2.5,1.5)</drawSize>
                 <damageData>
                     <cornerTL>Damage/Corner</cornerTL>
                     <cornerTR>Damage/Corner</cornerTR>
@@ -42,7 +42,7 @@
             <Flammability>1.0</Flammability>
             <Cleanliness>-5</Cleanliness>
         </statBases>
-        <size>(3,1)</size>
+        <size>(2,1)</size>
         <designationCategory>Production</designationCategory>
         <passability>PassThroughOnly</passability>
         <pathCost>70</pathCost>

@@ -23,6 +23,35 @@
         </recipeMaker>
     </ThingDef>
 
+    <ThingDef Name="ERW_Pistol" ParentName="ERWMakeableGun" Abstract="True">
+	
+        <recipeMaker>
+            <recipeUsers>
+                <li>TableCraftingPistols</li>
+            </recipeUsers>
+        </recipeMaker>
+	  
+    </ThingDef>
+
+    <ThingDef Name="ERW_Shotgun" ParentName="ERWMakeableGun" Abstract="True">
+	
+        <recipeMaker>
+            <recipeUsers>
+                <li>TableCraftingShotguns</li>
+            </recipeUsers>
+        </recipeMaker>
+	  
+    </ThingDef>
+
+    <ThingDef Name="ERW_SMG" ParentName="ERWMakeableGun" Abstract="True">
+	
+        <recipeMaker>
+            <recipeUsers>
+                <li>TableCraftingSmg</li>
+            </recipeUsers>
+        </recipeMaker>
+	  
+    </ThingDef>
 
     <ThingDef Name="ERW_Rifle" ParentName="ERWMakeableGun" Abstract="True">
 	
