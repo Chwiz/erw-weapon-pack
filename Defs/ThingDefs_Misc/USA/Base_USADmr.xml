@@ -2,19 +2,19 @@
 
 <Defs>
 
-    <!-- M4A1 -->
+    <!-- Mk_14_Enhanced_Battle_Rifle -->
   
-    <ThingDef ParentName="ERW_Rifle">
-    <defName>ERW_Gun_M4A1_Rifle</defName>
-    <label>M4A1</label>
+    <ThingDef ParentName="ERW_Sniper">
+    <defName>ERW_Gun_Mk_14_Enhanced_Battle_Rifle_DMR</defName>
+    <label>Mk 14 Enhanced Battle Rifle</label>
     <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/Rifle/M4A1</texPath>
+      <texPath>Things/Item/Equipment/DMR/Mk_14_Enhanced_Battle_Rifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>ERW_Weapons_USARifles</researchPrerequisite>
+      <researchPrerequisite>ERW_Weapons_USADMR</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -44,7 +44,7 @@
         <range>37.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>ERW_Shot_M4A1_Base</soundCast>
+        <soundCast>ERW_Shot_M14</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -74,27 +74,25 @@
     </tools>
   </ThingDef>
 
-
-
-    <!-- Mk_17_Mod_0 -->
+    <!-- M110_SASS -->
   
-    <ThingDef ParentName="ERW_Rifle">
-    <defName>ERW_Gun_Mk_17_Mod_0_Rifle</defName>
-    <label>Mk 17 Mod 0</label>
+    <ThingDef ParentName="ERW_Sniper">
+    <defName>ERW_Gun_M110_SASS_DMR</defName>
+    <label>M110 SASS</label>
     <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/Rifle/Mk_17_Mod_0</texPath>
+      <texPath>Things/Item/Equipment/DMR/M110_SASS</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>ERW_Weapons_USARifles</researchPrerequisite>
+      <researchPrerequisite>ERW_Weapons_USADMR</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
-	<equippedAngleOffset>40</equippedAngleOffset>	
+	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
       <WorkToMake>40000</WorkToMake>
@@ -103,7 +101,7 @@
       <AccuracyShort>0.60</AccuracyShort>
       <AccuracyMedium>0.72</AccuracyMedium>
       <AccuracyLong>0.65</AccuracyLong>
-      <RangedWeapon_Cooldown>2.46</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -114,18 +112,18 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>2.16</warmupTime>
-        <range>48.9</range>
-        <burstShotCount>8</burstShotCount>
-        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-        <soundCast>ERW_Shot_Mk_17_Mod_0</soundCast>
+        <warmupTime>0.95</warmupTime>
+        <range>37.9</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>ERW_Shot_M110_SASS</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
-			<li>ERW_M4A1_Silenced_MilSpec</li>
+			<li>ERW_M4A1_MilSpec</li>
 		</weaponTags>
     <tools>
       <li>
@@ -148,25 +146,25 @@
     </tools>
   </ThingDef>
 
-    <!-- M14 -->
+    <!-- Mk12_SPR -->
   
-    <ThingDef ParentName="ERW_Rifle">
-    <defName>ERW_Gun_M14_Rifle</defName>
-    <label>M14</label>
+    <ThingDef ParentName="ERW_Sniper">
+    <defName>ERW_Gun_Mk12_SPR_DMR</defName>
+    <label>Mk 12 SPR</label>
     <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/Rifle/M14</texPath>
+      <texPath>Things/Item/Equipment/DMR/Mk12_SPR</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>ERW_Weapons_USARifles</researchPrerequisite>
+      <researchPrerequisite>ERW_Weapons_USADMR</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
-	<equippedAngleOffset>40</equippedAngleOffset>	
+	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
       <WorkToMake>40000</WorkToMake>
@@ -175,7 +173,7 @@
       <AccuracyShort>0.60</AccuracyShort>
       <AccuracyMedium>0.72</AccuracyMedium>
       <AccuracyLong>0.65</AccuracyLong>
-      <RangedWeapon_Cooldown>2.46</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -186,90 +184,18 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>2.16</warmupTime>
-        <range>48.9</range>
-        <burstShotCount>8</burstShotCount>
-        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-        <soundCast>ERW_Shot_M14</soundCast>
+        <warmupTime>0.95</warmupTime>
+        <range>37.9</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>ERW_Shot_Mk12_SPR</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
-			<li>ERW_M4A1_Silenced_MilSpec</li>
-		</weaponTags>
-    <tools>
-      <li>
-        <label>stock</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
-
-    <!-- SIG_Sauer_MCX -->
-  
-    <ThingDef ParentName="ERW_Rifle">
-    <defName>ERW_Gun_SIG_Sauer_MCX_Rifle</defName>
-    <label>SIG Sauer MCX</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
-    <graphicData>
-      <texPath>Things/Item/Equipment/Rifle/SIG_Sauer_MCX</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>ERW_Weapons_USARifles</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>6</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-	
-	<equippedAngleOffset>40</equippedAngleOffset>	
-	
-    <statBases>
-      <WorkToMake>40000</WorkToMake>
-      <Mass>3.5</Mass>
-      <AccuracyTouch>0.57</AccuracyTouch>
-      <AccuracyShort>0.60</AccuracyShort>
-      <AccuracyMedium>0.72</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
-      <RangedWeapon_Cooldown>2.46</RangedWeapon_Cooldown>
-    </statBases>
-    <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
-    </costList>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>2.16</warmupTime>
-        <range>48.9</range>
-        <burstShotCount>8</burstShotCount>
-        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-        <soundCast>ERW_Shot_SIG_Sauer_MCX</soundCast>
-        <soundCastTail>GunTail_Medium</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-      </li>
-    </verbs>
-		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
-			<li>ERW_M4A1_Silenced_MilSpec</li>
+			<li>ERW_M4A1_MilSpec</li>
 		</weaponTags>
     <tools>
       <li>

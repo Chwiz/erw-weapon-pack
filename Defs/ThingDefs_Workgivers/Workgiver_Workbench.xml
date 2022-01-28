@@ -13,6 +13,8 @@
                 <li>TableCraftingShotguns</li>
                 <li>TableCraftingSmg</li>
                 <li>TableCraftingRifles</li>
+                <li>TableCraftingMachineguns</li>
+                <li>TableCraftingSniper</li>
             </fixedBillGiverDefs>
             <verb>Craft</verb>
             <gerund>Crafting at</gerund>

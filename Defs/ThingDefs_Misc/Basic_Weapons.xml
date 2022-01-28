@@ -63,6 +63,26 @@
 	  
     </ThingDef>
 
+    <ThingDef Name="ERW_Machinegun" ParentName="ERWMakeableGun" Abstract="True">
+	
+        <recipeMaker>
+            <recipeUsers>
+                <li>TableCraftingMachineguns</li>
+            </recipeUsers>
+        </recipeMaker>
+	  
+    </ThingDef>
+
+    <ThingDef Name="ERW_Sniper" ParentName="ERWMakeableGun" Abstract="True">
+	
+        <recipeMaker>
+            <recipeUsers>
+                <li>TableCraftingSniper</li>
+            </recipeUsers>
+        </recipeMaker>
+	  
+    </ThingDef>
+
     <!--==================================== Ranged ====================================-->
 
     <ThingDef Name="ERWBaseGun" Abstract="True" ParentName="BaseWeapon">
