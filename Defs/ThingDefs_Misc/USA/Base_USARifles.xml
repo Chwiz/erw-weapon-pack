@@ -29,7 +29,7 @@
       <AccuracyShort>0.63</AccuracyShort>
       <AccuracyMedium>0.60</AccuracyMedium>
       <AccuracyLong>0.39</AccuracyLong>
-      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.60</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -39,8 +39,8 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>0.95</warmupTime>
+        <defaultProjectile>ERW_Bullet_556x45_SG</defaultProjectile>
+        <warmupTime>1.20</warmupTime>
         <range>27.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
@@ -103,7 +103,7 @@
       <AccuracyShort>0.55</AccuracyShort>
       <AccuracyMedium>0.51</AccuracyMedium>
       <AccuracyLong>0.35</AccuracyLong>
-      <RangedWeapon_Cooldown>2.46</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.90</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -113,8 +113,8 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>2.16</warmupTime>
+        <defaultProjectile>ERW_Bullet_762x51_Rifle</defaultProjectile>
+        <warmupTime>1.50</warmupTime>
         <range>28.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>13</ticksBetweenBurstShots>
@@ -150,7 +150,7 @@
 
     <!-- M14 -->
   
-    <ThingDef ParentName="ERW_Rifle">
+    <!-- <ThingDef ParentName="ERW_Rifle">
     <defName>ERW_Gun_M14_Rifle</defName>
     <label>M14</label>
     <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
@@ -175,7 +175,7 @@
       <AccuracyShort>0.55</AccuracyShort>
       <AccuracyMedium>0.51</AccuracyMedium>
       <AccuracyLong>0.35</AccuracyLong>
-      <RangedWeapon_Cooldown>2.46</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.46</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -186,7 +186,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>2.16</warmupTime>
+        <warmupTime>1.16</warmupTime>
         <range>28.9</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>13</ticksBetweenBurstShots>
@@ -218,7 +218,7 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-  </ThingDef>
+  </ThingDef> -->
 
     <!-- SIG_Sauer_MCX -->
   
@@ -247,7 +247,7 @@
       <AccuracyShort>0.60</AccuracyShort>
       <AccuracyMedium>0.54</AccuracyMedium>
       <AccuracyLong>0.38</AccuracyLong>
-      <RangedWeapon_Cooldown>2.46</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -257,8 +257,8 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>2.16</warmupTime>
+        <defaultProjectile>ERW_Bullet_300_ACC_Blackout_Rifle</defaultProjectile>
+        <warmupTime>1.30</warmupTime>
         <range>27.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>

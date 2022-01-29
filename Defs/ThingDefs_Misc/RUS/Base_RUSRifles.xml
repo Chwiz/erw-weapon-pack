@@ -29,7 +29,7 @@
       <AccuracyShort>0.59</AccuracyShort>
       <AccuracyMedium>0.51</AccuracyMedium>
       <AccuracyLong>0.36</AccuracyLong>
-      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.76</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -39,8 +39,8 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>0.95</warmupTime>
+        <defaultProjectile>ERW_Bullet_762x39_Rifle</defaultProjectile>
+        <warmupTime>1.50</warmupTime>
         <range>27.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
@@ -101,7 +101,7 @@
       <AccuracyShort>0.64</AccuracyShort>
       <AccuracyMedium>0.58</AccuracyMedium>
       <AccuracyLong>0.38</AccuracyLong>
-      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -111,8 +111,8 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>0.95</warmupTime>
+        <defaultProjectile>ERW_Bullet_545x39_AKSU_Rifle</defaultProjectile>
+        <warmupTime>1.10</warmupTime>
         <range>26.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
@@ -173,7 +173,7 @@
       <AccuracyShort>0.63</AccuracyShort>
       <AccuracyMedium>0.62</AccuracyMedium>
       <AccuracyLong>0.43</AccuracyLong>
-      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.60</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -183,8 +183,8 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>0.95</warmupTime>
+        <defaultProjectile>ERW_Bullet_545x39_Rifle</defaultProjectile>
+        <warmupTime>1.30</warmupTime>
         <range>27.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
@@ -245,7 +245,7 @@
       <AccuracyShort>0.60</AccuracyShort>
       <AccuracyMedium>0.54</AccuracyMedium>
       <AccuracyLong>0.38</AccuracyLong>
-      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.66</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -255,8 +255,8 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>0.95</warmupTime>
+        <defaultProjectile>ERW_Bullet_762x39_Rifle</defaultProjectile>
+        <warmupTime>1.40</warmupTime>
         <range>27.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
@@ -317,7 +317,7 @@
       <AccuracyShort>0.68</AccuracyShort>
       <AccuracyMedium>0.72</AccuracyMedium>
       <AccuracyLong>0.52</AccuracyLong>
-      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -327,8 +327,8 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>0.95</warmupTime>
+        <defaultProjectile>ERW_Bullet_545x39_Rifle</defaultProjectile>
+        <warmupTime>1</warmupTime>
         <range>28.9</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
@@ -362,11 +362,11 @@
     </tools>
   </ThingDef>
 
-    <!-- A_545 -->
+    <!-- AEK_971 -->
   
     <ThingDef ParentName="ERW_Rifle">
-    <defName>ERW_Gun_A_545_Rifle</defName>
-    <label>A 545</label>
+    <defName>ERW_Gun_AEK_971_Rifle</defName>
+    <label>AEK 971</label>
     <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Rifle/A_545</texPath>
@@ -389,7 +389,7 @@
       <AccuracyShort>0.62</AccuracyShort>
       <AccuracyMedium>0.52</AccuracyMedium>
       <AccuracyLong>0.37</AccuracyLong>
-      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -399,8 +399,8 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>0.95</warmupTime>
+        <defaultProjectile>ERW_Bullet_545x39_Rifle</defaultProjectile>
+        <warmupTime>1.20</warmupTime>
         <range>27.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
@@ -461,7 +461,7 @@
       <AccuracyShort>0.65</AccuracyShort>
       <AccuracyMedium>0.49</AccuracyMedium>
       <AccuracyLong>0.35</AccuracyLong>
-      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -471,8 +471,8 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>0.95</warmupTime>
+        <defaultProjectile>ERW_Bullet_9x39_Rifle</defaultProjectile>
+        <warmupTime>1.20</warmupTime>
         <range>26.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>

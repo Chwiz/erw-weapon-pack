@@ -25,11 +25,11 @@
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.5</Mass>
-      <AccuracyTouch>0.57</AccuracyTouch>
-      <AccuracyShort>0.60</AccuracyShort>
-      <AccuracyMedium>0.72</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
-      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.51</AccuracyLong>
+      <RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -39,11 +39,11 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>0.95</warmupTime>
-        <range>37.9</range>
-        <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <defaultProjectile>ERW_Bullet_9x39_Rifle</defaultProjectile>
+        <warmupTime>1.20</warmupTime>
+        <range>29.9</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
         <soundCast>ERW_Shot_VSS_Vintorez</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -76,7 +76,7 @@
 
     <!-- VSK_94 -->
   
-    <ThingDef ParentName="ERW_Machinegun">
+    <!-- <ThingDef ParentName="ERW_Machinegun">
     <defName>ERW_Gun_VSK_94_DMR</defName>
     <label>VSK 94</label>
     <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
@@ -144,7 +144,7 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-  </ThingDef>
+  </ThingDef> -->
 
     <!-- SVD -->
   
@@ -169,11 +169,11 @@
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.5</Mass>
-      <AccuracyTouch>0.57</AccuracyTouch>
-      <AccuracyShort>0.60</AccuracyShort>
-      <AccuracyMedium>0.72</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
-      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.38</AccuracyTouch>
+      <AccuracyShort>0.71</AccuracyShort>
+      <AccuracyMedium>0.83</AccuracyMedium>
+      <AccuracyLong>0.73</AccuracyLong>
+      <RangedWeapon_Cooldown>2.10</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -183,11 +183,11 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>0.95</warmupTime>
+        <defaultProjectile>ERW_Bullet_762x54_DMR_Rifle</defaultProjectile>
+        <warmupTime>2.20</warmupTime>
         <range>37.9</range>
-        <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
         <soundCast>ERW_Shot_SVD</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -241,11 +241,11 @@
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.5</Mass>
-      <AccuracyTouch>0.57</AccuracyTouch>
-      <AccuracyShort>0.60</AccuracyShort>
-      <AccuracyMedium>0.72</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
-      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.39</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.82</AccuracyMedium>
+      <AccuracyLong>0.72</AccuracyLong>
+      <RangedWeapon_Cooldown>2.20</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -255,9 +255,9 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>0.95</warmupTime>
-        <range>37.9</range>
+        <defaultProjectile>ERW_Bullet_762x54_DMR_Rifle</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>36.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
         <soundCast>ERW_Shot_SVK</soundCast>

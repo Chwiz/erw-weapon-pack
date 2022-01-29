@@ -12,7 +12,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Shotgun/PP_19_01</clipPath>
+            <clipPath>SMG/PP_19_01</clipPath>
           </li>
         </grains> 
         <volumeRange>
@@ -87,7 +87,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Shotgun/PP_91</clipPath>
+            <clipPath>SMG/PP_91</clipPath>
           </li>
         </grains> 
         <volumeRange>
@@ -162,7 +162,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Shotgun/SR_2</clipPath>
+            <clipPath>SMG/SR_2</clipPath>
           </li>
         </grains> 
         <volumeRange>
@@ -237,7 +237,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>Shotgun/PP_2000</clipPath>
+            <clipPath>SMG/PP_2000</clipPath>
           </li>
         </grains> 
         <volumeRange>

@@ -2,11 +2,11 @@
 
 <Defs>
 
-    <!-- ================================= M4A1 Base Bullets ==================================== -->
+  <!-- ================================= ExampleBullet ==================================== -->
   
   <ThingDef ParentName="BaseBullet">
     <defName>ERW_Bullet_556x45_Rifle</defName>
-    <label>5.56x45mm bullet</label>
+    <label>5.56x45 Bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -19,5 +19,653 @@
       <speed>70</speed>
     </projectile>
   </ThingDef>
+
+  <!-- ================================= 9x18mm Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_9x18_Pistol</defName>
+    <label>9x18mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.16</armorPenetrationBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 9x19mm Pistol Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_9x19_Pistol</defName>
+    <label>9x19mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.18</armorPenetrationBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= .45ACP Pistol Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_45ACP_Pistol</defName>
+    <label>.45 ACP bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.14</armorPenetrationBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= .50 AE Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_50AE_Pistol</defName>
+    <label>.50 AE bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>13</damageAmountBase>
+	  <stoppingPower>2</stoppingPower>
+	  <armorPenetrationBase>0.23</armorPenetrationBase>
+      <speed>65</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= .44 Magnum Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_44Magnum_Pistol</defName>
+    <label>.44 Magnum bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+	  <stoppingPower>2</stoppingPower>
+	  <armorPenetrationBase>0.21</armorPenetrationBase>
+      <speed>65</speed>
+    </projectile>
+  </ThingDef>
  
+  <!-- ================================= 5.7x28 Pistol Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_57x28_Pistol</defName>
+    <label>5.7x28mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.22</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 7.62x25 Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_762x25_Pistol</defName>
+    <label>7.62x25mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.19</armorPenetrationBase>
+      <speed>65</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 9x21 Pistol Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_9x21_Pistol</defName>
+    <label>7.62x25mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.21</armorPenetrationBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 12.7x55 Pistol Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_127x55_Pistol</defName>
+    <label>12.7x55mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+	  <stoppingPower>2</stoppingPower>
+	  <armorPenetrationBase>0.28</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+  
+  <!-- ================================= 12x70 Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_12x70_SG</defName>
+    <label>12x70mm blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>16</damageAmountBase>
+	  <stoppingPower>2.5</stoppingPower>
+	  <armorPenetrationBase>0.13</armorPenetrationBase>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 12x76 Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_12x76_SG</defName>
+    <label>12x76mm blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+	  <stoppingPower>3</stoppingPower>
+	  <armorPenetrationBase>0.16</armorPenetrationBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 23x75 R Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_23x75_R_SG</defName>
+    <label>23x75mmR blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>21</damageAmountBase>
+	  <stoppingPower>3.5</stoppingPower>
+	  <armorPenetrationBase>0.18</armorPenetrationBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 9x19 PP Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_9x19_PP_SG</defName>
+    <label>9x19mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.20</armorPenetrationBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 9x21 PP Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_9x21_PP_SG</defName>
+    <label>9x21mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.23</armorPenetrationBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= .45 ACP PP MAC Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_45ACP_PP_MAC_SG</defName>
+    <label>.45 ACP bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= .45 ACP PP Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_45ACP_PP_SG</defName>
+    <label>.45 ACP bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.17</armorPenetrationBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 5.56x45 Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_556x45_SG</defName>
+    <label>5.56x45mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.22</armorPenetrationBase>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 7.62x51 Rifle Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_762x51_Rifle</defName>
+    <label>7.62x51mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+	  <stoppingPower>1.5</stoppingPower>
+	  <armorPenetrationBase>0.28</armorPenetrationBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= .300 AAC Blackout Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_300_ACC_Blackout_Rifle</defName>
+    <label>.300 AAC Blackout bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>13</damageAmountBase>
+	  <stoppingPower>1</stoppingPower>
+	  <armorPenetrationBase>0.23</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 7.62x39 Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_762x39_Rifle</defName>
+    <label>7.62x39mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>13</damageAmountBase>
+	  <stoppingPower>1</stoppingPower>
+	  <armorPenetrationBase>0.24</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 5.45x39 AKSU Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_545x39_AKSU_Rifle</defName>
+    <label>5.45x39mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.21</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 5.45x39 Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_545x39_Rifle</defName>
+    <label>5.45x39mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.22</armorPenetrationBase>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 9x39 Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_9x39_Rifle</defName>
+    <label>9x39mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>13</damageAmountBase>
+	  <stoppingPower>1</stoppingPower>
+	  <armorPenetrationBase>0.25</armorPenetrationBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 7.62x54 GPMG Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_762x54_GPMG__Rifle</defName>
+    <label>7.62x54mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+	  <stoppingPower>1.5</stoppingPower>
+	  <armorPenetrationBase>0.30</armorPenetrationBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 5.45x39 LMG Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_545x39_LMG__Rifle</defName>
+    <label>5.45x39mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.23</armorPenetrationBase>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 5.56x45 IAR Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_556x45_IAR_Rifle</defName>
+    <label>5.56x45mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.23</armorPenetrationBase>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 5.56x45 LMG Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_556x45_LMG_Rifle</defName>
+    <label>5.56x45mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.25</armorPenetrationBase>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 7.62x51 GPMP Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_762x51_GPMP_Rifle</defName>
+    <label>7.62x51mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+	  <stoppingPower>1.5</stoppingPower>
+	  <armorPenetrationBase>0.30</armorPenetrationBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 7.62x51 DMR Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_762x51_DMR_Rifle</defName>
+    <label>5.56x45mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.32</armorPenetrationBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 5.56x45 DMR Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_556x45_DMR_Rifle</defName>
+    <label>5.56x45mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.26</armorPenetrationBase>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 7.62x54 DMR Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_762x54_DMR_Rifle</defName>
+    <label>7.62x54mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+	  <stoppingPower>1</stoppingPower>
+	  <armorPenetrationBase>0.33</armorPenetrationBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 7.62x51 Bolt Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_762x51_Bolt_Rifle</defName>
+    <label>7.62x51mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+	  <stoppingPower>1.5</stoppingPower>
+	  <armorPenetrationBase>0.34</armorPenetrationBase>
+      <speed>85</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= .300 WM Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_300_WM_Rifle</defName>
+    <label>.300 Win Mag bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>27</damageAmountBase>
+	  <stoppingPower>2</stoppingPower>
+	  <armorPenetrationBase>0.38</armorPenetrationBase>
+      <speed>90</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= .338 LM Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_338_LM_Rifle</defName>
+    <label>.338 Lapua Magnum bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>31</damageAmountBase>
+	  <stoppingPower>2.5</stoppingPower>
+	  <armorPenetrationBase>0.41</armorPenetrationBase>
+      <speed>95</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= .408 CheyTac Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_408_CheyTac_Rifle</defName>
+    <label>.408 Chey Tac bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>33</damageAmountBase>
+	  <stoppingPower>3</stoppingPower>
+	  <armorPenetrationBase>0.45</armorPenetrationBase>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= 7.62x54 R Bolt Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_762x54_R_Bolt_Rifle</defName>
+    <label>7.62x54mmR bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+	  <stoppingPower>1.5</stoppingPower>
+	  <armorPenetrationBase>0.34</armorPenetrationBase>
+      <speed>85</speed>
+    </projectile>
+  </ThingDef>
+
 </Defs>

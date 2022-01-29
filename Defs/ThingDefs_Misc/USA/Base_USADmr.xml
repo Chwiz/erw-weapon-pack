@@ -29,7 +29,7 @@
       <AccuracyShort>0.72</AccuracyShort>
       <AccuracyMedium>0.80</AccuracyMedium>
       <AccuracyLong>0.68</AccuracyLong>
-      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.80</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -39,8 +39,8 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>0.95</warmupTime>
+        <defaultProjectile>ERW_Bullet_762x51_DMR_Rifle</defaultProjectile>
+        <warmupTime>2</warmupTime>
         <range>35.9</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
@@ -101,7 +101,7 @@
       <AccuracyShort>0.74</AccuracyShort>
       <AccuracyMedium>0.82</AccuracyMedium>
       <AccuracyLong>0.70</AccuracyLong>
-      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>2.10</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -111,8 +111,8 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>0.95</warmupTime>
+        <defaultProjectile>ERW_Bullet_762x51_DMR_Rifle</defaultProjectile>
+        <warmupTime>2</warmupTime>
         <range>36.9</range>
         <burstShotCount>7</burstShotCount>
         <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
@@ -173,7 +173,7 @@
       <AccuracyShort>0.71</AccuracyShort>
       <AccuracyMedium>0.79</AccuracyMedium>
       <AccuracyLong>0.67</AccuracyLong>
-      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.76</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -183,8 +183,8 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>0.95</warmupTime>
+        <defaultProjectile>ERW_Bullet_556x45_DMR_Rifle</defaultProjectile>
+        <warmupTime>1.93</warmupTime>
         <range>29.9</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>30</ticksBetweenBurstShots>

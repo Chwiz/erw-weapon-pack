@@ -29,7 +29,7 @@
       <AccuracyShort>0.48</AccuracyShort>
       <AccuracyMedium>0.36</AccuracyMedium>
       <AccuracyLong>0.21</AccuracyLong>
-      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.90</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -39,10 +39,10 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>0.95</warmupTime>
+        <defaultProjectile>ERW_Bullet_762x54_GPMG__Rifle</defaultProjectile>
+        <warmupTime>1.50</warmupTime>
         <range>27.9</range>
-        <burstShotCount>5</burstShotCount>
+        <burstShotCount>9</burstShotCount>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
         <soundCast>ERW_Shot_PKP</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -101,7 +101,7 @@
       <AccuracyShort>0.37</AccuracyShort>
       <AccuracyMedium>0.28</AccuracyMedium>
       <AccuracyLong>0.10</AccuracyLong>
-      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>2.46</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -111,10 +111,10 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>0.95</warmupTime>
+        <defaultProjectile>ERW_Bullet_545x39_LMG__Rifle</defaultProjectile>
+        <warmupTime>2.10</warmupTime>
         <range>29.9</range>
-        <burstShotCount>9</burstShotCount>
+        <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>13</ticksBetweenBurstShots>
         <soundCast>ERW_Shot_RPK_74M</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
