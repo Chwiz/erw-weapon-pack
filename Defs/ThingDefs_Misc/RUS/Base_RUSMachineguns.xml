@@ -25,10 +25,10 @@
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.5</Mass>
-      <AccuracyTouch>0.57</AccuracyTouch>
-      <AccuracyShort>0.60</AccuracyShort>
-      <AccuracyMedium>0.72</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
+      <AccuracyTouch>0.42</AccuracyTouch>
+      <AccuracyShort>0.48</AccuracyShort>
+      <AccuracyMedium>0.36</AccuracyMedium>
+      <AccuracyLong>0.21</AccuracyLong>
       <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -41,9 +41,9 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
         <warmupTime>0.95</warmupTime>
-        <range>37.9</range>
-        <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <range>27.9</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
         <soundCast>ERW_Shot_PKP</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -97,10 +97,10 @@
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.5</Mass>
-      <AccuracyTouch>0.57</AccuracyTouch>
-      <AccuracyShort>0.60</AccuracyShort>
-      <AccuracyMedium>0.72</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
+      <AccuracyTouch>0.29</AccuracyTouch>
+      <AccuracyShort>0.37</AccuracyShort>
+      <AccuracyMedium>0.28</AccuracyMedium>
+      <AccuracyLong>0.10</AccuracyLong>
       <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -113,9 +113,9 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
         <warmupTime>0.95</warmupTime>
-        <range>37.9</range>
-        <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <range>29.9</range>
+        <burstShotCount>9</burstShotCount>
+        <ticksBetweenBurstShots>13</ticksBetweenBurstShots>
         <soundCast>ERW_Shot_RPK_74M</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>

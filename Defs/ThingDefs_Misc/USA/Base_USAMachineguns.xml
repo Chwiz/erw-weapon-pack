@@ -25,10 +25,10 @@
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.5</Mass>
-      <AccuracyTouch>0.57</AccuracyTouch>
-      <AccuracyShort>0.60</AccuracyShort>
-      <AccuracyMedium>0.72</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
+      <AccuracyTouch>0.41</AccuracyTouch>
+      <AccuracyShort>0.49</AccuracyShort>
+      <AccuracyMedium>0.36</AccuracyMedium>
+      <AccuracyLong>0.27</AccuracyLong>
       <RangedWeapon_Cooldown>2.46</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -41,9 +41,9 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
         <warmupTime>2.16</warmupTime>
-        <range>48.9</range>
-        <burstShotCount>8</burstShotCount>
-        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <range>27.9</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
         <soundCast>ERW_Shot_M27_IAR</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -97,10 +97,10 @@
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.5</Mass>
-      <AccuracyTouch>0.57</AccuracyTouch>
-      <AccuracyShort>0.60</AccuracyShort>
-      <AccuracyMedium>0.72</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
+      <AccuracyTouch>0.36</AccuracyTouch>
+      <AccuracyShort>0.44</AccuracyShort>
+      <AccuracyMedium>0.31</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
       <RangedWeapon_Cooldown>2.46</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -114,8 +114,8 @@
         <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
         <warmupTime>2.16</warmupTime>
         <range>48.9</range>
-        <burstShotCount>8</burstShotCount>
-        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <burstShotCount>7</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>ERW_Shot_M249</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -169,10 +169,10 @@
     <statBases>
       <WorkToMake>40000</WorkToMake>
       <Mass>3.5</Mass>
-      <AccuracyTouch>0.57</AccuracyTouch>
-      <AccuracyShort>0.60</AccuracyShort>
-      <AccuracyMedium>0.72</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
+      <AccuracyTouch>0.30</AccuracyTouch>
+      <AccuracyShort>0.38</AccuracyShort>
+      <AccuracyMedium>0.25</AccuracyMedium>
+      <AccuracyLong>0.18</AccuracyLong>
       <RangedWeapon_Cooldown>2.46</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -185,9 +185,9 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
         <warmupTime>2.16</warmupTime>
-        <range>48.9</range>
-        <burstShotCount>8</burstShotCount>
-        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <range>29.9</range>
+        <burstShotCount>9</burstShotCount>
+        <ticksBetweenBurstShots>13</ticksBetweenBurstShots>
         <soundCast>ERW_Shot_M240B</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
