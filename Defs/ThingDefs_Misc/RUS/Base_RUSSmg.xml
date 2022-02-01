@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_SMG">
     <defName>ERW_Gun_PP_19_01_SMG</defName>
     <label>PP 19 01</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/SMG/PP_19_01</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -24,7 +24,7 @@
 	
     <statBases>
       <WorkToMake>26000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>3.1</Mass>
       <AccuracyTouch>0.81</AccuracyTouch>
       <AccuracyShort>0.60</AccuracyShort>
       <AccuracyMedium>0.25</AccuracyMedium>
@@ -79,7 +79,7 @@
     <ThingDef ParentName="ERW_SMG">
     <defName>ERW_Gun_PP_91_SMG</defName>
     <label>PP 91</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/SMG/PP_91</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -96,7 +96,7 @@
 	
     <statBases>
       <WorkToMake>18500</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>1.6</Mass>
       <AccuracyTouch>0.64</AccuracyTouch>
       <AccuracyShort>0.38</AccuracyShort>
       <AccuracyMedium>0.15</AccuracyMedium>
@@ -151,7 +151,7 @@
     <ThingDef ParentName="ERW_SMG">
     <defName>ERW_Gun_SR_2_SMG</defName>
     <label>SR 2</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/SMG/SR_2</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -168,7 +168,7 @@
 	
     <statBases>
       <WorkToMake>25000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>1.8</Mass>
       <AccuracyTouch>0.62</AccuracyTouch>
       <AccuracyShort>0.41</AccuracyShort>
       <AccuracyMedium>0.21</AccuracyMedium>
@@ -223,7 +223,7 @@
     <ThingDef ParentName="ERW_SMG">
     <defName>ERW_Gun_PP_2000_SMG</defName>
     <label>PP 2000</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/SMG/PP_2000</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -240,7 +240,7 @@
 	
     <statBases>
       <WorkToMake>25700</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>1.6</Mass>
       <AccuracyTouch>0.83</AccuracyTouch>
       <AccuracyShort>0.55</AccuracyShort>
       <AccuracyMedium>0.22</AccuracyMedium>

@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_Shotgun">
     <defName>ERW_Gun_Remington_870_Express_Shotgun</defName>
     <label>Remington 870 Express</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Shotgun/Remington_870_Express</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -24,7 +24,7 @@
 	
     <statBases>
       <WorkToMake>18000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>3.6</Mass>
       <AccuracyTouch>0.75</AccuracyTouch>
       <AccuracyShort>0.80</AccuracyShort>
       <AccuracyMedium>0.60</AccuracyMedium>
@@ -79,7 +79,7 @@
     <ThingDef ParentName="ERW_Shotgun">
     <defName>ERW_Gun_Mossberg_500A_Cruiser_Shotgun</defName>
     <label>Mossberg 500A Cruiser</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Shotgun/Mossberg_500A_Cruiser</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -96,7 +96,7 @@
 	
     <statBases>
       <WorkToMake>15000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>8.2</Mass>
       <AccuracyTouch>0.80</AccuracyTouch>
       <AccuracyShort>0.70</AccuracyShort>
       <AccuracyMedium>0.45</AccuracyMedium>
@@ -151,7 +151,7 @@
     <ThingDef ParentName="ERW_Shotgun">
     <defName>ERW_Gun_M1014_Shotgun</defName>
     <label>M1014</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Shotgun/M1014</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -168,7 +168,7 @@
 	
     <statBases>
       <WorkToMake>29000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>3.9</Mass>
       <AccuracyTouch>0.52</AccuracyTouch>
       <AccuracyShort>0.58</AccuracyShort>
       <AccuracyMedium>0.48</AccuracyMedium>

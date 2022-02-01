@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_Rifle">
     <defName>ERW_Gun_M4A1_Rifle</defName>
     <label>M4A1</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Rifle/M4A1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -24,7 +24,7 @@
 	
     <statBases>
       <WorkToMake>32000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>3.4</Mass>
       <AccuracyTouch>0.51</AccuracyTouch>
       <AccuracyShort>0.63</AccuracyShort>
       <AccuracyMedium>0.60</AccuracyMedium>
@@ -81,7 +81,7 @@
     <ThingDef ParentName="ERW_Rifle">
     <defName>ERW_Gun_Mk_17_Mod_0_Rifle</defName>
     <label>Mk 17 Mod 0</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Rifle/Mk_17_Mod_0</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -98,7 +98,7 @@
 	
     <statBases>
       <WorkToMake>37500</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>4</Mass>
       <AccuracyTouch>0.42</AccuracyTouch>
       <AccuracyShort>0.55</AccuracyShort>
       <AccuracyMedium>0.51</AccuracyMedium>
@@ -150,10 +150,10 @@
 
     <!-- M14 -->
   
-    <!-- <ThingDef ParentName="ERW_Rifle">
+    <ThingDef ParentName="ERW_Rifle">
     <defName>ERW_Gun_M14_Rifle</defName>
     <label>M14</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Rifle/M14</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -162,34 +162,37 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_USARifles</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>8</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
-      <Mass>3.5</Mass>
-      <AccuracyTouch>0.42</AccuracyTouch>
-      <AccuracyShort>0.55</AccuracyShort>
-      <AccuracyMedium>0.51</AccuracyMedium>
-      <AccuracyLong>0.35</AccuracyLong>
-      <RangedWeapon_Cooldown>1.46</RangedWeapon_Cooldown>
+      <WorkToMake>39000</WorkToMake>
+      <Mass>5</Mass>
+      <AccuracyTouch>0.38</AccuracyTouch>
+      <AccuracyShort>0.52</AccuracyShort>
+      <AccuracyMedium>0.49</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>80</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+    </equippedStatOffsets>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_556x45_Rifle</defaultProjectile>
-        <warmupTime>1.16</warmupTime>
+        <defaultProjectile>ERW_Bullet_762x51_Rifle</defaultProjectile>
+        <warmupTime>1.7</warmupTime>
         <range>28.9</range>
-        <burstShotCount>1</burstShotCount>
-        <ticksBetweenBurstShots>13</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
         <soundCast>ERW_Shot_M14</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -218,14 +221,14 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-  </ThingDef> -->
+  </ThingDef>
 
     <!-- SIG_Sauer_MCX -->
   
     <ThingDef ParentName="ERW_Rifle">
     <defName>ERW_Gun_SIG_Sauer_MCX_Rifle</defName>
     <label>SIG Sauer MCX</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Rifle/SIG_Sauer_MCX</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -242,7 +245,7 @@
 	
     <statBases>
       <WorkToMake>35000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>3</Mass>
       <AccuracyTouch>0.45</AccuracyTouch>
       <AccuracyShort>0.60</AccuracyShort>
       <AccuracyMedium>0.54</AccuracyMedium>

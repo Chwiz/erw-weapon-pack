@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_Sniper">
     <defName>ERW_Gun_M24_Sniper</defName>
     <label>M24</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Sniper/M24</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -23,8 +23,8 @@
 	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>41000</WorkToMake>
-      <Mass>3.5</Mass>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>7.2</Mass>
       <AccuracyTouch>0.22</AccuracyTouch>
       <AccuracyShort>0.52</AccuracyShort>
       <AccuracyMedium>0.79</AccuracyMedium>
@@ -35,6 +35,9 @@
       <Steel>85</Steel>
       <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+    </equippedStatOffsets>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -50,7 +53,7 @@
       </li>
     </verbs>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>SniperRifle</li>
 			<li>ERW_M4A1_MilSpec</li>
 		</weaponTags>
     <tools>
@@ -79,7 +82,7 @@
     <ThingDef ParentName="ERW_Sniper">
     <defName>ERW_Gun_M2010_ESR_Sniper</defName>
     <label>M2010 ESR</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Sniper/M2010_ESR</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -96,7 +99,7 @@
 	
     <statBases>
       <WorkToMake>43000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>5.6</Mass>
       <AccuracyTouch>0.20</AccuracyTouch>
       <AccuracyShort>0.53</AccuracyShort>
       <AccuracyMedium>0.81</AccuracyMedium>
@@ -107,6 +110,9 @@
       <Steel>90</Steel>
       <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.12</MoveSpeed>
+    </equippedStatOffsets>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -122,7 +128,7 @@
       </li>
     </verbs>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>SniperRifle</li>
 			<li>ERW_M4A1_MilSpec</li>
 		</weaponTags>
     <tools>
@@ -151,7 +157,7 @@
     <ThingDef ParentName="ERW_Sniper">
     <defName>ERW_Gun_CheyTac_Intervention_Sniper</defName>
     <label>CheyTac Intervention</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Sniper/CheyTac_Intervention</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -168,7 +174,7 @@
 	
     <statBases>
       <WorkToMake>47000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>13</Mass>
       <AccuracyTouch>0.15</AccuracyTouch>
       <AccuracyShort>0.56</AccuracyShort>
       <AccuracyMedium>0.86</AccuracyMedium>
@@ -179,6 +185,9 @@
       <Steel>110</Steel>
       <ComponentIndustrial>12</ComponentIndustrial>
     </costList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+    </equippedStatOffsets>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -194,7 +203,7 @@
       </li>
     </verbs>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>SniperRifle</li>
 			<li>ERW_M4A1_MilSpec</li>
 		</weaponTags>
     <tools>

@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_M45A1_Pistol</defName>
     <label>M45A1</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/M45A1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -28,7 +28,7 @@
 
     <statBases>
       <WorkToMake>7200</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>1.1</Mass>
       <MarketValue>135</MarketValue>
       <AccuracyTouch>0.88</AccuracyTouch>
       <AccuracyShort>0.60</AccuracyShort>
@@ -84,7 +84,7 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_M9A3_Pistol</defName>
     <label>M9A3</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/M9A3</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -105,7 +105,7 @@
 
     <statBases>
       <WorkToMake>7000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>1</Mass>
       <MarketValue>135</MarketValue>
       <AccuracyTouch>0.90</AccuracyTouch>
       <AccuracyShort>0.62</AccuracyShort>
@@ -161,7 +161,7 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_G18C_Pistol</defName>
     <label>G18C</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/G18C</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -182,7 +182,7 @@
 
     <statBases>
       <WorkToMake>10500</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>1.1</Mass>
       <MarketValue>135</MarketValue>
       <AccuracyTouch>0.80</AccuracyTouch>
       <AccuracyShort>0.48</AccuracyShort>
@@ -238,7 +238,7 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_Desert_Eagle_Pistol</defName>
     <label>Desert Eagle</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/Desert_Eagle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -258,8 +258,8 @@
     </weaponClasses>
 
     <statBases>
-      <WorkToMake>12500</WorkToMake>
-      <Mass>3.5</Mass>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>2</Mass>
       <MarketValue>135</MarketValue>
       <AccuracyTouch>0.80</AccuracyTouch>
       <AccuracyShort>0.52</AccuracyShort>
@@ -268,7 +268,7 @@
       <RangedWeapon_Cooldown>1.16</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>55</Steel>
+      <Steel>50</Steel>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
@@ -315,7 +315,7 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_Colt_Anaconda_Pistol</defName>
     <label>Colt Anaconda</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/Colt_Anaconda</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -336,7 +336,7 @@
 
     <statBases>
       <WorkToMake>12000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>1.5</Mass>
       <MarketValue>135</MarketValue>
       <AccuracyTouch>0.78</AccuracyTouch>
       <AccuracyShort>0.55</AccuracyShort>
@@ -393,7 +393,7 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_Five_Seven_Pistol</defName>
     <label>Five Seven</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/Five_Seven</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -414,7 +414,7 @@
     
     <statBases>
       <WorkToMake>7600</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>0.8</Mass>
       <MarketValue>135</MarketValue>
       <AccuracyTouch>0.90</AccuracyTouch>
       <AccuracyShort>0.62</AccuracyShort>

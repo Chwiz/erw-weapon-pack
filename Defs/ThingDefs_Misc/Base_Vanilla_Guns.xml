@@ -20,10 +20,10 @@
   </ThingDef>
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Gun_Revolver</defName>
-    <label>revolver</label>
+    <label>Nagant M1895</label>
     <description>An ancient pattern double-action revolver. It's not very powerful, but has a decent range for a pistol and is quick on the draw.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Revolver</texPath>
+      <texPath>Things/Item/Equipment/Vanilla/Nagant_M1895</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.4</uiIconScale>
@@ -86,10 +86,10 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Gun_Autopistol</defName>
-    <label>autopistol</label>
+    <label>M712</label>
     <description>An ancient pattern blowback-operated self-loading pistol. It lacks stopping power and range, but is quick to fire.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Autopistol</texPath>
+      <texPath>Things/Item/Equipment/Vanilla/M712</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.5</uiIconScale>
@@ -184,7 +184,7 @@
     <destroyOnDrop>true</destroyOnDrop>
 	<statBases>
       <WorkToMake>9000</WorkToMake>
-      <Mass>2.5</Mass>
+      <Mass>1.6</Mass>
       <MarketValue>220</MarketValue>
       <AccuracyTouch>0.71</AccuracyTouch>
       <AccuracyShort>0.42</AccuracyShort>
@@ -512,7 +512,7 @@
     <label>Lupara</label>
     <description>An ancient pattern bolt-action rifle. With its long range, and low fire rate, it is unlikely to drive animals to revenge, which makes it a favorite weapon for hunting.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/BoltActionRifle</texPath>
+      <texPath>Things/Item/Equipment/Vanilla/Lupara</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -521,7 +521,7 @@
     <destroyOnDrop>true</destroyOnDrop>
 	<statBases>
       <WorkToMake>15000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>2.5</Mass>
       <MarketValue>255</MarketValue>
       <AccuracyTouch>0.58</AccuracyTouch>
       <AccuracyShort>0.48</AccuracyShort>
@@ -590,10 +590,10 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Gun_PumpShotgun</defName>
-    <label>pump shotgun</label>
+    <label>Winchester Model 1897</label>
     <description>An ancient design of shotgun that emits a tight-packed spray of pellets. Deadly, but short range.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Shotgun</texPath>
+      <texPath>Things/Item/Equipment/Vanilla/Winchester_Model1897</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Shotgun</soundInteract>
@@ -670,10 +670,10 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Gun_ChainShotgun</defName>
-    <label>chain shotgun</label>
+    <label>Browning Auto-5</label>
     <description>A magazine-fed fully automatic shotgun. It is even shorter-ranged than a typical shotgun, but is extraordinarily dangerous due to burst fire.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/ChainShotgun</texPath>
+      <texPath>Things/Item/Equipment/Vanilla/Browning_Auto_5</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Shotgun</soundInteract>
@@ -735,10 +735,10 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Gun_HeavySMG</defName>
-    <label>heavy SMG</label>
+    <label>M1A1 Thompson</label>
     <description>A compact, wide-caliber slug-thrower. It's got a very short range, but it packs a punch and handles quite well.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/HeavySMG</texPath>
+      <texPath>Things/Item/Equipment/Vanilla/M1A1_Thompson</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_SMG</soundInteract>
@@ -754,7 +754,7 @@
     <destroyOnDrop>true</destroyOnDrop>
 	<statBases>
       <WorkToMake>26000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>4.5</Mass>
       <MarketValue>355</MarketValue>
       <AccuracyTouch>0.77</AccuracyTouch>
       <AccuracyShort>0.54</AccuracyShort>
@@ -816,10 +816,10 @@
   
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Gun_LMG</defName>
-    <label>LMG</label>
+    <label>M1918 BAR</label>
     <description>A gas-operated light machine gun. While it is somewhat unwieldy and inaccurate, its long bursts of fire are effective against groups of enemies.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/LMG</texPath>
+      <texPath>Things/Item/Equipment/Vanilla/M1918_BAR</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -847,6 +847,9 @@
       <Steel>75</Steel>
       <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.15</MoveSpeed>
+    </equippedStatOffsets>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -901,7 +904,7 @@
     <label>SVT-40</label>
     <description>A general-purpose gas-operated assault rifle for field or urban combat. It has good range, decent power, and good accuracy.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/AssaultRifle</texPath>
+      <texPath>Things/Item/Equipment/Vanilla/SVT_40</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -917,7 +920,7 @@
     <destroyOnDrop>true</destroyOnDrop>
 	<statBases>
       <WorkToMake>36000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>4.4</Mass>
       <MarketValue>480</MarketValue>
       <AccuracyTouch>0.36</AccuracyTouch>
       <AccuracyShort>0.70</AccuracyShort>
@@ -979,10 +982,10 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Gun_SniperRifle</defName>
-    <label>sniper rifle</label>
+    <label>Mauser 98k</label>
     <description>An ancient design of precision sniper rifle. Bolt action. It has an exceptionally long range, great accuracy and good power. Because it's so unwieldy, other weapons outclass it at close range.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/SniperRifle</texPath>
+      <texPath>Things/Item/Equipment/Vanilla/Mauser_98k</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -1010,6 +1013,9 @@
       <Steel>80</Steel>
       <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+    </equippedStatOffsets>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>

@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_Sniper">
     <defName>ERW_Gun_Mk_14_Enhanced_Battle_Rifle_DMR</defName>
     <label>Mk 14 Enhanced Battle Rifle</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/DMR/Mk_14_Enhanced_Battle_Rifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -24,7 +24,7 @@
 	
     <statBases>
       <WorkToMake>40000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>5.1</Mass>
       <AccuracyTouch>0.42</AccuracyTouch>
       <AccuracyShort>0.72</AccuracyShort>
       <AccuracyMedium>0.80</AccuracyMedium>
@@ -35,6 +35,9 @@
       <Steel>80</Steel>
       <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+    </equippedStatOffsets>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -79,7 +82,7 @@
     <ThingDef ParentName="ERW_Sniper">
     <defName>ERW_Gun_M110_SASS_DMR</defName>
     <label>M110 SASS</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/DMR/M110_SASS</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -96,7 +99,7 @@
 	
     <statBases>
       <WorkToMake>42000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>7.1</Mass>
       <AccuracyTouch>0.40</AccuracyTouch>
       <AccuracyShort>0.74</AccuracyShort>
       <AccuracyMedium>0.82</AccuracyMedium>
@@ -107,6 +110,9 @@
       <Steel>80</Steel>
       <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+    </equippedStatOffsets>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -151,7 +157,7 @@
     <ThingDef ParentName="ERW_Sniper">
     <defName>ERW_Gun_Mk12_SPR_DMR</defName>
     <label>Mk 12 SPR</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/DMR/Mk12_SPR</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -168,7 +174,7 @@
 	
     <statBases>
       <WorkToMake>37500</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>4.5</Mass>
       <AccuracyTouch>0.45</AccuracyTouch>
       <AccuracyShort>0.71</AccuracyShort>
       <AccuracyMedium>0.79</AccuracyMedium>

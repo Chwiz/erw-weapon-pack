@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_Machinegun">
     <defName>ERW_Gun_M27_IAR_Machinegun</defName>
     <label>M27 IAR</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Machinegun/M27_IAR</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -24,7 +24,7 @@
 	
     <statBases>
       <WorkToMake>39300</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>4.4</Mass>
       <AccuracyTouch>0.41</AccuracyTouch>
       <AccuracyShort>0.49</AccuracyShort>
       <AccuracyMedium>0.36</AccuracyMedium>
@@ -34,7 +34,9 @@
     <costList>
       <Steel>75</Steel>
       <ComponentIndustrial>8</ComponentIndustrial>
-    </costList>
+    </costList><equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+    </equippedStatOffsets>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -79,7 +81,7 @@
     <ThingDef ParentName="ERW_Machinegun">
     <defName>ERW_Gun_M249_Machinegun</defName>
     <label>M249</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Machinegun/M249</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -96,7 +98,7 @@
 	
     <statBases>
       <WorkToMake>40500</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>8</Mass>
       <AccuracyTouch>0.36</AccuracyTouch>
       <AccuracyShort>0.44</AccuracyShort>
       <AccuracyMedium>0.31</AccuracyMedium>
@@ -107,6 +109,9 @@
       <Steel>80</Steel>
       <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.15</MoveSpeed>
+    </equippedStatOffsets>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -151,7 +156,7 @@
     <ThingDef ParentName="ERW_Machinegun">
     <defName>ERW_Gun_M240B_Machinegun</defName>
     <label>M240B</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Machinegun/M240B</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -168,7 +173,7 @@
 	
     <statBases>
       <WorkToMake>43000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>10.5</Mass>
       <AccuracyTouch>0.30</AccuracyTouch>
       <AccuracyShort>0.38</AccuracyShort>
       <AccuracyMedium>0.25</AccuracyMedium>
@@ -179,6 +184,9 @@
       <Steel>90</Steel>
       <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.20</MoveSpeed>
+    </equippedStatOffsets>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>

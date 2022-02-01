@@ -24,7 +24,7 @@
 	
     <statBases>
       <WorkToMake>37000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>3.7</Mass>
       <AccuracyTouch>0.65</AccuracyTouch>
       <AccuracyShort>0.72</AccuracyShort>
       <AccuracyMedium>0.79</AccuracyMedium>
@@ -168,7 +168,7 @@
 	
     <statBases>
       <WorkToMake>39500</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>6</Mass>
       <AccuracyTouch>0.38</AccuracyTouch>
       <AccuracyShort>0.71</AccuracyShort>
       <AccuracyMedium>0.83</AccuracyMedium>
@@ -179,6 +179,9 @@
       <Steel>80</Steel>
       <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+    </equippedStatOffsets>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -240,7 +243,7 @@
 	
     <statBases>
       <WorkToMake>41000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>5</Mass>
       <AccuracyTouch>0.39</AccuracyTouch>
       <AccuracyShort>0.73</AccuracyShort>
       <AccuracyMedium>0.82</AccuracyMedium>
@@ -251,6 +254,9 @@
       <Steel>80</Steel>
       <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+    </equippedStatOffsets>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>

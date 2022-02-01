@@ -4,24 +4,38 @@
 
     <!-- RU: bolt-action rifle -->
     <Gun_BoltActionRifle.label>Обрез</Gun_BoltActionRifle.label>
-    <!-- RU: An ancient pattern bolt-action rifle. With its long range, and low fire rate, it is unlikely to drive animals to revenge, which makes it a favorite weapon for hunting. -->
-    <Gun_BoltActionRifle.description>Eine Schusswaffe antiker Bauart mit Zylinderverschluss. Ihre große Reichweite und geringe Feuerrate macht sie zu einer perfekten Jagdwaffe, weil die Chance gering ist, dass das Tier sich rächen wird.</Gun_BoltActionRifle.description>
-    <!-- RU: stock -->
-    <Gun_BoltActionRifle.tools.stock.label>Schaft</Gun_BoltActionRifle.tools.stock.label>
-    <!-- RU: barrel -->
-    <Gun_BoltActionRifle.tools.barrel.label>Lauf</Gun_BoltActionRifle.tools.barrel.label>
-    <!-- RU: bolt-action rifle -->
     <Gun_BoltActionRifle.verbs.Verb_Shoot.label>Обрез</Gun_BoltActionRifle.verbs.Verb_Shoot.label>
+
+    <!-- RU: Gun_Revolver rifle -->
+    <Gun_Revolver.label>Nagant M1895</Gun_Revolver.label>
+    <Gun_Revolver.verbs.Verb_Shoot.label>Nagant M1895</Gun_Revolver.verbs.Verb_Shoot.label>
+
+    <!-- RU: Gun_Autopistol rifle -->
+    <Gun_Autopistol.label>M712</Gun_Autopistol.label>
+    <Gun_Autopistol.verbs.Verb_Shoot.label>M712</Gun_Autopistol.verbs.Verb_Shoot.label>
+
+    <!-- RU: Gun_PumpShotgun rifle -->
+    <Gun_PumpShotgun.label>Winchester Model 1897</Gun_PumpShotgun.label>
+    <Gun_PumpShotgun.verbs.Verb_Shoot.label>Winchester Model 1897</Gun_PumpShotgun.verbs.Verb_Shoot.label>
+
+    <!-- RU: Gun_ChainShotgun rifle -->
+    <Gun_ChainShotgun.label>Browning Auto-5</Gun_ChainShotgun.label>
+    <Gun_ChainShotgun.verbs.Verb_Shoot.label>Browning Auto-5</Gun_ChainShotgun.verbs.Verb_Shoot.label>
+
+    <!-- RU: Gun_HeavySMG rifle -->
+    <Gun_HeavySMG.label>M1A1 Thompson</Gun_HeavySMG.label>
+    <Gun_HeavySMG.verbs.Verb_Shoot.label>M1A1 Thompson</Gun_HeavySMG.verbs.Verb_Shoot.label>
+
+    <!-- RU: Gun_LMG rifle -->
+    <Gun_LMG.label>M1918 BAR</Gun_LMG.label>
+    <Gun_LMG.verbs.Verb_Shoot.label>M1918 BAR</Gun_LMG.verbs.Verb_Shoot.label>
 
     <!-- RU: Gun_AssaultRifle rifle -->
     <Gun_AssaultRifle.label>СВТ-40</Gun_AssaultRifle.label>
-    <!-- RU: An ancient pattern Gun_AssaultRifle rifle. With its long range, and low fire rate, it is unlikely to drive animals to revenge, which makes it a favorite weapon for hunting. -->
-    <Gun_AssaultRifle.description>Eine Schusswaffe antiker Bauart mit Zylinderverschluss. Ihre große Reichweite und geringe Feuerrate macht sie zu einer perfekten Jagdwaffe, weil die Chance gering ist, dass das Tier sich rächen wird.</Gun_BoltActionRifle.description>
-    <!-- RU: stock -->
-    <Gun_AssaultRifle.tools.stock.label>Schaft</Gun_AssaultRifle.tools.stock.label>
-    <!-- RU: barrel -->
-    <Gun_AssaultRifle.tools.barrel.label>Lauf</Gun_AssaultRifle.tools.barrel.label>
-    <!-- RU: Gun_AssaultRifle rifle -->
     <Gun_AssaultRifle.verbs.Verb_Shoot.label>СВТ-40</Gun_AssaultRifle.verbs.Verb_Shoot.label>
+
+    <!-- RU: Gun_SniperRifle rifle -->
+    <Gun_SniperRifle.label>Mauser 98k</Gun_SniperRifle.label>
+    <Gun_SniperRifle.verbs.Verb_Shoot.label>Mauser 98k</Gun_SniperRifle.verbs.Verb_Shoot.label>
 
 </LanguageData>

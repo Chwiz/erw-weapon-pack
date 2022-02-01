@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_SMG">
     <defName>ERW_Gun_KRISS_Vector_SMG</defName>
     <label>KRISS Vector</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/SMG/KRISS_Vector</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -24,7 +24,7 @@
 	
     <statBases>
       <WorkToMake>25000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>2.7</Mass>
       <AccuracyTouch>0.61</AccuracyTouch>
       <AccuracyShort>0.43</AccuracyShort>
       <AccuracyMedium>0.20</AccuracyMedium>
@@ -79,7 +79,7 @@
     <ThingDef ParentName="ERW_SMG">
     <defName>ERW_Gun_MAC_10_SMG</defName>
     <label>MAC 10</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/SMG/MAC_10</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -96,7 +96,7 @@
 	
     <statBases>
       <WorkToMake>19000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>2.8</Mass>
       <AccuracyTouch>0.62</AccuracyTouch>
       <AccuracyShort>0.31</AccuracyShort>
       <AccuracyMedium>0.10</AccuracyMedium>
@@ -151,7 +151,7 @@
     <ThingDef ParentName="ERW_SMG">
     <defName>ERW_Gun_SIG_Sauer_MPX_SMG</defName>
     <label>SIG Sauer MPX</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/SMG/SIG_Sauer_MPX</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -168,7 +168,7 @@
 	
     <statBases>
       <WorkToMake>25500</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>2.7</Mass>
       <AccuracyTouch>0.80</AccuracyTouch>
       <AccuracyShort>0.55</AccuracyShort>
       <AccuracyMedium>0.35</AccuracyMedium>
