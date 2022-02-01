@@ -6,8 +6,8 @@
             <defName>DoBillsMakeERWWeapons</defName>
             <label>Make apparel</label>
             <giverClass>WorkGiver_DoBill</giverClass>
-            <workType>Crafting</workType>
-            <priorityInType>3</priorityInType>
+            <workType>Smithing</workType>
+            <priorityInType>120</priorityInType>
             <fixedBillGiverDefs>
                 <li>TableCraftingPistols</li>
                 <li>TableCraftingShotguns</li>

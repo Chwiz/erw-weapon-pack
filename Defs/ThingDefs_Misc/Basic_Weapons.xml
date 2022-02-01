@@ -24,7 +24,11 @@
     </ThingDef>
 
     <ThingDef Name="ERW_Pistol" ParentName="ERWMakeableGun" Abstract="True">
-	
+
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+
         <recipeMaker>
             <recipeUsers>
                 <li>TableCraftingPistols</li>
@@ -34,7 +38,11 @@
     </ThingDef>
 
     <ThingDef Name="ERW_Shotgun" ParentName="ERWMakeableGun" Abstract="True">
-	
+
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+
         <recipeMaker>
             <recipeUsers>
                 <li>TableCraftingShotguns</li>
@@ -44,8 +52,12 @@
     </ThingDef>
 
     <ThingDef Name="ERW_SMG" ParentName="ERWMakeableGun" Abstract="True">
-	
-        <recipeMaker>
+
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+
+        <recipeMaker>   
             <recipeUsers>
                 <li>TableCraftingSmg</li>
             </recipeUsers>
@@ -54,7 +66,11 @@
     </ThingDef>
 
     <ThingDef Name="ERW_Rifle" ParentName="ERWMakeableGun" Abstract="True">
-	
+
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+
         <recipeMaker>
             <recipeUsers>
                 <li>TableCraftingRifles</li>
@@ -64,7 +80,11 @@
     </ThingDef>
 
     <ThingDef Name="ERW_Machinegun" ParentName="ERWMakeableGun" Abstract="True">
-	
+
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+
         <recipeMaker>
             <recipeUsers>
                 <li>TableCraftingMachineguns</li>
@@ -74,7 +94,11 @@
     </ThingDef>
 
     <ThingDef Name="ERW_Sniper" ParentName="ERWMakeableGun" Abstract="True">
-	
+
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        
         <recipeMaker>
             <recipeUsers>
                 <li>TableCraftingSniper</li>
@@ -88,9 +112,12 @@
     <ThingDef Name="ERWBaseGun" Abstract="True" ParentName="BaseWeapon">
         <techLevel>Industrial</techLevel>
         <smeltable>true</smeltable>
-        <!--<thingCategories>
-        <li>RN_RangedMain</li>
-        </thingCategories>-->
+        <thingCategories>
+            <li>WeaponsRanged</li>
+        </thingCategories>
+        <weaponClasses>
+            <li>Ranged</li>
+        </weaponClasses>
         <inspectorTabs>
         <li>ITab_Art</li>
         </inspectorTabs>

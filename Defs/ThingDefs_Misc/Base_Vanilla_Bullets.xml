@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <!-- ================================= 30_06_Springfield_BAR ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_30_06_Springfield_BAR_RifleV</defName>
+    <label>.30-06 Springfield bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>13</damageAmountBase>
+	  <stoppingPower>1</stoppingPower>
+	  <armorPenetrationBase>0.25</armorPenetrationBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+
+    <!-- ================================= 792×57mm_bolt ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_792x57mm_bolt_RifleV</defName>
+    <label>7.92x57mm Bolt bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+	  <stoppingPower>1.5</stoppingPower>
+	  <armorPenetrationBase>0.30</armorPenetrationBase>
+      <speed>85</speed>
+    </projectile>
+  </ThingDef>
+
+    <!-- ================================= 762×38mmR ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_762x38mmR_RifleV</defName>
+    <label>7.62x38mmR bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+	  <stoppingPower>1</stoppingPower>
+	  <armorPenetrationBase>0.17</armorPenetrationBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+    <!-- ================================= Mauzer Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_Mauzer_Pistol</defName>
+    <label>7.63x25mm Mauzer bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.19</armorPenetrationBase>
+      <speed>65</speed>
+    </projectile>
+  </ThingDef>
+
+</Defs>

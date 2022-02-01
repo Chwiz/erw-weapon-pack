@@ -142,7 +142,7 @@
 
     <!-- ===== With Mods ====== -->
 
-    <ResearchProjectDef>
+    <!-- <ResearchProjectDef>
     <defName>ERW_Weapons_USARiflesMods</defName>
     <label>USA Rifles Mods</label>
     <description>Craft simple medicines and potions from mundane ingredients using alchemical synthesis.\n\nCan only be researched by someone capable of manipulating aether.</description>
@@ -154,7 +154,7 @@
     <researchViewX>6</researchViewX>
     <researchViewY>3.1</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
-    </ResearchProjectDef>
+    </ResearchProjectDef> -->
 
     <!-- ================================= Russia ==================================== -->
     

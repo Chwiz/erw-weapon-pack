@@ -6,7 +6,7 @@
   
   <ThingDef ParentName="BaseBullet">
     <defName>ERW_Bullet_556x45_Rifle</defName>
-    <label>5.56x45 Bullet</label>
+    <label>5.56x45 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>

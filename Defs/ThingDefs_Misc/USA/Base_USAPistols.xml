@@ -16,15 +16,20 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_USAPistols</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>4</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	  <equippedAngleOffset>40</equippedAngleOffset>	
 	
+    <weaponClasses>
+      <li>RangedLight</li>
+    </weaponClasses>
+
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>7200</WorkToMake>
       <Mass>3.5</Mass>
+      <MarketValue>135</MarketValue>
       <AccuracyTouch>0.88</AccuracyTouch>
       <AccuracyShort>0.60</AccuracyShort>
       <AccuracyMedium>0.28</AccuracyMedium>
@@ -32,8 +37,8 @@
       <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>35</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -50,7 +55,7 @@
       </li>
     </verbs>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>SimpleGun</li>
 			<li>ERW_M4A1_MilSpec</li>
 		</weaponTags>
     <tools>
@@ -88,15 +93,20 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_USAPistols</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>4</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	  <equippedAngleOffset>40</equippedAngleOffset>	
 	
+    <weaponClasses>
+      <li>RangedLight</li>
+    </weaponClasses>
+
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>7000</WorkToMake>
       <Mass>3.5</Mass>
+      <MarketValue>135</MarketValue>
       <AccuracyTouch>0.90</AccuracyTouch>
       <AccuracyShort>0.62</AccuracyShort>
       <AccuracyMedium>0.32</AccuracyMedium>
@@ -104,8 +114,8 @@
       <RangedWeapon_Cooldown>0.68</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>35</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -122,7 +132,7 @@
       </li>
     </verbs>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>SimpleGun</li>
 			<li>ERW_M4A1_MilSpec</li>
 		</weaponTags>
     <tools>
@@ -160,15 +170,20 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_USAPistols</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>5</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	  <equippedAngleOffset>40</equippedAngleOffset>	
-	
+  
+    <weaponClasses>
+      <li>RangedLight</li>
+    </weaponClasses>
+
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>10500</WorkToMake>
       <Mass>3.5</Mass>
+      <MarketValue>135</MarketValue>
       <AccuracyTouch>0.80</AccuracyTouch>
       <AccuracyShort>0.48</AccuracyShort>
       <AccuracyMedium>0.12</AccuracyMedium>
@@ -176,8 +191,8 @@
       <RangedWeapon_Cooldown>1.18</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>45</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -194,7 +209,7 @@
       </li>
     </verbs>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>SimpleGun</li>
 			<li>ERW_M4A1_MilSpec</li>
 		</weaponTags>
     <tools>
@@ -232,15 +247,20 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_USAPistols</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>5</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	  <equippedAngleOffset>40</equippedAngleOffset>	
-	
+
+    <weaponClasses>
+      <li>RangedLight</li>
+    </weaponClasses>
+
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>12500</WorkToMake>
       <Mass>3.5</Mass>
+      <MarketValue>135</MarketValue>
       <AccuracyTouch>0.80</AccuracyTouch>
       <AccuracyShort>0.52</AccuracyShort>
       <AccuracyMedium>0.38</AccuracyMedium>
@@ -248,8 +268,8 @@
       <RangedWeapon_Cooldown>1.16</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>55</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -266,7 +286,7 @@
       </li>
     </verbs>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>SimpleGun</li>
 			<li>ERW_M4A1_MilSpec</li>
 		</weaponTags>
     <tools>
@@ -291,7 +311,7 @@
   </ThingDef>
 
     <!-- Colt Anaconda -->
-
+    
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_Colt_Anaconda_Pistol</defName>
     <label>Colt Anaconda</label>
@@ -304,15 +324,20 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_USAPistols</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>5</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	  <equippedAngleOffset>40</equippedAngleOffset>	
-	
+
+    <weaponClasses>
+      <li>RangedLight</li>
+    </weaponClasses>
+
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>12000</WorkToMake>
       <Mass>3.5</Mass>
+      <MarketValue>135</MarketValue>
       <AccuracyTouch>0.78</AccuracyTouch>
       <AccuracyShort>0.55</AccuracyShort>
       <AccuracyMedium>0.42</AccuracyMedium>
@@ -320,8 +345,8 @@
       <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>50</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -338,7 +363,8 @@
       </li>
     </verbs>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>SimpleGun</li>
+      <li>Revolver</li>
 			<li>ERW_M4A1_MilSpec</li>
 		</weaponTags>
     <tools>
@@ -376,15 +402,20 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_USAPistols</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>4</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	  <equippedAngleOffset>40</equippedAngleOffset>	
-	
+
+    <weaponClasses>
+      <li>RangedLight</li>
+    </weaponClasses>
+    
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>7600</WorkToMake>
       <Mass>3.5</Mass>
+      <MarketValue>135</MarketValue>
       <AccuracyTouch>0.90</AccuracyTouch>
       <AccuracyShort>0.62</AccuracyShort>
       <AccuracyMedium>0.44</AccuracyMedium>
@@ -392,8 +423,8 @@
       <RangedWeapon_Cooldown>0.63</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>35</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -410,7 +441,7 @@
       </li>
     </verbs>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
+			<li>SimpleGun</li>
 			<li>ERW_M4A1_MilSpec</li>
 		</weaponTags>
     <tools>

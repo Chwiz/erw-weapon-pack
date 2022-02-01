@@ -4,7 +4,7 @@
 
     <!-- M4A1 SD-->
   
-    <ThingDef ParentName="ERW_Rifle">
+    <!-- <ThingDef ParentName="ERW_Rifle">
     <defName>ERW_Gun_M4A1_SD_Rifle</defName>
     <label>M4A1 SD</label>
     <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
@@ -72,6 +72,6 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-  </ThingDef>
+  </ThingDef> -->
 
 </Defs>

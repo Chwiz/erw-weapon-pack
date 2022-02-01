@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+    <!-- RU: bolt-action rifle -->
+    <Gun_BoltActionRifle.label>Обрез</Gun_BoltActionRifle.label>
+    <!-- RU: An ancient pattern bolt-action rifle. With its long range, and low fire rate, it is unlikely to drive animals to revenge, which makes it a favorite weapon for hunting. -->
+    <Gun_BoltActionRifle.description>Eine Schusswaffe antiker Bauart mit Zylinderverschluss. Ihre große Reichweite und geringe Feuerrate macht sie zu einer perfekten Jagdwaffe, weil die Chance gering ist, dass das Tier sich rächen wird.</Gun_BoltActionRifle.description>
+    <!-- RU: stock -->
+    <Gun_BoltActionRifle.tools.stock.label>Schaft</Gun_BoltActionRifle.tools.stock.label>
+    <!-- RU: barrel -->
+    <Gun_BoltActionRifle.tools.barrel.label>Lauf</Gun_BoltActionRifle.tools.barrel.label>
+    <!-- RU: bolt-action rifle -->
+    <Gun_BoltActionRifle.verbs.Verb_Shoot.label>Обрез</Gun_BoltActionRifle.verbs.Verb_Shoot.label>
+
+    <!-- RU: Gun_AssaultRifle rifle -->
+    <Gun_AssaultRifle.label>СВТ-40</Gun_AssaultRifle.label>
+    <!-- RU: An ancient pattern Gun_AssaultRifle rifle. With its long range, and low fire rate, it is unlikely to drive animals to revenge, which makes it a favorite weapon for hunting. -->
+    <Gun_AssaultRifle.description>Eine Schusswaffe antiker Bauart mit Zylinderverschluss. Ihre große Reichweite und geringe Feuerrate macht sie zu einer perfekten Jagdwaffe, weil die Chance gering ist, dass das Tier sich rächen wird.</Gun_BoltActionRifle.description>
+    <!-- RU: stock -->
+    <Gun_AssaultRifle.tools.stock.label>Schaft</Gun_AssaultRifle.tools.stock.label>
+    <!-- RU: barrel -->
+    <Gun_AssaultRifle.tools.barrel.label>Lauf</Gun_AssaultRifle.tools.barrel.label>
+    <!-- RU: Gun_AssaultRifle rifle -->
+    <Gun_AssaultRifle.verbs.Verb_Shoot.label>СВТ-40</Gun_AssaultRifle.verbs.Verb_Shoot.label>
+
+</LanguageData>

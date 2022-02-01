@@ -16,14 +16,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_RUSSniper</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>10</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>43000</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.20</AccuracyTouch>
       <AccuracyShort>0.53</AccuracyShort>
@@ -32,8 +32,8 @@
       <RangedWeapon_Cooldown>2.50</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>90</Steel>
+      <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -88,14 +88,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_RUSSniper</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>11</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>45000</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.18</AccuracyTouch>
       <AccuracyShort>0.55</AccuracyShort>
@@ -104,8 +104,8 @@
       <RangedWeapon_Cooldown>2.83</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>100</Steel>
+      <ComponentIndustrial>11</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -160,14 +160,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_RUSSniper</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>9</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>41500</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.23</AccuracyTouch>
       <AccuracyShort>0.51</AccuracyShort>
@@ -176,8 +176,8 @@
       <RangedWeapon_Cooldown>2.16</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>85</Steel>
+      <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
     <verbs>
       <li>

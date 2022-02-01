@@ -16,14 +16,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_USASmg</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>7</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	  <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>25000</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.61</AccuracyTouch>
       <AccuracyShort>0.43</AccuracyShort>
@@ -32,8 +32,8 @@
       <RangedWeapon_Cooldown>1.71</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>75</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -95,7 +95,7 @@
 	  <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>19000</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.62</AccuracyTouch>
       <AccuracyShort>0.31</AccuracyShort>
@@ -104,8 +104,8 @@
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>70</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -160,14 +160,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_USASmg</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>7</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	  <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>25500</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.80</AccuracyTouch>
       <AccuracyShort>0.55</AccuracyShort>
@@ -176,8 +176,8 @@
       <RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>75</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <verbs>
       <li>

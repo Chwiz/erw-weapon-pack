@@ -16,14 +16,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_USAMachineguns</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>8</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>39300</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.41</AccuracyTouch>
       <AccuracyShort>0.49</AccuracyShort>
@@ -32,8 +32,8 @@
       <RangedWeapon_Cooldown>1.80</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>75</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -88,14 +88,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_USAMachineguns</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>8</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>40500</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.36</AccuracyTouch>
       <AccuracyShort>0.44</AccuracyShort>
@@ -104,8 +104,8 @@
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>80</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -160,14 +160,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_USAMachineguns</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>9</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	<equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>43000</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.30</AccuracyTouch>
       <AccuracyShort>0.38</AccuracyShort>
@@ -176,8 +176,8 @@
       <RangedWeapon_Cooldown>2.46</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>90</Steel>
+      <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
     <verbs>
       <li>

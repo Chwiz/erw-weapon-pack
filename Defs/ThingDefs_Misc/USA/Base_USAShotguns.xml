@@ -23,7 +23,7 @@
 	  <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>18000</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.75</AccuracyTouch>
       <AccuracyShort>0.80</AccuracyShort>
@@ -32,8 +32,8 @@
       <RangedWeapon_Cooldown>1.20</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>65</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -88,14 +88,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_USAShotguns</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>5</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	  <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>15000</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.80</AccuracyTouch>
       <AccuracyShort>0.70</AccuracyShort>
@@ -105,7 +105,7 @@
     </statBases>
     <costList>
       <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -167,7 +167,7 @@
 	  <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>29000</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.52</AccuracyTouch>
       <AccuracyShort>0.58</AccuracyShort>
@@ -176,8 +176,8 @@
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>75</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <verbs>
       <li>

@@ -16,14 +16,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_RUSRifles</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>8</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>35000</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.42</AccuracyTouch>
       <AccuracyShort>0.59</AccuracyShort>
@@ -32,8 +32,8 @@
       <RangedWeapon_Cooldown>1.76</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>75</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -88,14 +88,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_RUSRifles</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>7</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>34500</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.49</AccuracyTouch>
       <AccuracyShort>0.64</AccuracyShort>
@@ -104,7 +104,7 @@
       <RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
+      <Steel>70</Steel>
       <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <verbs>
@@ -160,14 +160,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_RUSRifles</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>8</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>35500</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.50</AccuracyTouch>
       <AccuracyShort>0.63</AccuracyShort>
@@ -176,7 +176,7 @@
       <RangedWeapon_Cooldown>1.60</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
+      <Steel>75</Steel>
       <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <verbs>
@@ -232,14 +232,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_RUSRifles</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>8</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>36000</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.45</AccuracyTouch>
       <AccuracyShort>0.60</AccuracyShort>
@@ -248,8 +248,8 @@
       <RangedWeapon_Cooldown>1.66</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>75</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -304,14 +304,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_RUSRifles</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>8</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>34000</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.55</AccuracyTouch>
       <AccuracyShort>0.68</AccuracyShort>
@@ -320,8 +320,8 @@
       <RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>75</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -376,14 +376,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_RUSRifles</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>8</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>33700</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.19</AccuracyTouch>
       <AccuracyShort>0.62</AccuracyShort>
@@ -392,7 +392,7 @@
       <RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
+      <Steel>75</Steel>
       <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <verbs>
@@ -448,14 +448,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_RUSRifles</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>8</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>34200</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.52</AccuracyTouch>
       <AccuracyShort>0.65</AccuracyShort>
@@ -464,8 +464,8 @@
       <RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>75</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <verbs>
       <li>

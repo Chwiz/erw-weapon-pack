@@ -16,14 +16,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_RUSDMR</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>8</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>37000</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.65</AccuracyTouch>
       <AccuracyShort>0.72</AccuracyShort>
@@ -32,8 +32,8 @@
       <RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>75</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -160,14 +160,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_RUSDMR</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>9</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>39500</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.38</AccuracyTouch>
       <AccuracyShort>0.71</AccuracyShort>
@@ -176,8 +176,8 @@
       <RangedWeapon_Cooldown>2.10</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>80</Steel>
+      <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -232,14 +232,14 @@
     <recipeMaker>
       <researchPrerequisite>ERW_Weapons_RUSDMR</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>9</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
 	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>41000</WorkToMake>
       <Mass>3.5</Mass>
       <AccuracyTouch>0.39</AccuracyTouch>
       <AccuracyShort>0.73</AccuracyShort>
@@ -248,8 +248,8 @@
       <RangedWeapon_Cooldown>2.20</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <Steel>80</Steel>
+      <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
@@ -258,8 +258,8 @@
         <defaultProjectile>ERW_Bullet_762x54_DMR_Rifle</defaultProjectile>
         <warmupTime>2</warmupTime>
         <range>36.9</range>
-        <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
         <soundCast>ERW_Shot_SVK</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
