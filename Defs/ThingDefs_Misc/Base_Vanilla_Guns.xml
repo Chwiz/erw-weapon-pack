@@ -86,10 +86,10 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Gun_Autopistol</defName>
-    <label>M712</label>
+    <label>M1911</label>
     <description>An ancient pattern blowback-operated self-loading pistol. It lacks stopping power and range, but is quick to fire.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/Vanilla/M712</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Autopistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.5</uiIconScale>
@@ -124,7 +124,7 @@
         <defaultProjectile>ERW_Bullet_45ACP_Pistol</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <range>19.9</range>
-        <soundCast>Shot_Autopistol</soundCast>
+        <soundCast>ERW_Shot_M45A1</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -151,7 +151,7 @@
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_Autopistol</defName>
-    <label>autopistol bullet</label>
+    <label>M712</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -165,10 +165,10 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Gun_MachinePistol</defName>
-    <label>machine pistol</label>
+    <label>M712</label>
     <description>A micro-submachine gun. It is short-ranged, but very light in the hands. Its rate of fire tends to make up for its weakness.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/MachinePistol</texPath>
+      <texPath>Things/Item/Equipment/Vanilla/M712</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.4</uiIconScale>
@@ -189,7 +189,7 @@
       <AccuracyTouch>0.71</AccuracyTouch>
       <AccuracyShort>0.42</AccuracyShort>
       <AccuracyMedium>0.10</AccuracyMedium>
-      <AccuracyLong>0.10</AccuracyLong>
+      <AccuracyLong>0.11</AccuracyLong>
       <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -200,12 +200,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_9x19_Pistol</defaultProjectile>
+        <defaultProjectile>ERW_Bullet_Mauzer_Pistol</defaultProjectile>
         <warmupTime>0.8</warmupTime>
         <range>18.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>Shot_MachinePistol</soundCast>
+        <soundCast>ERW_Shot_TT</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -547,7 +547,7 @@
         <range>12.9</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>34</ticksBetweenBurstShots>
-        <soundCast>Shot_BoltActionRifle</soundCast>
+        <soundCast>ERW_Shot_TOZ_34</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -626,7 +626,7 @@
         <defaultProjectile>ERW_Bullet_12x70_SG</defaultProjectile>
         <warmupTime>1.4</warmupTime>
         <range>14.9</range>
-        <soundCast>Shot_Shotgun</soundCast>
+        <soundCast>ERW_Shot_Remington_870_Express</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -707,7 +707,7 @@
         <range>13.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>21</ticksBetweenBurstShots>
-        <soundCast>Shot_Shotgun</soundCast>
+        <soundCast>ERW_Shot_MP_153</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -775,7 +775,7 @@
         <range>21.9</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-        <soundCast>Shot_HeavySMG</soundCast>
+        <soundCast>ERW_Shot_MAC_10</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -944,7 +944,7 @@
         <range>36.9</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
-        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCast>ERW_Shot_SVD</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -1026,7 +1026,7 @@
         <defaultProjectile>ERW_Bullet_792x57mm_bolt_RifleV</defaultProjectile>
         <warmupTime>3.33</warmupTime>
         <range>41.9</range>
-        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCast>ERW_Shot_M2010_ESR</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>

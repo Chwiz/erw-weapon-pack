@@ -11,8 +11,12 @@
     <Gun_Revolver.verbs.Verb_Shoot.label>Nagant M1895</Gun_Revolver.verbs.Verb_Shoot.label>
 
     <!-- RU: Gun_Autopistol rifle -->
-    <Gun_Autopistol.label>M712</Gun_Autopistol.label>
-    <Gun_Autopistol.verbs.Verb_Shoot.label>M712</Gun_Autopistol.verbs.Verb_Shoot.label>
+    <Gun_Autopistol.label>M1911</Gun_Autopistol.label>
+    <Gun_Autopistol.verbs.Verb_Shoot.label>M1911</Gun_Autopistol.verbs.Verb_Shoot.label>
+
+    <!-- RU: Gun_MachinePistol rifle -->
+    <Gun_MachinePistol.label>M712</Gun_MachinePistol.label>
+    <Gun_MachinePistol.verbs.Verb_Shoot.label>M712</Gun_MachinePistol.verbs.Verb_Shoot.label>
 
     <!-- RU: Gun_PumpShotgun rifle -->
     <Gun_PumpShotgun.label>Winchester Model 1897</Gun_PumpShotgun.label>
