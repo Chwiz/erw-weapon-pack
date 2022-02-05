@@ -30,8 +30,8 @@
     <soundInteract>Interact_Revolver</soundInteract>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     
-    <tradeability>None</tradeability>
-    <destroyOnDrop>true</destroyOnDrop>
+    
+    
 	<statBases>
       <WorkToMake>10000</WorkToMake>
       <Mass>1.4</Mass>
@@ -101,8 +101,8 @@
       </skillRequirements>
     </recipeMaker>
 	
-    <tradeability>None</tradeability>
-    <destroyOnDrop>true</destroyOnDrop>			 
+    
+    			 
     <statBases>
       <WorkToMake>6600</WorkToMake>
       <Mass>1.2</Mass>
@@ -180,8 +180,8 @@
       </skillRequirements>
     </recipeMaker>
     
-    <tradeability>None</tradeability>
-    <destroyOnDrop>true</destroyOnDrop>
+    
+    
 	<statBases>
       <WorkToMake>9000</WorkToMake>
       <Mass>1.6</Mass>
@@ -255,8 +255,8 @@
     <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.3</generateCommonality>
     
-    <tradeability>None</tradeability>
-    <destroyOnDrop>true</destroyOnDrop>
+    
+    
 	<statBases>
       <WorkToMake>99</WorkToMake>
       <Mass>3.4</Mass>
@@ -343,8 +343,8 @@
     <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.3</generateCommonality>
     
-    <tradeability>None</tradeability>
-    <destroyOnDrop>true</destroyOnDrop>
+    
+    
 	<statBases>
       <WorkToMake>99</WorkToMake>
       <Mass>3.4</Mass>
@@ -431,8 +431,8 @@
     <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.3</generateCommonality>
 	
-    <tradeability>None</tradeability>
-    <destroyOnDrop>true</destroyOnDrop>			 
+    
+    			 
     <statBases>
       <WorkToMake>99</WorkToMake>
       <Mass>3.4</Mass>
@@ -517,8 +517,8 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     
-    <tradeability>None</tradeability>
-    <destroyOnDrop>true</destroyOnDrop>
+    
+    
 	<statBases>
       <WorkToMake>15000</WorkToMake>
       <Mass>2.5</Mass>
@@ -598,8 +598,8 @@
     </graphicData>
     <soundInteract>Interact_Shotgun</soundInteract>
     
-    <tradeability>None</tradeability>
-    <destroyOnDrop>true</destroyOnDrop>
+    
+    
 	<statBases>
       <WorkToMake>14000</WorkToMake>
       <Mass>3.4</Mass>
@@ -750,8 +750,8 @@
     </recipeMaker>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     
-    <tradeability>None</tradeability>
-    <destroyOnDrop>true</destroyOnDrop>
+    
+    
 	<statBases>
       <WorkToMake>26000</WorkToMake>
       <Mass>4.5</Mass>
@@ -774,12 +774,15 @@
         <warmupTime>1.2</warmupTime>
         <range>21.9</range>
         <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>31</ticksBetweenBurstShots>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
         <soundCast>Shot_HeavySMG</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
     <tools>
       <li>
         <label>grip</label>
@@ -831,8 +834,8 @@
     </recipeMaker>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     
-    <tradeability>None</tradeability>
-    <destroyOnDrop>true</destroyOnDrop>
+    
+    
 	<statBases>
       <WorkToMake>38000</WorkToMake>
       <Mass>8.5</Mass>
@@ -916,8 +919,8 @@
     </recipeMaker>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     
-    <tradeability>None</tradeability>
-    <destroyOnDrop>true</destroyOnDrop>
+    
+    
 	<statBases>
       <WorkToMake>36000</WorkToMake>
       <Mass>4.4</Mass>
@@ -997,8 +1000,8 @@
     </recipeMaker>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     
-    <tradeability>None</tradeability>
-    <destroyOnDrop>true</destroyOnDrop>
+    
+    
 	<statBases>
       <WorkToMake>39000</WorkToMake>
       <Mass>4</Mass>
@@ -1074,8 +1077,8 @@
     <soundInteract>Interact_Rifle</soundInteract>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     
-    <tradeability>None</tradeability>
-    <destroyOnDrop>true</destroyOnDrop>
+    
+    
 	<statBases>
       <WorkToMake>99</WorkToMake>
       <Mass>10</Mass>

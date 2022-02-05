@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_Sniper">
     <defName>ERW_Gun_TSVL_8M1_Sniper</defName>
     <label>TSVL 8M1</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Sniper/DVL_10</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -82,7 +82,7 @@
     <ThingDef ParentName="ERW_Sniper">
     <defName>ERW_Gun_T_5000_Sniper</defName>
     <label>T 5000</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Sniper/T_5000</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -157,7 +157,7 @@
     <ThingDef ParentName="ERW_Sniper">
     <defName>ERW_Gun_SV_98_Sniper</defName>
     <label>SV 98</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Sniper/SV_98</texPath>
       <graphicClass>Graphic_Single</graphicClass>

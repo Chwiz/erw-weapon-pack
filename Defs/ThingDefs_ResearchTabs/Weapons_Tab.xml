@@ -17,7 +17,7 @@
       <li>Smithing</li>
     </prerequisites>
     <researchViewX>0</researchViewX>
-    <researchViewY>1.1</researchViewY>
+    <researchViewY>1.4</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -35,7 +35,7 @@
       <li>ERW_Weapons_Start</li>
     </prerequisites>
     <researchViewX>1</researchViewX>
-    <researchViewY>2.1</researchViewY>
+    <researchViewY>0</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -50,7 +50,7 @@
       <li>Gunsmithing</li>
     </prerequisites>
     <researchViewX>2</researchViewX>
-    <researchViewY>2.1</researchViewY>
+    <researchViewY>0</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
     
@@ -64,7 +64,7 @@
       <li>ERW_Weapons_USAPistols</li>
     </prerequisites>
     <researchViewX>3</researchViewX>
-    <researchViewY>2.1</researchViewY>
+    <researchViewY>0</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -79,7 +79,7 @@
       <li>GasOperation</li>
     </prerequisites>
     <researchViewX>4</researchViewX>
-    <researchViewY>2.1</researchViewY>
+    <researchViewY>0</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -93,7 +93,7 @@
       <li>ERW_Weapons_USASmg</li>
     </prerequisites>
     <researchViewX>5</researchViewX>
-    <researchViewY>2.1</researchViewY>
+    <researchViewY>0</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -107,7 +107,7 @@
       <li>ERW_Weapons_USARifles</li>
     </prerequisites>
     <researchViewX>6</researchViewX>
-    <researchViewY>2.1</researchViewY>
+    <researchViewY>0</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -122,7 +122,7 @@
       <li>PrecisionRifling</li>
     </prerequisites>
     <researchViewX>7</researchViewX>
-    <researchViewY>2.1</researchViewY>
+    <researchViewY>0</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -136,7 +136,7 @@
       <li>ERW_Weapons_USADMR</li>
     </prerequisites>
     <researchViewX>8</researchViewX>
-    <researchViewY>2.1</researchViewY>
+    <researchViewY>0</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -170,7 +170,7 @@
       <li>ERW_Weapons_Start</li>
     </prerequisites>
     <researchViewX>1</researchViewX>
-    <researchViewY>0.1</researchViewY>
+    <researchViewY>1.4</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -185,7 +185,7 @@
       <li>Gunsmithing</li>
     </prerequisites>
     <researchViewX>2</researchViewX>
-    <researchViewY>0.1</researchViewY>
+    <researchViewY>1.4</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -199,7 +199,7 @@
       <li>ERW_Weapons_RUSPistols</li>
     </prerequisites>
     <researchViewX>3</researchViewX>
-    <researchViewY>0.1</researchViewY>
+    <researchViewY>1.4</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -214,7 +214,7 @@
       <li>GasOperation</li>
     </prerequisites>
     <researchViewX>4</researchViewX>
-    <researchViewY>0.1</researchViewY>
+    <researchViewY>1.4</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -228,7 +228,7 @@
       <li>ERW_Weapons_RUSSmg</li>
     </prerequisites>
     <researchViewX>5</researchViewX>
-    <researchViewY>0.1</researchViewY>
+    <researchViewY>1.4</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -242,7 +242,7 @@
       <li>ERW_Weapons_RUSRifles</li>
     </prerequisites>
     <researchViewX>6</researchViewX>
-    <researchViewY>0.1</researchViewY>
+    <researchViewY>1.4</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -257,7 +257,7 @@
       <li>PrecisionRifling</li>
     </prerequisites>
     <researchViewX>7</researchViewX>
-    <researchViewY>0.1</researchViewY>
+    <researchViewY>1.4</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -271,7 +271,7 @@
       <li>ERW_Weapons_RUSDMR</li>
     </prerequisites>
     <researchViewX>8</researchViewX>
-    <researchViewY>0.1</researchViewY>
+    <researchViewY>1.4</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 

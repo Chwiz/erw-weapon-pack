@@ -29,6 +29,10 @@
             <li>Gun</li>
         </weaponTags>
 
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
+
         <recipeMaker>
             <recipeUsers>
                 <li>TableCraftingPistols</li>
@@ -42,6 +46,10 @@
         <weaponTags>
             <li>Gun</li>
         </weaponTags>
+
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
 
         <recipeMaker>
             <recipeUsers>
@@ -57,6 +65,10 @@
             <li>Gun</li>
         </weaponTags>
 
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
+
         <recipeMaker>   
             <recipeUsers>
                 <li>TableCraftingSmg</li>
@@ -70,6 +82,10 @@
         <weaponTags>
             <li>Gun</li>
         </weaponTags>
+
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
 
         <recipeMaker>
             <recipeUsers>
@@ -85,6 +101,10 @@
             <li>Gun</li>
         </weaponTags>
 
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
+
         <recipeMaker>
             <recipeUsers>
                 <li>TableCraftingMachineguns</li>
@@ -99,6 +119,10 @@
             <li>Gun</li>
         </weaponTags>
         
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
+
         <recipeMaker>
             <recipeUsers>
                 <li>TableCraftingSniper</li>
@@ -119,10 +143,10 @@
             <li>Ranged</li>
         </weaponClasses>
         <inspectorTabs>
-        <li>ITab_Art</li>
+            <li>ITab_Art</li>
         </inspectorTabs>
         <statBases>
-        <Flammability>0.5</Flammability>
+            <Flammability>0.5</Flammability>
         </statBases>
         <comps>
         <li Class="CompProperties_Art">

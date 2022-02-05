@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_Machinegun">
     <defName>ERW_Gun_PKP_Machinegun</defName>
     <label>PKP</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Machinegun/PKP</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -82,7 +82,7 @@
     <ThingDef ParentName="ERW_Machinegun">
     <defName>ERW_Gun_RPK_74M_Machinegun</defName>
     <label>RPK 74M</label>
-    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
+    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
     <graphicData>
       <texPath>Things/Item/Equipment/Machinegun/RPK_74M</texPath>
       <graphicClass>Graphic_Single</graphicClass>
