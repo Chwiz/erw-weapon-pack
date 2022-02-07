@@ -89,7 +89,7 @@
     <label>M1911</label>
     <description>An ancient pattern blowback-operated self-loading pistol. It lacks stopping power and range, but is quick to fire.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Autopistol</texPath>
+      <texPath>Things/Item/Equipment/Vanilla/M1911</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>1.5</uiIconScale>
