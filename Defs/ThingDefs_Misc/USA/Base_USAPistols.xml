@@ -7,10 +7,11 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_M45A1_Pistol</defName>
     <label>M45A1</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>M45A1 is a magazine-fed, recoil-operated, single-action, semiautomatic pistol chambered for the .45 ACP cartridge. A variant of the M1911, it has been the standard-issue side arm for the Force Recon Element of the United States Marine Corps' Marine Expeditionary Units since 1985.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/M45A1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
@@ -84,7 +85,7 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_M9A3_Pistol</defName>
     <label>M9A3</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>M9A3 is the designation for the Beretta 92FS semi-automatic pistol used by the United States Armed Forces. The M9 was adopted by the United States military as their service pistol in 1985.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/M9A3</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -161,7 +162,7 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_G18C_Pistol</defName>
     <label>G18C</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The Glock 18 is a selective-fire variant of the Glock 17. Originally produced in 1986, this machine pistol–class firearm has a lever-type fire-control selector switch.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/G18C</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -238,7 +239,7 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_Desert_Eagle_Pistol</defName>
     <label>Desert Eagle</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The Desert Eagle is a gas-operated, semi-automatic pistol known for chambering the .50 Action Express, the largest centerfire cartridge of any magazine-fed, self-loading pistol.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/Desert_Eagle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -315,7 +316,7 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_Colt_Anaconda_Pistol</defName>
     <label>Colt Anaconda</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The Colt Anaconda is a large frame double-action revolver featuring a full length under-barrel ejection-rod lug and six round cylinder, designed and produced by the Colt's Manufacturing Company in 1990. Chambered for the powerful .44 Magnum.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/Colt_Anaconda</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -393,7 +394,7 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_Five_Seven_Pistol</defName>
     <label>Five Seven</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The FN Five-seveN is a semi-automatic pistol designed and manufactured by FN Herstal in Belgium. The pistol is named for its 5.7×28mm bullet diameter. The Five-seveN is currently in service with military and police forces in over 40 nations.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/Five_Seven</texPath>
       <graphicClass>Graphic_Single</graphicClass>

@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_SMG">
     <defName>ERW_Gun_PP_19_01_SMG</defName>
     <label>PP 19 01</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The PP-19-01 (also known as the PP-19-01 “Vityaz-SN”) is a 9×19mm Parabellum submachine gun developed in 2004 by Russian small arms manufacturer Izhmash. It is based on the AK-74 and offers a high degree of parts commonality with the AK-74.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/SMG/PP_19_01</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -79,7 +79,7 @@
     <ThingDef ParentName="ERW_SMG">
     <defName>ERW_Gun_PP_91_SMG</defName>
     <label>PP 91</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The PP-91  is a 9mm machine pistol developed from a prototype from the 1970s and since 1994 adopted by the Russian Ministry of Internal Affairs. It is blowback operated and fires from a closed bolt, allowing for more accurate shooting than would be possible from an open bolt design.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/SMG/PP_91</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -151,7 +151,7 @@
     <ThingDef ParentName="ERW_SMG">
     <defName>ERW_Gun_SR_2_SMG</defName>
     <label>SR 2</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The SR-2 "Veresk" is a Russian submachine gun designed to fire the 9×21mm Gyurza pistol cartridge.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/SMG/SR_2</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -223,7 +223,7 @@
     <ThingDef ParentName="ERW_SMG">
     <defName>ERW_Gun_PP_2000_SMG</defName>
     <label>PP 2000</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The PP-2000 is a submachine gun/machine pistol, chambered in 9x19mm Parabellum, made by the KBP Instrument Design Bureau. It was first publicly displayed at the Interpolytech-2004 exhibition in Moscow even though its patent was filed in 2001 and issued in 2003.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/SMG/PP_2000</texPath>
       <graphicClass>Graphic_Single</graphicClass>

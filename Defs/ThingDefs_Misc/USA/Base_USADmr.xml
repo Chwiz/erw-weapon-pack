@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_Sniper">
     <defName>ERW_Gun_Mk_14_Enhanced_Battle_Rifle_DMR</defName>
     <label>Mk 14 Enhanced Battle Rifle</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The Mk 14 Enhanced Battle Rifle (EBR) is an American military selective fire battle rifle chambered for the 7.62×51mm NATO cartridge. It is a variant of the M14 battle rifle and was originally built for use with units of United States Special Operations Command.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/DMR/Mk_14_Enhanced_Battle_Rifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -82,7 +82,7 @@
     <ThingDef ParentName="ERW_Sniper">
     <defName>ERW_Gun_M110_SASS_DMR</defName>
     <label>M110 SASS</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The M110 Semi Automatic Sniper System (M110 SASS) is an American semi-automatic precision rifle that is chambered for the 7.62×51mm NATO round. It is manufactured by Knight's Armament Company, developed from the Knight's Armament Company SR-25, and adopted by the U.S. military following the 2005 US Army Semi-Automatic Sniper Rifle (XM110 SASR) competition.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/DMR/M110_SASS</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -157,7 +157,7 @@
     <ThingDef ParentName="ERW_Sniper">
     <defName>ERW_Gun_Mk12_SPR_DMR</defName>
     <label>Mk 12 SPR</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The United States Navy Mark 12 Mod 0/1 Special Purpose Rifle (SPR) is a semi-automatic designated marksman rifle that was in service with United States Special Operations Forces in the designated marksman role until 2017, also designed to be shorter than standard weapons.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/DMR/Mk12_SPR</texPath>
       <graphicClass>Graphic_Single</graphicClass>

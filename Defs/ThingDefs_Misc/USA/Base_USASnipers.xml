@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_Sniper">
     <defName>ERW_Gun_M24_Sniper</defName>
     <label>M24</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The M24 is the military and police version of the Remington Model 700 rifle, M24 being the model name assigned by the United States Army after adoption as their standard sniper rifle in 1988.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Sniper/M24</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -82,7 +82,7 @@
     <ThingDef ParentName="ERW_Sniper">
     <defName>ERW_Gun_M2010_ESR_Sniper</defName>
     <label>M2010 ESR</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The M2010 Enhanced Sniper Rifle (ESR) is a sniper rifle developed by PEO Soldier for the United States Army. It is derived from and replaced the M24 Sniper Weapon System. The M2010 fires .300 Winchester Magnum (7.62×67mm) ammunition.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Sniper/M2010_ESR</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -157,7 +157,7 @@
     <ThingDef ParentName="ERW_Sniper">
     <defName>ERW_Gun_CheyTac_Intervention_Sniper</defName>
     <label>CheyTac Intervention</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The CheyTac Intervention is an American bolt-action sniper rifle manufactured by CheyTac USA, which can also be classified as an anti-materiel rifle. It is fed by a 5-round detachable single-stack magazine . It is specifically chambered in either .408 Chey Tac.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Sniper/CheyTac_Intervention</texPath>
       <graphicClass>Graphic_Single</graphicClass>

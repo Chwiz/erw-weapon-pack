@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_Machinegun">
     <defName>ERW_Gun_M27_IAR_Machinegun</defName>
     <label>M27 IAR</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The M27 Infantry Automatic Rifle (IAR) is a 5.56mm select-fire assault rifle, based on the HK416 by Heckler n' Koch. It is used by the United States Marine Corps and is intended to enhance an automatic rifleman's maneuverability.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Machinegun/M27_IAR</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -81,7 +81,7 @@
     <ThingDef ParentName="ERW_Machinegun">
     <defName>ERW_Gun_M249_Machinegun</defName>
     <label>M249</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The M249 light machine gun (LMG),  which continues to be the manufacturer's designation, and formally written as Light Machine Gun, 5.56 mm, M249, is the American adaptation of the Belgian FN Minimi, a light machine gun manufactured by the Belgian company FN Herstal (FN).</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Machinegun/M249</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -156,7 +156,7 @@
     <ThingDef ParentName="ERW_Machinegun">
     <defName>ERW_Gun_M240B_Machinegun</defName>
     <label>M240B</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The M240 a family of belt-fed, gas-operated medium machine guns that chamber the 7.62×51mm NATO cartridge. The M240 has been used by the United States Armed Forces since the late 1970s. It is used extensively by infantry, most often in rifle companies, as well as on ground vehicles, watercraft and aircraft.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Machinegun/M240B</texPath>
       <graphicClass>Graphic_Single</graphicClass>

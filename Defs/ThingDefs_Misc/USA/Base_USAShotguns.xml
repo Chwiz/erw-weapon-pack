@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_Shotgun">
     <defName>ERW_Gun_Remington_870_Express_Shotgun</defName>
     <label>Remington 870 Express</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The Remington Model 870 Express is a pump-action shotgun manufactured by Remington Arms Company, LLC. It is widely used by the public for shooting sports, hunting and self-defense, as well as by law enforcement and military organizations worldwide.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Shotgun/Remington_870_Express</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -79,7 +79,7 @@
     <ThingDef ParentName="ERW_Shotgun">
     <defName>ERW_Gun_Mossberg_500A_Cruiser_Shotgun</defName>
     <label>Mossberg 500A Cruiser</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The Mossberg 500 (M500) is a series of pump action shotguns manufactured by O.F. Mossberg n' Sons. The 500 series comprises widely varying models of hammerless repeaters, all of which share the same basic receiver and action, but differ in bore size, barrel length, choke options, magazine capacity, stock and forearm materials.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Shotgun/Mossberg_500A_Cruiser</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -151,7 +151,7 @@
     <ThingDef ParentName="ERW_Shotgun">
     <defName>ERW_Gun_M1014_Shotgun</defName>
     <label>M1014</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The Benelli M4 is a semi-automatic shotgun produced by Italian firearm manufacturer Benelli Armi SpA, and the last of the "Benelli Super 90" series of semi-automatic shotguns.  The weapon was designed in 1998, and was adopted by the armed forces of United States.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Shotgun/M1014</texPath>
       <graphicClass>Graphic_Single</graphicClass>

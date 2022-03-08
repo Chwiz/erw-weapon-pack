@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_Shotgun">
     <defName>ERW_Gun_MP_133_Shotgun</defName>
     <label>MP 133</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>MP-133 is a Russian  pump-action shotgun , which is used for various types of hunting, sports shooting, security and self-defense. The MP-133 was developed on the basis of the IZH-81 rifle and has been mass-produced by the Izhevsk Mechanical Plant since 2000.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Shotgun/MP_133</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -79,7 +79,7 @@
     <ThingDef ParentName="ERW_Shotgun">
     <defName>ERW_Gun_MP_153_Shotgun</defName>
     <label>MP 153</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>MP-153 is a 12 gauge gas-operated semi-automatic shotgun manufactured by Kalashnikov Concern (originally by the Izhevsk Mechanical Plant) in Russia.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Shotgun/MP_153</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -151,7 +151,7 @@
     <ThingDef ParentName="ERW_Shotgun">
     <defName>ERW_Gun_TOZ_34_Shotgun</defName>
     <label>TOZ 34</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The TOZ-34  is a 12 gauge double-barreled shotgun, produced and by Tulsky Oruzheiny Zavod since 1964.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Shotgun/TOZ_34</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -223,7 +223,7 @@
     <ThingDef ParentName="ERW_Shotgun">
     <defName>ERW_Gun_KS_23_Shotgun</defName>
     <label>KS 23</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The KS-23 is a Soviet shotgun, although because it uses a rifled barrel it is officially designated by the Russian military as a carbine. It is renowned for its large caliber, firing a 23 mm round, making it the largest-bore shotgun in use today.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Shotgun/KS_23</texPath>
       <graphicClass>Graphic_Single</graphicClass>

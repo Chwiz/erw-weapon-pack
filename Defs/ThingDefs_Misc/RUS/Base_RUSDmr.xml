@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_Machinegun">
     <defName>ERW_Gun_VSS_Vintorez_DMR</defName>
     <label>VSS Vintorez</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The VSS Vintorez is a marksman rifle featuring an integral suppressor originating from the Soviet Union. The Vintorez was developed alongside the AS Val to replace modified general-purpose firearms, such as the AKS-74UB, BS-1, APB, and PB, for clandestine operations.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/DMR/VSS_Vintorez</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -151,7 +151,7 @@
     <ThingDef ParentName="ERW_Machinegun">
     <defName>ERW_Gun_SVD_DMR</defName>
     <label>SVD</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The SVD sniper rifle is a semi-automatic designated marksman rifle chambered in 7.62×54mmR and developed in the Soviet Union. The Dragunov was designed as a squad support weapon since, according to Soviet and Soviet-derived military doctrines, long-range engagement ability was lost to ordinary troops when submachine guns and assault rifles (which are optimized for close-range and medium-range, rapid-fire combat) were adopted.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/DMR/SVD</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -226,7 +226,7 @@
     <ThingDef ParentName="ERW_Machinegun">
     <defName>ERW_Gun_SVK_DMR</defName>
     <label>SVK</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>SVK is an initiative development of the Kalashnikov Concern and was first demonstrated to the public at the Army-2016 exhibition in September 2016. When developing the rifle, the wishes of active snipers of various special units were taken into account. By design, the rifle is unrelated to several other experimental rifles with a similar name created in Soviet times. The rifle is being developed in two versions: for the cartridge 7.62x54R and for the 7.62x51.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/DMR/SVK</texPath>
       <graphicClass>Graphic_Single</graphicClass>

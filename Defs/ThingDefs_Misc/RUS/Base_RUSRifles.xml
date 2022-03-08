@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_Rifle">
     <defName>ERW_Gun_AKM_Rifle</defName>
     <label>AKM</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The AKM is an assault rifle designed by Soviet small arms designer Mikhail Kalashnikov in 1959. It is the most ubiquitous rifle of the Kalashnikov rifles. It was developed as replacement to AK introduced a decade prior.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Rifle/AKM</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -79,7 +79,7 @@
     <ThingDef ParentName="ERW_Rifle">
     <defName>ERW_Gun_AKS_74U_Rifle</defName>
     <label>AKS 74U</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The AKS-74U is a shortened version of the AKS74 assault rifle, was developed in the late 1970s and early 1980s for arming crews of combat vehicles, aircraft, as well as paratroopers. It is also used in the Ministry of Internal Affairs and security structures due to its small size.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Rifle/AKS_74U</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -151,7 +151,7 @@
     <ThingDef ParentName="ERW_Rifle">
     <defName>ERW_Gun_AK_74M_Rifle</defName>
     <label>AK 74M</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>AK-74M is modernised variant of the AK-74 assault rifle chambered in 5.45x39 that offers more versatility compared with its predecessor. Apart from several minor improvements, such as a lightened bolt and carrier assembly to reduce the impulse of the gas piston and bolt carrier during firing, the rifle features a new glass-filled polyamide stock that retains the shape of the original AK-74 fixed laminated wood stock.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Rifle/AK_74M</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -223,7 +223,7 @@
     <ThingDef ParentName="ERW_Rifle">
     <defName>ERW_Gun_AK_103_Rifle</defName>
     <label>AK 103</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The AK-103 is an assault rifle designed by Russian small arms designer Mikhail Kalashnikov in 1994. It is an AK-100 derivative of the AK-74M that is chambered for the 7.62x39mm cartridge, similar to the AKM. The AK-103 can be fitted with a variety of sights, including night vision and telescopic sights, plus a knife-bayonet or a grenade launcher like the GP-34. Newer versions can fit Picatinny rails, allowing more accessories to be mounted.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Rifle/AK_103</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -295,7 +295,7 @@
     <ThingDef ParentName="ERW_Rifle">
     <defName>ERW_Gun_AH_94_Rifle</defName>
     <label>AH 94</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The AN-94 is a Russian assault rifle. The initials stand for Avtomat Nikonova model of 1994, after its chief designer Gennadiy Nikonov. The AN-94 was designed as a potential replacement to the AK-74 series of rifles currently in service with the Russian Armed Forces. Due to its complex design and expense, it failed to fill its intended role as a replacement for the AK-74, but it is in limited use as a special purpose weapon.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Rifle/AH_94</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -367,7 +367,7 @@
     <ThingDef ParentName="ERW_Rifle">
     <defName>ERW_Gun_AEK_971_Rifle</defName>
     <label>AEK 971</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The AEK-971 is a selective fire 5.45×39mm assault rifle that was developed at the Kovrov Mechanical Plant (KMZ) by chief designer Sergey Koksharov in the late 1970s and 1980s (currently manufactured by Degtyarev Plant).</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Rifle/A_545</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -439,7 +439,7 @@
     <ThingDef ParentName="ERW_Rifle">
     <defName>ERW_Gun_AS_VAL_Rifle</defName>
     <label>AS VAL</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The AS Val is a Soviet-designed assault rifle featuring an integrated suppressor. The Val was developed alongside the VSS Vintorez to replace modified general-purpose firearms, such as the AKS-74UB, BS-1, APB, and PB, for clandestine operations.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Rifle/AS_VAL</texPath>
       <graphicClass>Graphic_Single</graphicClass>

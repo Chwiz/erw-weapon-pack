@@ -5,41 +5,56 @@
     <!-- RU: bolt-action rifle -->
     <Gun_BoltActionRifle.label>Обрез</Gun_BoltActionRifle.label>
     <Gun_BoltActionRifle.verbs.Verb_Shoot.label>Обрез</Gun_BoltActionRifle.verbs.Verb_Shoot.label>
+    <Gun_BoltActionRifle.description>Lupara is an Italian word used to refer to a sawn-off shotgun of the break-open type. It is traditionally associated with La Cosa Nostra, the Italian organized crime group dominant in Sicily for their use of it in vendettas.</Gun_BoltActionRifle.description>
 
     <!-- RU: Gun_Revolver rifle -->
     <Gun_Revolver.label>Nagant M1895</Gun_Revolver.label>
     <Gun_Revolver.verbs.Verb_Shoot.label>Nagant M1895</Gun_Revolver.verbs.Verb_Shoot.label>
+    <Gun_Revolver.description>The Nagant M1895 Revolver is a seven-shot, gas-seal revolver designed and produced by Belgian industrialist Léon Nagant for the Russian Empire. The Nagant M1895 was chambered for a proprietary cartridge, 7.62×38mmR.</Gun_Revolver.description>
 
     <!-- RU: Gun_Autopistol rifle -->
     <Gun_Autopistol.label>M1911</Gun_Autopistol.label>
     <Gun_Autopistol.verbs.Verb_Shoot.label>M1911</Gun_Autopistol.verbs.Verb_Shoot.label>
+    <Gun_Autopistol.description>The M1911 is a single-action, semi-automatic, magazine-fed, recoil-operated pistol chambered for the .45 ACP cartridge.</Gun_Autopistol.description>
 
     <!-- RU: Gun_MachinePistol rifle -->
     <Gun_MachinePistol.label>M712</Gun_MachinePistol.label>
     <Gun_MachinePistol.verbs.Verb_Shoot.label>M712</Gun_MachinePistol.verbs.Verb_Shoot.label>
+    <Gun_MachinePistol.description>M712 is machine pistol, chambered in 7.63×25mm Mauser. Mauser began production of the Schnellfeuer (rapid fire), their own select-fire, detachable magazine version of the M30 designed by Karl Westinger.</Gun_MachinePistol.description>
 
     <!-- RU: Gun_PumpShotgun rifle -->
     <Gun_PumpShotgun.label>Winchester Model 1897</Gun_PumpShotgun.label>
     <Gun_PumpShotgun.verbs.Verb_Shoot.label>Winchester Model 1897</Gun_PumpShotgun.verbs.Verb_Shoot.label>
+    <Gun_PumpShotgun.description>The Winchester Model 1897 is a pump-action shotgun with an external hammer and tube magazine manufactured by the Winchester Repeating Arms Company. The Model 1897 was an evolution of the Winchester Model 1893 designed by John Browning.</Gun_PumpShotgun.description>
 
     <!-- RU: Gun_ChainShotgun rifle -->
     <Gun_ChainShotgun.label>Browning Auto-5</Gun_ChainShotgun.label>
     <Gun_ChainShotgun.verbs.Verb_Shoot.label>Browning Auto-5</Gun_ChainShotgun.verbs.Verb_Shoot.label>
+    <Gun_ChainShotgun.description>The Browning Automatic 5 is a recoil-operated semi-automatic shotgun designed by John Browning. It was the first successful semi-automatic shotgun design, and remained in production until 1998.</Gun_ChainShotgun.description>
 
     <!-- RU: Gun_HeavySMG rifle -->
     <Gun_HeavySMG.label>M1A1 Thompson</Gun_HeavySMG.label>
     <Gun_HeavySMG.verbs.Verb_Shoot.label>M1A1 Thompson</Gun_HeavySMG.verbs.Verb_Shoot.label>
+    <Gun_HeavySMG.description>M1A1 is a blowback-operated, air-cooled, magazine-fed selective-fire submachine gun, invented by the United States Army Brigadier general John T. Thompson in 1918.</Gun_HeavySMG.description>
+
+    <!-- RU: ERW_WW2_PPSH_41_SMG rifle -->
+    <ERW_WW2_PPSH_41_SMG.label>ППШ-41</ERW_WW2_PPSH_41_SMG.label>
+    <ERW_WW2_PPSH_41_SMG.verbs.Verb_Shoot.label>ППШ-41</ERW_WW2_PPSH_41_SMG.verbs.Verb_Shoot.label>
+    <ERW_WW2_PPSH_41_SMG.description>The PPSh-41  is a Soviet submachine gun designed by Georgy Shpagin as a cheap, reliable, and simplified alternative to the PPD-40. The PPSh is a magazine-fed selective-fire submachine gun using an open bolt, blowback action. Made largely of stamped steel, it can be loaded with either a box or drum magazine and fires the 7.62×25mm Tokarev pistol round.</ERW_WW2_PPSH_41_SMG.description>
 
     <!-- RU: Gun_LMG rifle -->
     <Gun_LMG.label>M1918 BAR</Gun_LMG.label>
     <Gun_LMG.verbs.Verb_Shoot.label>M1918 BAR</Gun_LMG.verbs.Verb_Shoot.label>
+    <Gun_LMG.description>The Browning Automatic Rifle (BAR) is a family of US automatic rifles and machine guns used by the United States and numerous other countries during the 20th century. The primary variant of the BAR series was the M1918, chambered for the .30-06 Springfield rifle cartridge and designed by John Browning in 1917.</Gun_LMG.description>
 
     <!-- RU: Gun_AssaultRifle rifle -->
     <Gun_AssaultRifle.label>СВТ-40</Gun_AssaultRifle.label>
     <Gun_AssaultRifle.verbs.Verb_Shoot.label>СВТ-40</Gun_AssaultRifle.verbs.Verb_Shoot.label>
+    <Gun_AssaultRifle.description>The SVT-40 is a Soviet semi-automatic battle rifle. The SVT-40 saw widespread service during and after World War II. It was intended to be the Soviet Red Army's new service rifle, but its production was disrupted by the German invasion in 1941, resulting in a change back to the Mosin–Nagant rifle for the duration of World War II.</Gun_AssaultRifle.description>
 
     <!-- RU: Gun_SniperRifle rifle -->
     <Gun_SniperRifle.label>Mauser 98k</Gun_SniperRifle.label>
     <Gun_SniperRifle.verbs.Verb_Shoot.label>Mauser 98k</Gun_SniperRifle.verbs.Verb_Shoot.label>
+    <Gun_SniperRifle.description>The Karabiner 98 kurz is a bolt-action rifle chambered for the 7.92×57mm Mauser cartridge. It was adopted on 21 June 1935 as the standard service rifle by the German Wehrmacht. It was one of the final developments in the long line of Mauser military rifles.</Gun_SniperRifle.description>
 
 </LanguageData>

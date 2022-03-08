@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_SMG">
     <defName>ERW_Gun_KRISS_Vector_SMG</defName>
     <label>KRISS Vector</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The KRISS Vector is a series of weapons based upon the parent submachine gun design developed by the American company KRISS USA, formerly Transformational Defense Industries (TDI). They use an unconventional delayed blowback system combined with in-line design to reduce perceived recoil and muzzle climb.This model chambered in .45 ACP.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/SMG/KRISS_Vector</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -79,7 +79,7 @@
     <ThingDef ParentName="ERW_SMG">
     <defName>ERW_Gun_MAC_10_SMG</defName>
     <label>MAC 10</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>MAC-10, is a compact, blowback operated machine pistol/submachine gun that was developed by Gordon B. Ingram in 1964. It is chambered in either .45 ACP.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/SMG/MAC_10</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -151,7 +151,7 @@
     <ThingDef ParentName="ERW_SMG">
     <defName>ERW_Gun_SIG_Sauer_MPX_SMG</defName>
     <label>SIG Sauer MPX</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The SIG MPX is a gas-operated submachine gun designed and manufactured by SIG Sauer, and is primarily chambered in 9×19mm Parabellum cartridge. It is a gas-operated firearm featuring a closed, rotating bolt. t was designed in 2013 and was released to the general public in 2015.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/SMG/SIG_Sauer_MPX</texPath>
       <graphicClass>Graphic_Single</graphicClass>

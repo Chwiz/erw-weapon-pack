@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_Rifle">
     <defName>ERW_Gun_M4A1_Rifle</defName>
     <label>M4A1</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated, magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Rifle/M4A1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -81,7 +81,7 @@
     <ThingDef ParentName="ERW_Rifle">
     <defName>ERW_Gun_Mk_17_Mod_0_Rifle</defName>
     <label>Mk 17 Mod 0</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The FN SCAR is a family of gas-operated automatic rifles developed by Belgian manufacturer FN Herstal (FN) in 2004. It is constructed with modularity for the United States Special Operations Command to satisfy the requirements of the SCAR competition. SCAR-H is chambered in 7.62×51mm NATO.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Rifle/Mk_17_Mod_0</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -153,7 +153,7 @@
     <ThingDef ParentName="ERW_Rifle">
     <defName>ERW_Gun_M14_Rifle</defName>
     <label>M14</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The M14, is an American selective fire battle rifle that fires 7.62×51mm NATO ammunition. It became the standard-issue rifle for the U.S. military in 1959 replacing the M1 Garand rifle in the U.S. Army by 1958 and the U.S. Marine Corps by 1965 until being replaced by the M16 rifle beginning in 1968.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Rifle/M14</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -228,7 +228,7 @@
     <ThingDef ParentName="ERW_Rifle">
     <defName>ERW_Gun_SIG_Sauer_MCX_Rifle</defName>
     <label>SIG Sauer MCX</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The SIG MCX is a family of firearms designed and manufactured by SIG Sauer, produced in both selective fire and semi-automatic only models, and features a short-stroke gas piston system, which is inherited from the earlier SIG MPX submachine gun. This variant is chambered in .300 AAC Blackout.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Rifle/SIG_Sauer_MCX</texPath>
       <graphicClass>Graphic_Single</graphicClass>

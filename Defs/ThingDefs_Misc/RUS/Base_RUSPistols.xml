@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_PB_Pistol</defName>
     <label>PB</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The PB (GRAU index 6P9) is a Soviet integrally suppressed semi-automatic pistol developed and manufactured by the Izhevsk Mechanical Plant, based on the Makarov pistol chambered in 9x18 Makarov.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/PB</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -79,7 +79,7 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_MP_443_Pistol</defName>
     <label>MP 443</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The MP-443 Grach is the Russian standard military-issue side arm, chambered in 9x19mm Parabellum.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/MP_443</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -151,7 +151,7 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_APS_Pistol</defName>
     <label>APS</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>APS is a Soviet selective fire machine pistol chambered in 9×18mm Makarov introduced into service in 1951 for use with artillery and mortar crews, tank crews and aircraft personnel, where a cumbersome assault rifle was deemed unnecessary.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/APS</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -223,7 +223,7 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_TT_Pistol</defName>
     <label>TT</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The TT-33, commonly known simply as the Tokarev, is an out-of-production Soviet semi-automatic pistol chambered in 7.62×25mm Tokarev. It was developed in the early 1930s by Fedor Tokarev as a service pistol for the Soviet military to replace the Nagant M1895 revolver that had been in use since the Russian Empire.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/TT</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -295,7 +295,7 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_SR_1_Pistol</defName>
     <label>SR 1</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The SR-1 also known as the Gyurza   is a 9×21mm Gyurza semi-automatic pistol designed for the Russian military.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/SR_1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -367,7 +367,7 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_PL_15_Pistol</defName>
     <label>PL 15</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The PL-15 is a 9mm short recoil-operated, locked-breech handgun that uses a modified Browning cam-lock system adapted from the Hi-Power pistol.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/PL_15</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -439,7 +439,7 @@
     <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_RSh_12_Pistol</defName>
     <label>RSh-12</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The RSh-12 is a Russian-made revolver chambered in 12.7×55mm. It fires from the bottom chamber of the cylinder  rather than the more common top chamber, and is chambered for the same ammunition as the ASh-12 battle rifle.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Pistol/RSh_12</texPath>
       <graphicClass>Graphic_Single</graphicClass>

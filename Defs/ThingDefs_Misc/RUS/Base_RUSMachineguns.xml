@@ -7,7 +7,7 @@
     <ThingDef ParentName="ERW_Machinegun">
     <defName>ERW_Gun_PKP_Machinegun</defName>
     <label>PKP</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The PKP Pecheneg is a Russian 7.62×54mmR general-purpose machine gun. It is a further development and modification of the PK machine gun. It is said to be more accurate than all its predecessors due to a heavier, non-removable, forced-air-cooled barrel with radial cooling ribs and a handle which eliminates the haze effect from hot gases and keeps the barrel cooler, making the weapon more reliable.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Machinegun/PKP</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -82,7 +82,7 @@
     <ThingDef ParentName="ERW_Machinegun">
     <defName>ERW_Gun_RPK_74M_Machinegun</defName>
     <label>RPK 74M</label>
-    <!-- <description>The M4 carbine is a 5.56×45mm NATO, air-cooled, gas-operated,[b] magazine-fed, carbine, assault rifle developed in the United States during the 1980s. It is a shortened version of the M16A2 assault rifle.</description> -->
+    <description>The RPK-74M  is an updated variant of the RPK-74 developed during the mid-'70s. In line with the AK-74M assault rifle variant, the RPK-74M lower handguard, gas tube cover, pistol grip, and new synthetic stock are made from a black, glass-filled polyamide.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Machinegun/RPK_74M</texPath>
       <graphicClass>Graphic_Single</graphicClass>
