@@ -8,7 +8,7 @@
         <thingClass>Building_WorkTable</thingClass>
         <description>A workbench equipped for crafting.</description>
         <graphicData>
-            <texPath>Things/Building/Production/Weapons_Workbench</texPath>
+            <texPath>Things/Building/Production/Weapons_Workbench_Shotguns</texPath>
             <graphicClass>Graphic_Multi</graphicClass>
             <drawSize>(2.5,1.5)</drawSize>
                 <damageData>

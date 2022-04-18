@@ -162,7 +162,7 @@
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_Russia</defName>
-    <label>Russia</label>
+    <label>RU</label>
     <description>Desc</description>
     <baseCost>50</baseCost>
     <techLevel>Industrial</techLevel>
@@ -176,7 +176,7 @@
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_RUSPistols</defName>
-    <label>Russian Pistols</label>
+    <label>RU Pistols</label>
     <description>Desc</description>
     <baseCost>100</baseCost>
     <techLevel>Industrial</techLevel>
@@ -191,7 +191,7 @@
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_RUSShotguns</defName>
-    <label>Russian Shotguns</label>
+    <label>RU Shotguns</label>
     <description>Desc</description>
     <baseCost>100</baseCost>
     <techLevel>Industrial</techLevel>
@@ -205,7 +205,7 @@
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_RUSSmg</defName>
-    <label>Russian SMG</label>
+    <label>RU SMG</label>
     <description>Desc</description>
     <baseCost>150</baseCost>
     <techLevel>Industrial</techLevel>
@@ -220,7 +220,7 @@
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_RUSRifles</defName>
-    <label>Russian Rifles</label>
+    <label>RU Rifles</label>
     <description>Desc</description>
     <baseCost>200</baseCost>
     <techLevel>Industrial</techLevel>
@@ -234,7 +234,7 @@
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_RUSMachineguns</defName>
-    <label>Russian Machineguns</label>
+    <label>RU Machineguns</label>
     <description>Desc</description>
     <baseCost>200</baseCost>
     <techLevel>Industrial</techLevel>
@@ -248,7 +248,7 @@
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_RUSDMR</defName>
-    <label>Russian DMR</label>
+    <label>RU DMR</label>
     <description>Desc</description>
     <baseCost>200</baseCost>
     <techLevel>Industrial</techLevel>
@@ -263,7 +263,7 @@
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_RUSSniper</defName>
-    <label>Russian Sniper Rifles</label>
+    <label>RU Sniper Rifles</label>
     <description>Desc</description>
     <baseCost>250</baseCost>
     <techLevel>Industrial</techLevel>
@@ -277,7 +277,69 @@
 
     <!-- ===== With Mods ====== -->
     
+    <!-- ================================= Ukraine ==================================== -->
+    
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_Ukraine</defName>
+    <label>UA</label>
+    <description>Desc</description>
+    <baseCost>50</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_Start</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>2.4</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
 
+    <!-- ===== No Mods ====== -->
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_UKRPistols</defName>
+    <label>UA Pistols</label>
+    <description>Desc</description>
+    <baseCost>100</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_Ukraine</li>
+      <li>Gunsmithing</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>2.4</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_UKRRifles</defName>
+    <label>UA Rifles</label>
+    <description>Desc</description>
+    <baseCost>200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_UKRPistols</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>2.4</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_UKRDMR</defName>
+    <label>UA DMR</label>
+    <description>Desc</description>
+    <baseCost>200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_UKRRifles</li>
+      <li>PrecisionRifling</li>
+    </prerequisites>
+    <researchViewX>7</researchViewX>
+    <researchViewY>2.4</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <!-- ===== With Mods ====== -->
 
     <!-- ================================= WW2 ==================================== -->
     

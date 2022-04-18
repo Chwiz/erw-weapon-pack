@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+    <Defs>
+
+        <!--============================== WeaponShelf ==============================-->
+
+        <ThingDef ParentName="FurnitureWithQualityBase">
+        <defName>Weapon_Shelf</defName>
+        <label>Weapon Shelf</label>
+        <description>A shelf for storing miscellaneous items. Items stored in this will not affect room beauty and they won't deteriorate, even if outside.</description>
+        <thingClass>Building_Storage</thingClass>
+        <graphicData>
+            <texPath>Things/Building/Furniture/Weapon_Shelf</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,2)</drawSize>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <fillPercent>0.4</fillPercent>
+        <castEdgeShadows>true</castEdgeShadows>
+        <pathCost>50</pathCost>
+        <costList>
+            <Steel>75</Steel>
+        </costList>
+        <!-- <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories> -->
+
+        <!-- <costStuffCount>30</costStuffCount> -->
+
+        <statBases>
+            <MaxHitPoints>310</MaxHitPoints> 
+            <Mass>8</Mass>
+            <WorkToBuild>600</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Beauty>1.5</Beauty>
+        </statBases>
+        <size>(2,1)</size>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <building>
+        <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+        <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+        <fixedStorageSettings>
+            <filter>
+            <disallowNotEverStorable>true</disallowNotEverStorable>
+            <categories>
+                <li>Root</li>
+            </categories>
+            </filter>
+        </fixedStorageSettings>
+        <defaultStorageSettings>
+            <priority>Important</priority>
+            <filter>
+            <categories>
+                <li>Weapons</li>
+            </categories>
+            </filter>
+        </defaultStorageSettings>
+        </building>
+        <inspectorTabs>
+        <li>ITab_Storage</li>
+        </inspectorTabs>
+
+        <designationCategory>Security</designationCategory>
+
+        <designationHotKey>Misc12</designationHotKey>
+        <staticSunShadowHeight>0.5</staticSunShadowHeight>
+        <surfaceType>Item</surfaceType>
+        <canOverlapZones>false</canOverlapZones>
+        <researchPrerequisites>
+        <li>ERW_Weapons_Start</li>
+        </researchPrerequisites>
+        <!-- <comps>
+        <li Class="CompProperties_Styleable" />
+        </comps> -->
+    </ThingDef>
+
+  </Defs>

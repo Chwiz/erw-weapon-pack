@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <!-- Fort_14TP -->
+
+    <ThingDef ParentName="ERW_Pistol">
+    <defName>ERW_Gun_Fort14TP_Pistol</defName>
+    <label>Fort 14TP</label>
+    <description>Ukrainian self-loading pistol chambered for 9×18 mm PM.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Pistol/Fort_14TP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ERW_Weapons_UKRPistols</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	
+	  <equippedAngleOffset>40</equippedAngleOffset>	
+	
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>1</Mass>
+      <AccuracyTouch>0.87</AccuracyTouch>
+      <AccuracyShort>0.61</AccuracyShort>
+      <AccuracyMedium>0.30</AccuracyMedium>
+      <AccuracyLong>0.23</AccuracyLong>
+      <RangedWeapon_Cooldown>0.70</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>35</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>ERW_Bullet_9x18_Pistol</defaultProjectile>
+        <warmupTime>0.43</warmupTime>
+        <range>19.9</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+        <soundCast>ERW_Shot_PB</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>ERW_M4A1_MilSpec</li>
+		</weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>
