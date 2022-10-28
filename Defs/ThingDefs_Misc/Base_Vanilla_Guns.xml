@@ -414,7 +414,7 @@
       <damageDef>Smoke</damageDef>
       <!-- Use default damage from explosion def -->
       <explosionRadius>2.4</explosionRadius>
-      <postExplosionSpawnThingDef>Gas_Smoke</postExplosionSpawnThingDef>
+      <!-- <postExplosionSpawnThingDef>Gas_Smoke</postExplosionSpawnThingDef> -->
       <postExplosionSpawnChance>1</postExplosionSpawnChance>
       <ai_IsIncendiary>true</ai_IsIncendiary>
 	  <arcHeightFactor>0.2</arcHeightFactor>
