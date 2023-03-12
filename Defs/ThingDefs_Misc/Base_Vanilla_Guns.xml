@@ -822,6 +822,77 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>ERW_WW2_M1A1_THOMPSON_DRUM_SMG</defName>
+    <label>M1A1 Thompson Drum Mag</label>
+    <description>M1A1 is a blowback-operated, air-cooled, magazine-fed selective-fire submachine gun, invented by the United States Army Brigadier general John T. Thompson in 1918.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Vanilla/M1A1_Thompson_Drum</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ERW_Weapons_WW2_SMG</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    
+    
+    
+	<statBases>
+      <WorkToMake>26000</WorkToMake>
+      <Mass>4.5</Mass>
+      <MarketValue>355</MarketValue>
+      <AccuracyTouch>0.64</AccuracyTouch>
+      <AccuracyShort>0.41</AccuracyShort>
+      <AccuracyMedium>0.25</AccuracyMedium>
+      <AccuracyLong>0.10</AccuracyLong>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>75</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>ERW_Bullet_45ACP_PP_MAC_SG</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>21.9</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <soundCast>ERW_Shot_MAC_10</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>ERW_WW2_PPSH_41_SMG</defName>
     <label>PPSH-41</label>
     <description>The PPSh-41 is a Soviet submachine gun designed by Georgy Shpagin as a cheap, reliable, and simplified alternative to the PPD-40. The PPSh is a magazine-fed selective-fire submachine gun using an open bolt, blowback action. Made largely of stamped steel, it can be loaded with either a box or drum magazine and fires the 7.62×25mm Tokarev pistol round.</description>
@@ -862,6 +933,77 @@
         <warmupTime>1.1</warmupTime>
         <range>20.9</range>
         <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>ERW_Shot_TT</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>ERW_WW2_PPSH_41_DRUM_SMG</defName>
+    <label>PPSH-41 Drum Mag</label>
+    <description>The PPSh-41 is a Soviet submachine gun designed by Georgy Shpagin as a cheap, reliable, and simplified alternative to the PPD-40. The PPSh is a magazine-fed selective-fire submachine gun using an open bolt, blowback action. Made largely of stamped steel, it can be loaded with either a box or drum magazine and fires the 7.62×25mm Tokarev pistol round.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Vanilla/PPSH_41_Drum</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ERW_Weapons_WW2_SMG</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    
+    
+    
+	<statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>4.1</Mass>
+      <MarketValue>355</MarketValue>
+      <AccuracyTouch>0.52</AccuracyTouch>
+      <AccuracyShort>0.27</AccuracyShort>
+      <AccuracyMedium>0.18</AccuracyMedium>
+      <AccuracyLong>0.10</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>75</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>ERW_Bullet_762x25_Pistol</defaultProjectile>
+        <warmupTime>1.1</warmupTime>
+        <range>20.9</range>
+        <burstShotCount>7</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
         <soundCast>ERW_Shot_TT</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
