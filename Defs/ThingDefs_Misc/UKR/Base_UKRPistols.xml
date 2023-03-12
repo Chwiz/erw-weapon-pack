@@ -14,7 +14,7 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>ERW_Weapons_UKRPistols</researchPrerequisite>
+      <researchPrerequisite>ERW_Weapons_EUPistols</researchPrerequisite>
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>

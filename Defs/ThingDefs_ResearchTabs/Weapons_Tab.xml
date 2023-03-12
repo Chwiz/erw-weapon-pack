@@ -277,11 +277,11 @@
 
     <!-- ===== With Mods ====== -->
     
-    <!-- ================================= Ukraine ==================================== -->
+    <!-- ================================= EU ==================================== -->
     
     <ResearchProjectDef>
-    <defName>ERW_Weapons_Ukraine</defName>
-    <label>UA</label>
+    <defName>ERW_Weapons_EU</defName>
+    <label>EU</label>
     <description>Desc</description>
     <baseCost>50</baseCost>
     <techLevel>Industrial</techLevel>
@@ -296,13 +296,13 @@
     <!-- ===== No Mods ====== -->
 
     <ResearchProjectDef>
-    <defName>ERW_Weapons_UKRPistols</defName>
-    <label>UA Pistols</label>
+    <defName>ERW_Weapons_EUPistols</defName>
+    <label>EU Pistols</label>
     <description>Desc</description>
     <baseCost>100</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
-      <li>ERW_Weapons_Ukraine</li>
+      <li>ERW_Weapons_EU</li>
       <li>Gunsmithing</li>
     </prerequisites>
     <researchViewX>2</researchViewX>
@@ -311,13 +311,13 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-    <defName>ERW_Weapons_UKRRifles</defName>
-    <label>UA Rifles</label>
+    <defName>ERW_Weapons_EURifles</defName>
+    <label>EU Rifles</label>
     <description>Desc</description>
     <baseCost>200</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
-      <li>ERW_Weapons_UKRPistols</li>
+      <li>ERW_Weapons_EUPistols</li>
     </prerequisites>
     <researchViewX>5</researchViewX>
     <researchViewY>2.4</researchViewY>
@@ -325,13 +325,13 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-    <defName>ERW_Weapons_UKRDMR</defName>
-    <label>UA DMR</label>
+    <defName>ERW_Weapons_EUDMR</defName>
+    <label>EU DMR</label>
     <description>Desc</description>
     <baseCost>200</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
-      <li>ERW_Weapons_UKRRifles</li>
+      <li>ERW_Weapons_EURifles</li>
       <li>PrecisionRifling</li>
     </prerequisites>
     <researchViewX>7</researchViewX>
