@@ -18,6 +18,7 @@
     </modDependencies>
     <loadAfter>
         <li>brrainz.harmony</li>
+        <li>CETeam.CombatExtended</li>
     </loadAfter>
 	<description>
 This mod adds a lot of weapons for different nations and also has redesigned ranged mechanics. Play for fun!
@@ -27,6 +28,6 @@ k0wen
 wwweeeef
 Chwiz
 
-Mod Version: 2023.1.0
+Mod Version: 2023.2.0
     </description>
 </ModMetaData>
