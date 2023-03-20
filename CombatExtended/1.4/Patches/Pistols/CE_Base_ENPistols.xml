@@ -14,12 +14,11 @@
 					<ShotSpread>0.17</ShotSpread>
 					<SwayFactor>1.04</SwayFactor>
 					<Bulk>2.02</Bulk>
-					<WorkToMake>5000</WorkToMake>
+					<WorkToMake>7440</WorkToMake>
 				</statBases>
 					<costList>
-						<Steel>35</Steel>
-						<ComponentIndustrial>2</ComponentIndustrial>
-						<Chemfuel>20</Chemfuel>
+						<Steel>30</Steel>
+						<ComponentIndustrial>3</ComponentIndustrial>
 					</costList>
 				<Properties>
 					<recoilAmount>2.52</recoilAmount>

@@ -823,7 +823,7 @@
 
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>ERW_WW2_M1A1_THOMPSON_DRUM_SMG</defName>
-    <label>M1A1 Thompson Drum Mag</label>
+    <label>M1928A1 Thompson Drum Mag</label>
     <description>M1A1 is a blowback-operated, air-cooled, magazine-fed selective-fire submachine gun, invented by the United States Army Brigadier general John T. Thompson in 1918.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/Vanilla/M1A1_Thompson_Drum</texPath>

@@ -4,7 +4,7 @@
  
   <!-- HK USP -->
 
-  <ThingDef ParentName="ERW_Pistol">
+  <!-- <ThingDef ParentName="ERW_Pistol">
     <defName>ERW_Gun_HK_USP_Pistol</defName>
     <label>HK USP</label>
     <description>Obema</description>
@@ -72,7 +72,7 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-  </ThingDef>
+  </ThingDef> -->
  
 
 

@@ -14,12 +14,11 @@
 					<ShotSpread>0.18</ShotSpread>
 					<SwayFactor>1.07</SwayFactor>
 					<Bulk>2.15</Bulk>
-					<WorkToMake>5000</WorkToMake>
+					<WorkToMake>7020</WorkToMake>
 				</statBases>
 					<costList>
-						<Steel>35</Steel>
+						<Steel>25</Steel>
 						<ComponentIndustrial>2</ComponentIndustrial>
-						<Chemfuel>20</Chemfuel>
 					</costList>
 				<Properties>
 					<recoilAmount>2.71</recoilAmount>
@@ -61,12 +60,11 @@
 					<ShotSpread>0.17</ShotSpread>
 					<SwayFactor>1.04</SwayFactor>
 					<Bulk>2.03</Bulk>
-					<WorkToMake>5000</WorkToMake>
+					<WorkToMake>7100</WorkToMake>
 				</statBases>
 					<costList>
-						<Steel>35</Steel>
-						<ComponentIndustrial>2</ComponentIndustrial>
-						<Chemfuel>20</Chemfuel>
+						<Steel>30</Steel>
+						<ComponentIndustrial>3</ComponentIndustrial>
 					</costList>
 				<Properties>
 					<recoilAmount>2.7</recoilAmount>
@@ -108,12 +106,11 @@
 					<ShotSpread>0.19</ShotSpread>
 					<SwayFactor>1.1</SwayFactor>
 					<Bulk>2.2</Bulk>
-					<WorkToMake>5000</WorkToMake>
+					<WorkToMake>7350</WorkToMake>
 				</statBases>
 					<costList>
 						<Steel>35</Steel>
-						<ComponentIndustrial>2</ComponentIndustrial>
-						<Chemfuel>20</Chemfuel>
+						<ComponentIndustrial>4</ComponentIndustrial>
 					</costList>
 				<Properties>
 					<recoilAmount>2.79</recoilAmount>
@@ -123,7 +120,7 @@
 					<warmupTime>0.7</warmupTime>
 					<range>12</range>
 					<burstShotCount>6</burstShotCount>
-					<ticksBetweenBurstShots>3.6</ticksBetweenBurstShots>
+					<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 					<soundCast>ERW_Shot_G18C</soundCast>
 					<soundCastTail>GunTail_Light</soundCastTail>
 					<muzzleFlashScale>9</muzzleFlashScale>
@@ -158,12 +155,11 @@
 					<ShotSpread>0.19</ShotSpread>
 					<SwayFactor>1.4</SwayFactor>
 					<Bulk>2.35</Bulk>
-					<WorkToMake>5000</WorkToMake>
+					<WorkToMake>8300</WorkToMake>
 				</statBases>
 					<costList>
 						<Steel>35</Steel>
-						<ComponentIndustrial>2</ComponentIndustrial>
-						<Chemfuel>20</Chemfuel>
+						<ComponentIndustrial>3</ComponentIndustrial>
 					</costList>
 				<Properties>
 					<recoilAmount>3.05</recoilAmount>
@@ -205,12 +201,11 @@
 					<ShotSpread>0.19</ShotSpread>
 					<SwayFactor>1.35</SwayFactor>
 					<Bulk>2.4</Bulk>
-					<WorkToMake>5000</WorkToMake>
+					<WorkToMake>7200</WorkToMake>
 				</statBases>
 					<costList>
-						<Steel>35</Steel>
-						<ComponentIndustrial>2</ComponentIndustrial>
-						<Chemfuel>20</Chemfuel>
+						<Steel>30</Steel>
+						<ComponentIndustrial>3</ComponentIndustrial>
 					</costList>
 				<Properties>
 					<recoilAmount>2.96</recoilAmount>
@@ -225,6 +220,7 @@
 				</Properties>
 				<AmmoUser>
 					<magazineSize>6</magazineSize>
+					<reloadOneAtATime>true</reloadOneAtATime>
 					<reloadTime>4.5</reloadTime>
 					<ammoSet>AmmoSet_44Magnum</ammoSet>
 				</AmmoUser>
@@ -252,12 +248,11 @@
 					<ShotSpread>0.16</ShotSpread>
 					<SwayFactor>1.03</SwayFactor>
 					<Bulk>2.02</Bulk>
-					<WorkToMake>5000</WorkToMake>
+					<WorkToMake>7120</WorkToMake>
 				</statBases>
 					<costList>
-						<Steel>35</Steel>
-						<ComponentIndustrial>2</ComponentIndustrial>
-						<Chemfuel>20</Chemfuel>
+						<Steel>30</Steel>
+						<ComponentIndustrial>3</ComponentIndustrial>
 					</costList>
 				<Properties>
 					<recoilAmount>2.67</recoilAmount>

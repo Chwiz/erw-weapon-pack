@@ -13,10 +13,10 @@
 					<ShotSpread>0.04</ShotSpread>
 					<SwayFactor>1.29</SwayFactor>
 					<Bulk>12.5</Bulk>
-					<WorkToMake>32000</WorkToMake>
+					<WorkToMake>31300</WorkToMake>
 				</statBases>
 				<costList>
-					<Steel>25</Steel>
+					<Steel>55</Steel>
 					<Chemfuel>10</Chemfuel>
 					<ComponentIndustrial>5</ComponentIndustrial>
 				</costList>

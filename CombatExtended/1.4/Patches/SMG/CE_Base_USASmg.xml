@@ -13,10 +13,10 @@
 					<ShotSpread>0.15</ShotSpread>
 					<SwayFactor>0.88</SwayFactor>
 					<Bulk>3.9</Bulk>
-					<WorkToMake>32000</WorkToMake>
+					<WorkToMake>24700</WorkToMake>
 				</statBases>
 				<costList>
-					<Steel>25</Steel>
+					<Steel>30</Steel>
 					<Chemfuel>10</Chemfuel>
 					<ComponentIndustrial>5</ComponentIndustrial>
 				</costList>
@@ -60,12 +60,12 @@
 					<ShotSpread>0.15</ShotSpread>
 					<SwayFactor>0.95</SwayFactor>
 					<Bulk>3.8</Bulk>
-					<WorkToMake>32000</WorkToMake>
+					<WorkToMake>23000</WorkToMake>
 				</statBases>
 				<costList>
 					<Steel>25</Steel>
 					<Chemfuel>10</Chemfuel>
-					<ComponentIndustrial>5</ComponentIndustrial>
+					<ComponentIndustrial>4</ComponentIndustrial>
 				</costList>
 				<Properties>
 					<recoilAmount>1.82</recoilAmount>
@@ -107,10 +107,10 @@
 					<ShotSpread>0.14</ShotSpread>
 					<SwayFactor>0.88</SwayFactor>
 					<Bulk>2.5</Bulk>
-					<WorkToMake>32000</WorkToMake>
+					<WorkToMake>25000</WorkToMake>
 				</statBases>
 				<costList>
-					<Steel>25</Steel>
+					<Steel>35</Steel>
 					<Chemfuel>10</Chemfuel>
 					<ComponentIndustrial>5</ComponentIndustrial>
 				</costList>
