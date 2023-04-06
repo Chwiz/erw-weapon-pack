@@ -1,50 +1,53 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
- 
-  <!-- HK USP -->
 
-  <ThingDef ParentName="ERW_Pistol">
-    <defName>ERW_Gun_HK_USP_Pistol</defName>
-    <label>HK USP</label>
+    <!-- MG 3 -->
+  
+    <ThingDef ParentName="ERW_Machinegun">
+    <defName>ERW_Gun_MG_3_Machinegun</defName>
+    <label>MG 3</label>
     <description>Desc</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/Pistol/PB</texPath>
+      <texPath>Things/Item/Equipment/Machinegun/PKP</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>ERW_Weapons_GERPistols</researchPrerequisite>
+      <researchPrerequisite>ERW_Weapons_GERMachineguns</researchPrerequisite>
       <skillRequirements>
-        <Crafting>4</Crafting>
+        <Crafting>9</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
-	  <equippedAngleOffset>40</equippedAngleOffset>	
+	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>7500</WorkToMake>
-      <Mass>1</Mass>
-      <AccuracyTouch>0.89</AccuracyTouch>
-      <AccuracyShort>0.62</AccuracyShort>
-      <AccuracyMedium>0.28</AccuracyMedium>
-      <AccuracyLong>0.20</AccuracyLong>
-      <RangedWeapon_Cooldown>0.73</RangedWeapon_Cooldown>
+      <WorkToMake>43000</WorkToMake>
+      <Mass>10</Mass>
+      <AccuracyTouch>0.42</AccuracyTouch>
+      <AccuracyShort>0.48</AccuracyShort>
+      <AccuracyMedium>0.36</AccuracyMedium>
+      <AccuracyLong>0.21</AccuracyLong>
+      <RangedWeapon_Cooldown>1.90</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>35</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>90</Steel>
+      <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.20</MoveSpeed>
+    </equippedStatOffsets>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_45ACP_Pistol</defaultProjectile>
-        <warmupTime>0.40</warmupTime>
-        <range>19.9</range>
-        <burstShotCount>1</burstShotCount>
-        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
-        <soundCast>ERW_Shot_PB</soundCast>
+        <defaultProjectile>ERW_Bullet_762x54_GPMG__Rifle</defaultProjectile>
+        <warmupTime>1.50</warmupTime>
+        <range>27.9</range>
+        <burstShotCount>9</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <soundCast>ERW_Shot_PKP</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -72,51 +75,54 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-  </ThingDef>
- 
-  <!-- HK Р30 -->
+    </ThingDef>
 
-  <ThingDef ParentName="ERW_Pistol">
-    <defName>ERW_Gun_HK_P30_Pistol</defName>
-    <label>HK Р30</label>
+    <!-- MG 4 -->
+  
+    <ThingDef ParentName="ERW_Machinegun">
+    <defName>ERW_Gun_MG_4_Machinegun</defName>
+    <label>MG 4</label>
     <description>Desc</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/Pistol/PB</texPath>
+      <texPath>Things/Item/Equipment/Machinegun/PKP</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>ERW_Weapons_GERPistols</researchPrerequisite>
+      <researchPrerequisite>ERW_Weapons_GERMachineguns</researchPrerequisite>
       <skillRequirements>
-        <Crafting>4</Crafting>
+        <Crafting>9</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
-	  <equippedAngleOffset>40</equippedAngleOffset>	
+	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>7500</WorkToMake>
-      <Mass>1</Mass>
-      <AccuracyTouch>0.89</AccuracyTouch>
-      <AccuracyShort>0.62</AccuracyShort>
-      <AccuracyMedium>0.28</AccuracyMedium>
-      <AccuracyLong>0.20</AccuracyLong>
-      <RangedWeapon_Cooldown>0.73</RangedWeapon_Cooldown>
+      <WorkToMake>43000</WorkToMake>
+      <Mass>10</Mass>
+      <AccuracyTouch>0.42</AccuracyTouch>
+      <AccuracyShort>0.48</AccuracyShort>
+      <AccuracyMedium>0.36</AccuracyMedium>
+      <AccuracyLong>0.21</AccuracyLong>
+      <RangedWeapon_Cooldown>1.90</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>35</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>90</Steel>
+      <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.20</MoveSpeed>
+    </equippedStatOffsets>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_45ACP_Pistol</defaultProjectile>
-        <warmupTime>0.40</warmupTime>
-        <range>19.9</range>
-        <burstShotCount>1</burstShotCount>
-        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
-        <soundCast>ERW_Shot_PB</soundCast>
+        <defaultProjectile>ERW_Bullet_762x54_GPMG__Rifle</defaultProjectile>
+        <warmupTime>1.50</warmupTime>
+        <range>27.9</range>
+        <burstShotCount>9</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <soundCast>ERW_Shot_PKP</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -144,14 +150,6 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-  </ThingDef>
-
-
-
-
-
-
-
-
+    </ThingDef>
 
 </Defs>

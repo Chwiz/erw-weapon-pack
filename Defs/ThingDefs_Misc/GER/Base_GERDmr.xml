@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
- 
-  <!-- HK USP -->
 
-  <ThingDef ParentName="ERW_Pistol">
-    <defName>ERW_Gun_HK_USP_Pistol</defName>
-    <label>HK USP</label>
+    <!-- HK 417 -->
+  
+    <ThingDef ParentName="ERW_Machinegun">
+    <defName>ERW_Gun_HK_417_DMR</defName>
+    <label>HK 417</label>
     <description>Desc</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/Pistol/PB</texPath>
+      <texPath>Things/Item/Equipment/DMR/VSS_Vintorez</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>ERW_Weapons_GERPistols</researchPrerequisite>
+      <researchPrerequisite>ERW_Weapons_GERDMR</researchPrerequisite>
       <skillRequirements>
-        <Crafting>4</Crafting>
+        <Crafting>8</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
-	  <equippedAngleOffset>40</equippedAngleOffset>	
+	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>7500</WorkToMake>
-      <Mass>1</Mass>
-      <AccuracyTouch>0.89</AccuracyTouch>
-      <AccuracyShort>0.62</AccuracyShort>
-      <AccuracyMedium>0.28</AccuracyMedium>
-      <AccuracyLong>0.20</AccuracyLong>
-      <RangedWeapon_Cooldown>0.73</RangedWeapon_Cooldown>
+      <WorkToMake>37000</WorkToMake>
+      <Mass>3.7</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.51</AccuracyLong>
+      <RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>35</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>75</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_45ACP_Pistol</defaultProjectile>
-        <warmupTime>0.40</warmupTime>
-        <range>19.9</range>
+        <defaultProjectile>ERW_Bullet_9x39_Rifle</defaultProjectile>
+        <warmupTime>1.20</warmupTime>
+        <range>29.9</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
-        <soundCast>ERW_Shot_PB</soundCast>
+        <soundCast>ERW_Shot_VSS_Vintorez</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -72,51 +72,51 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-  </ThingDef>
- 
-  <!-- HK Р30 -->
+    </ThingDef>
 
-  <ThingDef ParentName="ERW_Pistol">
-    <defName>ERW_Gun_HK_P30_Pistol</defName>
-    <label>HK Р30</label>
+    <!-- HK G28 -->
+  
+    <ThingDef ParentName="ERW_Machinegun">
+    <defName>ERW_Gun_HK_G28_DMR</defName>
+    <label>HK G28</label>
     <description>Desc</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/Pistol/PB</texPath>
+      <texPath>Things/Item/Equipment/DMR/VSS_Vintorez</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>ERW_Weapons_GERPistols</researchPrerequisite>
+      <researchPrerequisite>ERW_Weapons_GERDMR</researchPrerequisite>
       <skillRequirements>
-        <Crafting>4</Crafting>
+        <Crafting>8</Crafting>
       </skillRequirements>
     </recipeMaker>
 	
-	  <equippedAngleOffset>40</equippedAngleOffset>	
+	    <equippedAngleOffset>40</equippedAngleOffset>	
 	
     <statBases>
-      <WorkToMake>7500</WorkToMake>
-      <Mass>1</Mass>
-      <AccuracyTouch>0.89</AccuracyTouch>
-      <AccuracyShort>0.62</AccuracyShort>
-      <AccuracyMedium>0.28</AccuracyMedium>
-      <AccuracyLong>0.20</AccuracyLong>
-      <RangedWeapon_Cooldown>0.73</RangedWeapon_Cooldown>
+      <WorkToMake>37000</WorkToMake>
+      <Mass>3.7</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.51</AccuracyLong>
+      <RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>35</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>75</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_45ACP_Pistol</defaultProjectile>
-        <warmupTime>0.40</warmupTime>
-        <range>19.9</range>
+        <defaultProjectile>ERW_Bullet_9x39_Rifle</defaultProjectile>
+        <warmupTime>1.20</warmupTime>
+        <range>29.9</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
-        <soundCast>ERW_Shot_PB</soundCast>
+        <soundCast>ERW_Shot_VSS_Vintorez</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -144,14 +144,6 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-  </ThingDef>
-
-
-
-
-
-
-
-
+    </ThingDef>
 
 </Defs>

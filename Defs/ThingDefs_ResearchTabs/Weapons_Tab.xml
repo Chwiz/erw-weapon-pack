@@ -162,7 +162,7 @@
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_Russia</defName>
-    <label>RU</label>
+    <label>RUS</label>
     <description>Desc</description>
     <baseCost>50</baseCost>
     <techLevel>Industrial</techLevel>
@@ -170,13 +170,13 @@
       <li>ERW_Weapons_Start</li>
     </prerequisites>
     <researchViewX>1</researchViewX>
-    <researchViewY>1.4</researchViewY>
+    <researchViewY>0.7</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_RUSPistols</defName>
-    <label>RU Pistols</label>
+    <label>RUS Pistols</label>
     <description>Desc</description>
     <baseCost>100</baseCost>
     <techLevel>Industrial</techLevel>
@@ -185,13 +185,13 @@
       <li>Gunsmithing</li>
     </prerequisites>
     <researchViewX>2</researchViewX>
-    <researchViewY>1.4</researchViewY>
+    <researchViewY>0.7</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_RUSShotguns</defName>
-    <label>RU Shotguns</label>
+    <label>RUS Shotguns</label>
     <description>Desc</description>
     <baseCost>100</baseCost>
     <techLevel>Industrial</techLevel>
@@ -199,13 +199,13 @@
       <li>ERW_Weapons_RUSPistols</li>
     </prerequisites>
     <researchViewX>3</researchViewX>
-    <researchViewY>1.4</researchViewY>
+    <researchViewY>0.7</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_RUSSmg</defName>
-    <label>RU SMG</label>
+    <label>RUS SMG</label>
     <description>Desc</description>
     <baseCost>150</baseCost>
     <techLevel>Industrial</techLevel>
@@ -214,13 +214,13 @@
       <li>GasOperation</li>
     </prerequisites>
     <researchViewX>4</researchViewX>
-    <researchViewY>1.4</researchViewY>
+    <researchViewY>0.7</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_RUSRifles</defName>
-    <label>RU Rifles</label>
+    <label>RUS Rifles</label>
     <description>Desc</description>
     <baseCost>200</baseCost>
     <techLevel>Industrial</techLevel>
@@ -228,13 +228,13 @@
       <li>ERW_Weapons_RUSSmg</li>
     </prerequisites>
     <researchViewX>5</researchViewX>
-    <researchViewY>1.4</researchViewY>
+    <researchViewY>0.7</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_RUSMachineguns</defName>
-    <label>RU Machineguns</label>
+    <label>RUS Machineguns</label>
     <description>Desc</description>
     <baseCost>200</baseCost>
     <techLevel>Industrial</techLevel>
@@ -242,13 +242,13 @@
       <li>ERW_Weapons_RUSRifles</li>
     </prerequisites>
     <researchViewX>6</researchViewX>
-    <researchViewY>1.4</researchViewY>
+    <researchViewY>0.7</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_RUSDMR</defName>
-    <label>RU DMR</label>
+    <label>RUS DMR</label>
     <description>Desc</description>
     <baseCost>200</baseCost>
     <techLevel>Industrial</techLevel>
@@ -257,13 +257,13 @@
       <li>PrecisionRifling</li>
     </prerequisites>
     <researchViewX>7</researchViewX>
-    <researchViewY>1.4</researchViewY>
+    <researchViewY>0.7</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_RUSSniper</defName>
-    <label>RU Sniper Rifles</label>
+    <label>RUS Sniper Rifles</label>
     <description>Desc</description>
     <baseCost>250</baseCost>
     <techLevel>Industrial</techLevel>
@@ -271,17 +271,19 @@
       <li>ERW_Weapons_RUSDMR</li>
     </prerequisites>
     <researchViewX>8</researchViewX>
-    <researchViewY>1.4</researchViewY>
+    <researchViewY>0.7</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
     <!-- ===== With Mods ====== -->
     
-    <!-- ================================= EU ==================================== -->
-    
+    <!-- ================================= GER ==================================== -->
+
+    <!-- ===== No Mods ====== -->
+
     <ResearchProjectDef>
-    <defName>ERW_Weapons_EU</defName>
-    <label>EU</label>
+    <defName>ERW_Weapons_GER</defName>
+    <label>GER</label>
     <description>Desc</description>
     <baseCost>50</baseCost>
     <techLevel>Industrial</techLevel>
@@ -289,7 +291,112 @@
       <li>ERW_Weapons_Start</li>
     </prerequisites>
     <researchViewX>1</researchViewX>
-    <researchViewY>2.4</researchViewY>
+    <researchViewY>1.4</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_GERPistols</defName>
+    <label>GER Pistols</label>
+    <description>Desc</description>
+    <baseCost>100</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_GER</li>
+      <li>Gunsmithing</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1.4</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_GERSmg</defName>
+    <label>GER SMG</label>
+    <description>Desc</description>
+    <baseCost>150</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_GERPistols</li>
+      <li>GasOperation</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>1.4</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_GERRifles</defName>
+    <label>GER Rifles</label>
+    <description>Desc</description>
+    <baseCost>200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_GERSmg</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>1.4</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_GERMachineguns</defName>
+    <label>GER Machineguns</label>
+    <description>Desc</description>
+    <baseCost>200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_GERRifles</li>
+    </prerequisites>
+    <researchViewX>6</researchViewX>
+    <researchViewY>1.4</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_GERDMR</defName>
+    <label>GER DMR</label>
+    <description>Desc</description>
+    <baseCost>200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_GERMachineguns</li>
+      <li>PrecisionRifling</li>
+    </prerequisites>
+    <researchViewX>7</researchViewX>
+    <researchViewY>1.4</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_GERSniper</defName>
+    <label>GER Sniper Rifles</label>
+    <description>Desc</description>
+    <baseCost>250</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_GERDMR</li>
+    </prerequisites>
+    <researchViewX>8</researchViewX>
+    <researchViewY>1.4</researchViewY>
+    <tab>ERW_Weapon_Tab</tab>
+    </ResearchProjectDef>
+
+    <!-- ===== With Mods ====== -->
+
+    <!-- ================================= EU ==================================== -->
+    
+    <ResearchProjectDef>
+    <defName>ERW_Weapons_EU</defName>
+    <label>EUR</label>
+    <description>Desc</description>
+    <baseCost>50</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ERW_Weapons_Start</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>2.8</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -297,7 +404,7 @@
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_EUPistols</defName>
-    <label>EU Pistols</label>
+    <label>EUR Pistols</label>
     <description>Desc</description>
     <baseCost>100</baseCost>
     <techLevel>Industrial</techLevel>
@@ -306,13 +413,13 @@
       <li>Gunsmithing</li>
     </prerequisites>
     <researchViewX>2</researchViewX>
-    <researchViewY>2.4</researchViewY>
+    <researchViewY>2.8</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_EURifles</defName>
-    <label>EU Rifles</label>
+    <label>EUR Rifles</label>
     <description>Desc</description>
     <baseCost>200</baseCost>
     <techLevel>Industrial</techLevel>
@@ -320,13 +427,13 @@
       <li>ERW_Weapons_EUPistols</li>
     </prerequisites>
     <researchViewX>5</researchViewX>
-    <researchViewY>2.4</researchViewY>
+    <researchViewY>2.8</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
     <ResearchProjectDef>
     <defName>ERW_Weapons_EUDMR</defName>
-    <label>EU DMR</label>
+    <label>EUR DMR</label>
     <description>Desc</description>
     <baseCost>200</baseCost>
     <techLevel>Industrial</techLevel>
@@ -335,7 +442,7 @@
       <li>PrecisionRifling</li>
     </prerequisites>
     <researchViewX>7</researchViewX>
-    <researchViewY>2.4</researchViewY>
+    <researchViewY>2.8</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -355,7 +462,7 @@
       <li>ERW_Weapons_Start</li>
     </prerequisites>
     <researchViewX>1</researchViewX>
-    <researchViewY>4.9</researchViewY>
+    <researchViewY>3.5</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -370,7 +477,7 @@
       <li>Gunsmithing</li>
     </prerequisites>
     <researchViewX>2</researchViewX>
-    <researchViewY>4.9</researchViewY>
+    <researchViewY>3.5</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -384,7 +491,7 @@
       <li>ERW_Weapons_WW2_Pistols</li>
     </prerequisites>
     <researchViewX>3</researchViewX>
-    <researchViewY>4.9</researchViewY>
+    <researchViewY>3.5</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -399,7 +506,7 @@
       <li>GasOperation</li>
     </prerequisites>
     <researchViewX>4</researchViewX>
-    <researchViewY>4.9</researchViewY>
+    <researchViewY>3.5</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -427,7 +534,7 @@
       <li>ERW_Weapons_WW2_SMG</li>
     </prerequisites>
     <researchViewX>6</researchViewX>
-    <researchViewY>4.9</researchViewY>
+    <researchViewY>3.5</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
 
@@ -441,8 +548,8 @@
       <li>ERW_Weapons_WW2_Machineguns</li>
       <li>PrecisionRifling</li>
     </prerequisites>
-    <researchViewX>7</researchViewX>
-    <researchViewY>4.9</researchViewY>
+    <researchViewX>8</researchViewX>
+    <researchViewY>3.5</researchViewY>
     <tab>ERW_Weapon_Tab</tab>
     </ResearchProjectDef>
     
