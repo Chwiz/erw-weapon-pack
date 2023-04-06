@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>ERWWeaponPack</identifier>
+    <version>2023.2.0</version>
+    <showCrossPromotions>true</showCrossPromotions>
+    <manifestUri>https://raw.githubusercontent.com/Chwiz/erw-weapon-pack/master/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/Chwiz/erw-weapon-pack/releases/latest</downloadUri>
+</Manifest>
