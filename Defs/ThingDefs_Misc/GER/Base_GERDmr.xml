@@ -25,11 +25,11 @@
     <statBases>
       <WorkToMake>37000</WorkToMake>
       <Mass>3.7</Mass>
-      <AccuracyTouch>0.65</AccuracyTouch>
-      <AccuracyShort>0.72</AccuracyShort>
-      <AccuracyMedium>0.79</AccuracyMedium>
-      <AccuracyLong>0.51</AccuracyLong>
-      <RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.42</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.81</AccuracyMedium>
+      <AccuracyLong>0.69</AccuracyLong>
+      <RangedWeapon_Cooldown>2.16</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>75</Steel>
@@ -39,9 +39,9 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_9x39_Rifle</defaultProjectile>
-        <warmupTime>1.20</warmupTime>
-        <range>29.9</range>
+        <defaultProjectile>ERW_Bullet_762x51_DMR_Rifle</defaultProjectile>
+        <warmupTime>2.10</warmupTime>
+        <range>36.9</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
         <soundCast>ERW_Shot_VSS_Vintorez</soundCast>
@@ -97,11 +97,11 @@
     <statBases>
       <WorkToMake>37000</WorkToMake>
       <Mass>3.7</Mass>
-      <AccuracyTouch>0.65</AccuracyTouch>
-      <AccuracyShort>0.72</AccuracyShort>
-      <AccuracyMedium>0.79</AccuracyMedium>
-      <AccuracyLong>0.51</AccuracyLong>
-      <RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.39</AccuracyTouch>
+      <AccuracyShort>0.74</AccuracyShort>
+      <AccuracyMedium>0.82</AccuracyMedium>
+      <AccuracyLong>0.71</AccuracyLong>
+      <RangedWeapon_Cooldown>2.10</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>75</Steel>
@@ -111,9 +111,9 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_9x39_Rifle</defaultProjectile>
-        <warmupTime>1.20</warmupTime>
-        <range>29.9</range>
+        <defaultProjectile>ERW_Bullet_762x51_DMR_Rifle</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>36.9</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
         <soundCast>ERW_Shot_VSS_Vintorez</soundCast>

@@ -25,11 +25,11 @@
     <statBases>
       <WorkToMake>43000</WorkToMake>
       <Mass>7.4</Mass>
-      <AccuracyTouch>0.20</AccuracyTouch>
-      <AccuracyShort>0.53</AccuracyShort>
-      <AccuracyMedium>0.82</AccuracyMedium>
-      <AccuracyLong>0.87</AccuracyLong>
-      <RangedWeapon_Cooldown>2.50</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.17</AccuracyTouch>
+      <AccuracyShort>0.54</AccuracyShort>
+      <AccuracyMedium>0.84</AccuracyMedium>
+      <AccuracyLong>0.88</AccuracyLong>
+      <RangedWeapon_Cooldown>2.86</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>90</Steel>
@@ -42,9 +42,9 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_300_WM_Rifle</defaultProjectile>
-        <warmupTime>3.33</warmupTime>
-        <range>43.9</range>
+        <defaultProjectile>ERW_Bullet_338_LM_Rifle</defaultProjectile>
+        <warmupTime>3.5</warmupTime>
+        <range>44.9</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
         <soundCast>ERW_Shot_DVL_10</soundCast>
@@ -100,8 +100,8 @@
     <statBases>
       <WorkToMake>43000</WorkToMake>
       <Mass>7.4</Mass>
-      <AccuracyTouch>0.20</AccuracyTouch>
-      <AccuracyShort>0.53</AccuracyShort>
+      <AccuracyTouch>0.19</AccuracyTouch>
+      <AccuracyShort>0.54</AccuracyShort>
       <AccuracyMedium>0.82</AccuracyMedium>
       <AccuracyLong>0.87</AccuracyLong>
       <RangedWeapon_Cooldown>2.50</RangedWeapon_Cooldown>
@@ -118,7 +118,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>ERW_Bullet_300_WM_Rifle</defaultProjectile>
-        <warmupTime>3.33</warmupTime>
+        <warmupTime>3.41</warmupTime>
         <range>43.9</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
@@ -175,11 +175,11 @@
     <statBases>
       <WorkToMake>43000</WorkToMake>
       <Mass>7.4</Mass>
-      <AccuracyTouch>0.20</AccuracyTouch>
+      <AccuracyTouch>0.23</AccuracyTouch>
       <AccuracyShort>0.53</AccuracyShort>
-      <AccuracyMedium>0.82</AccuracyMedium>
-      <AccuracyLong>0.87</AccuracyLong>
-      <RangedWeapon_Cooldown>2.50</RangedWeapon_Cooldown>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+      <RangedWeapon_Cooldown>2.25</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>90</Steel>
@@ -192,9 +192,9 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_300_WM_Rifle</defaultProjectile>
-        <warmupTime>3.33</warmupTime>
-        <range>43.9</range>
+        <defaultProjectile>ERW_Bullet_762x51_Bolt_Rifle</defaultProjectile>
+        <warmupTime>3.16</warmupTime>
+        <range>42.9</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
         <soundCast>ERW_Shot_DVL_10</soundCast>
