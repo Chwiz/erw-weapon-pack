@@ -528,7 +528,7 @@
   
   <ThingDef ParentName="BaseBullet">
     <defName>ERW_Bullet_762x51_DMR_Rifle</defName>
-    <label>5.56x45mm bullet</label>
+    <label>7.62x51mm bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -614,6 +614,24 @@
     </projectile>
   </ThingDef>
 
+  <!-- ================================= 4.6x30mm Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_4n6x30</defName>
+    <label>4.6x30mm bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.20</armorPenetrationBase>
+      <speed>65</speed>
+    </projectile>
+  </ThingDef>
+
   <!-- ================================= .338 LM Bullet ==================================== -->
   
   <ThingDef ParentName="BaseBullet">
@@ -644,6 +662,24 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>33</damageAmountBase>
+	  <stoppingPower>0.5</stoppingPower>
+	  <armorPenetrationBase>0.16</armorPenetrationBase>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ================================= .40 SW Bullet ==================================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>ERW_Bullet_40_SW_Pistol</defName>
+    <label>.40 SW bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>9</damageAmountBase>
 	  <stoppingPower>3</stoppingPower>
 	  <armorPenetrationBase>0.45</armorPenetrationBase>
       <speed>100</speed>

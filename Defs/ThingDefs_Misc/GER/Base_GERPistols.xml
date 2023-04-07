@@ -97,11 +97,11 @@
     <statBases>
       <WorkToMake>7500</WorkToMake>
       <Mass>1</Mass>
-      <AccuracyTouch>0.89</AccuracyTouch>
-      <AccuracyShort>0.62</AccuracyShort>
-      <AccuracyMedium>0.28</AccuracyMedium>
-      <AccuracyLong>0.20</AccuracyLong>
-      <RangedWeapon_Cooldown>0.73</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.61</AccuracyShort>
+      <AccuracyMedium>0.25</AccuracyMedium>
+      <AccuracyLong>0.19</AccuracyLong>
+      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>35</Steel>
@@ -111,8 +111,8 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>ERW_Bullet_45ACP_Pistol</defaultProjectile>
-        <warmupTime>0.40</warmupTime>
+        <defaultProjectile>ERW_Bullet_40_SW_Pistol</defaultProjectile>
+        <warmupTime>0.38</warmupTime>
         <range>19.9</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
