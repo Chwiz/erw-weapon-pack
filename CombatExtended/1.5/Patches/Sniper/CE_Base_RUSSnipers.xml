@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>	
+
+            <!--===== TSVL_8M1 =====-->
+
+			<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>ERW_Gun_TSVL_8M1_Sniper</defName>
+				<statBases>
+					<Mass>7.4</Mass>
+					<RangedWeapon_Cooldown>1.45</RangedWeapon_Cooldown>
+					<SightsEfficiency>2.80</SightsEfficiency>
+					<ShotSpread>0.02</ShotSpread>
+					<SwayFactor>1.4</SwayFactor>
+					<Bulk>12.8</Bulk>
+					<WorkToMake>33300</WorkToMake>
+				</statBases>
+				<costList>
+					<Steel>60</Steel>
+					<Chemfuel>15</Chemfuel>
+					<ComponentIndustrial>6</ComponentIndustrial>
+				</costList>
+				<Properties>
+					<recoilAmount>1.6</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_300WinchesterMagnum_FMJ</defaultProjectile>
+					<warmupTime>1.9</warmupTime>
+					<range>75</range>
+					<soundCast>ERW_Shot_DVL_10</soundCast>
+					<soundCastTail>GunTail_Heavy</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>5</magazineSize>
+					<reloadTime>4.3</reloadTime>
+					<ammoSet>AmmoSet_300WinchesterMagnum</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>FALSE</aiUseBurstMode>
+					<aiAimMode>AimedShot</aiAimMode>
+				</FireModes>
+				<weaponTags>
+					<li>CE_AI_Rifle</li>
+					<li>CE_AI_SR</li>
+					<li>Bipod_DMR</li>
+				</weaponTags>
+                <AllowWithRunAndGun>false</AllowWithRunAndGun>
+			</Operation>
+
+            <!--===== T_5000 =====-->
+
+			<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>ERW_Gun_T_5000_Sniper</defName>
+				<statBases>
+					<Mass>7.6</Mass>
+					<RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+					<SightsEfficiency>3.00</SightsEfficiency>
+					<ShotSpread>0.02</ShotSpread>
+					<SwayFactor>1.5</SwayFactor>
+					<Bulk>13</Bulk>
+					<WorkToMake>35000</WorkToMake>
+				</statBases>
+				<costList>
+					<Steel>60</Steel>
+					<Chemfuel>15</Chemfuel>
+					<ComponentIndustrial>7</ComponentIndustrial>
+				</costList>
+				<Properties>
+					<recoilAmount>1.8</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_338Lapua_FMJ</defaultProjectile>
+					<warmupTime>1.95</warmupTime>
+					<range>78</range>
+					<soundCast>ERW_Shot_T_5000</soundCast>
+					<soundCastTail>GunTail_Heavy</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>5</magazineSize>
+					<reloadTime>4.7</reloadTime>
+					<ammoSet>AmmoSet_338Lapua</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>FALSE</aiUseBurstMode>
+					<aiAimMode>AimedShot</aiAimMode>
+				</FireModes>
+				<weaponTags>
+					<li>CE_AI_Rifle</li>
+					<li>CE_AI_SR</li>
+					<li>Bipod_AMR</li>
+				</weaponTags>
+                <AllowWithRunAndGun>false</AllowWithRunAndGun>
+			</Operation>
+
+            <!--===== SV_98 =====-->
+
+			<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>ERW_Gun_SV_98_Sniper</defName>
+				<statBases>
+					<Mass>7</Mass>
+					<RangedWeapon_Cooldown>1.37</RangedWeapon_Cooldown>
+					<SightsEfficiency>2.80</SightsEfficiency>
+					<ShotSpread>0.03</ShotSpread>
+					<SwayFactor>1.36</SwayFactor>
+					<Bulk>12.7</Bulk>
+					<WorkToMake>30500</WorkToMake>
+				</statBases>
+				<costList>
+					<Steel>55</Steel>
+					<Chemfuel>10</Chemfuel>
+					<WoodLog>10</WoodLog>
+					<ComponentIndustrial>5</ComponentIndustrial>
+				</costList>
+				<Properties>
+					<recoilAmount>1.5</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_762x54mmR_FMJ</defaultProjectile>
+					<warmupTime>1.81</warmupTime>
+					<range>75</range>
+					<soundCast>ERW_Shot_SV_98</soundCast>
+					<soundCastTail>GunTail_Heavy</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>10</magazineSize>
+					<reloadTime>4</reloadTime>
+					<ammoSet>AmmoSet_762x54mmR</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>FALSE</aiUseBurstMode>
+					<aiAimMode>AimedShot</aiAimMode>
+				</FireModes>
+				<weaponTags>
+					<li>CE_AI_Rifle</li>
+					<li>CE_AI_SR</li>
+					<li>Bipod_DMR</li>
+				</weaponTags>
+                <AllowWithRunAndGun>false</AllowWithRunAndGun>
+			</Operation>
+
+            <!--========================= Melee stats ========================-->
+
+			<Operation Class="PatchOperationReplace">
+				<xpath>
+				/Defs/ThingDef[
+				defName = "ERW_Gun_TSVL_8M1_Sniper" or
+				defName = "ERW_Gun_T_5000_Sniper" or
+				defName = "ERW_Gun_SV_98_Sniper"
+				]/tools
+				</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>stock</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>8</power>
+							<cooldownTime>1.55</cooldownTime>
+							<chanceFactor>1.5</chanceFactor>
+							<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>barrel</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>5</power>
+							<cooldownTime>2.02</cooldownTime>
+							<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>muzzle</label>
+							<capacities>
+								<li>Poke</li>
+							</capacities>
+							<power>8</power>
+							<cooldownTime>1.55</cooldownTime>
+							<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</Operation>
+
+			<!--==== Draw size ====-->
+			<Operation Class="PatchOperationAddModExtension">
+				<xpath>Defs/ThingDef[
+					defName = "ERW_Gun_TSVL_8M1_Sniper" or
+					defName = "ERW_Gun_T_5000_Sniper" or
+					defName = "ERW_Gun_SV_98_Sniper"
+					]</xpath>
+				<value>
+					<li Class="CombatExtended.GunDrawExtension">
+					<DrawSize>0.93,0.93</DrawSize>
+					<DrawOffset>0.0,0.0</DrawOffset>
+					</li>
+				</value>
+			</Operation>
+
+</Patch>

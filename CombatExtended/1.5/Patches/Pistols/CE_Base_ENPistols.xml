@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+			<!--===== Fort_14TP =====-->
+
+			<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>ERW_Gun_Fort14TP_Pistol</defName>
+				<statBases>
+					<Mass>1</Mass>
+					<RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
+					<SightsEfficiency>0.7</SightsEfficiency>
+
+					<ShotSpread>0.17</ShotSpread>
+					<SwayFactor>1.04</SwayFactor>
+					<Bulk>2.02</Bulk>
+					<WorkToMake>7440</WorkToMake>
+				</statBases>
+					<costList>
+						<Steel>30</Steel>
+						<ComponentIndustrial>3</ComponentIndustrial>
+					</costList>
+				<Properties>
+					<recoilAmount>2.52</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_9x18mmMakarov_FMJ</defaultProjectile>
+					<warmupTime>0.6</warmupTime>
+					<range>12</range>
+					<soundCast>ERW_Shot_PB</soundCast>
+					<soundCastTail>GunTail_Light</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>14</magazineSize>
+					<reloadTime>4</reloadTime>
+					<ammoSet>AmmoSet_9x18mmMakarov</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>FALSE</aiUseBurstMode>
+					<aiAimMode>Snapshot</aiAimMode>
+				</FireModes>
+				<weaponTags>
+					<li>CE_AI_Pistol</li>
+					<li>CE_Sidearm</li>
+					<li>CE_OneHandedWeapon</li>
+				</weaponTags>
+				<AllowWithRunAndGun>false</AllowWithRunAndGun>
+			</Operation>
+
+            <!--========================= Melee stats ========================-->
+
+			<Operation Class="PatchOperationReplace">
+				<xpath>
+				/Defs/ThingDef[
+				defName = "ERW_Gun_Fort14TP_Pistol"
+				]/tools
+				</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>stock</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>8</power>
+							<cooldownTime>1.55</cooldownTime>
+							<chanceFactor>1.5</chanceFactor>
+							<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>barrel</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>5</power>
+							<cooldownTime>2.02</cooldownTime>
+							<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>muzzle</label>
+							<capacities>
+								<li>Poke</li>
+							</capacities>
+							<power>8</power>
+							<cooldownTime>1.55</cooldownTime>
+							<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</Operation>
+
+			<!--==== Draw size ====-->
+			<Operation Class="PatchOperationAddModExtension">
+				<xpath>Defs/ThingDef[
+				defName = "ERW_Gun_Fort14TP_Pistol"
+				]</xpath>
+				<value>
+					<li Class="CombatExtended.GunDrawExtension">
+					<DrawSize>0.93,0.93</DrawSize>
+					<DrawOffset>0.0,0.0</DrawOffset>
+					</li>
+				</value>
+			</Operation>
+</Patch>
