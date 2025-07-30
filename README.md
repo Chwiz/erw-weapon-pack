@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/Chwiz/erw-weapon-pack/releases">
-    <img src="https://img.shields.io/badge/version-2023.2.0-green.svg?style=flat" alt="v1.4.6" />
+    <img src="https://img.shields.io/badge/version-2025.1.0-green.svg?style=flat" alt="v1.4.6" />
   </a>
 </p>
 
