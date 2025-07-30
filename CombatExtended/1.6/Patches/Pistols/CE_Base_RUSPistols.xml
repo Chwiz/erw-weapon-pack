@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+			<!--===== PB =====-->
+
+			<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>ERW_Gun_PB_Pistol</defName>
+				<statBases>
+					<Mass>1</Mass>
+					<RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
+					<SightsEfficiency>0.7</SightsEfficiency>
+
+					<ShotSpread>0.18</ShotSpread>
+					<SwayFactor>1.06</SwayFactor>
+					<Bulk>1.96</Bulk>
+					<WorkToMake>6800</WorkToMake>
+				</statBases>
+					<costList>
+						<Steel>25</Steel>
+						<ComponentIndustrial>3</ComponentIndustrial>
+					</costList>
+				<Properties>
+					<recoilAmount>2.51</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_9x18mmMakarov_FMJ</defaultProjectile>
+					<warmupTime>0.6</warmupTime>
+					<range>12</range>
+					<soundCast>ERW_Shot_PB</soundCast>
+					<soundCastTail>GunTail_Light</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>8</magazineSize>
+					<reloadTime>4</reloadTime>
+					<ammoSet>AmmoSet_9x18mmMakarov</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>FALSE</aiUseBurstMode>
+					<aiAimMode>Snapshot</aiAimMode>
+				</FireModes>
+				<weaponTags>
+					<li>CE_AI_Pistol</li>
+					<li>CE_Sidearm</li>
+					<li>CE_OneHandedWeapon</li>
+				</weaponTags>
+				<AllowWithRunAndGun>false</AllowWithRunAndGun>
+			</Operation>
+
+            <!--===== MP_443 =====-->
+
+			<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>ERW_Gun_MP_443_Pistol</defName>
+				<statBases>
+					<Mass>1</Mass>
+					<RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
+					<SightsEfficiency>0.7</SightsEfficiency>
+
+					<ShotSpread>0.17</ShotSpread>
+					<SwayFactor>1.05</SwayFactor>
+					<Bulk>2.01</Bulk>
+					<WorkToMake>7000</WorkToMake>
+				</statBases>
+					<costList>
+						<Steel>30</Steel>
+						<ComponentIndustrial>3</ComponentIndustrial>
+					</costList>
+				<Properties>
+					<recoilAmount>2.64</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
+					<warmupTime>0.6</warmupTime>
+					<range>12</range>
+					<soundCast>ERW_Shot_MP_443</soundCast>
+					<soundCastTail>GunTail_Light</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>18</magazineSize>
+					<reloadTime>4</reloadTime>
+					<ammoSet>AmmoSet_9x19mmPara</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>FALSE</aiUseBurstMode>
+					<aiAimMode>Snapshot</aiAimMode>
+				</FireModes>
+				<weaponTags>
+					<li>CE_AI_Pistol</li>
+					<li>CE_Sidearm</li>
+					<li>CE_OneHandedWeapon</li>
+				</weaponTags>
+				<AllowWithRunAndGun>false</AllowWithRunAndGun>
+			</Operation>
+
+            <!--===== APS =====-->
+
+			<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>ERW_Gun_APS_Pistol</defName>
+				<statBases>
+					<Mass>1.2</Mass>
+					<RangedWeapon_Cooldown>0.42</RangedWeapon_Cooldown>
+					<SightsEfficiency>0.7</SightsEfficiency>
+
+					<ShotSpread>0.19</ShotSpread>
+					<SwayFactor>1.12</SwayFactor>
+					<Bulk>2.2</Bulk>
+					<WorkToMake>7600</WorkToMake>
+				</statBases>
+					<costList>
+						<Steel>35</Steel>
+						<ComponentIndustrial>4</ComponentIndustrial>
+					</costList>
+				<Properties>
+					<recoilAmount>2.8</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_9x18mmMakarov_FMJ</defaultProjectile>
+					<warmupTime>0.7</warmupTime>
+					<range>12</range>
+					<burstShotCount>3</burstShotCount>
+					<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+					<soundCast>ERW_Shot_APS</soundCast>
+					<soundCastTail>GunTail_Light</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>20</magazineSize>
+					<reloadTime>4.5</reloadTime>
+					<ammoSet>AmmoSet_9x18mmMakarov</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>TRUE</aiUseBurstMode>
+					<aiAimMode>Snapshot</aiAimMode>
+					<aimedBurstShotCount>3</aimedBurstShotCount>
+				</FireModes>
+				<weaponTags>
+					<li>CE_AI_Pistol</li>
+					<li>CE_Sidearm</li>
+					<li>CE_OneHandedWeapon</li>
+				</weaponTags>
+				<AllowWithRunAndGun>false</AllowWithRunAndGun>
+			</Operation>
+
+            <!--===== TT =====-->
+
+			<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>ERW_Gun_TT_Pistol</defName>
+				<statBases>
+					<Mass>1</Mass>
+					<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+					<SightsEfficiency>0.7</SightsEfficiency>
+
+					<ShotSpread>0.18</ShotSpread>
+					<SwayFactor>1.05</SwayFactor>
+					<Bulk>2.1</Bulk>
+					<WorkToMake>6920</WorkToMake>
+				</statBases>
+					<costList>
+						<Steel>25</Steel>
+						<ComponentIndustrial>2</ComponentIndustrial>
+					</costList>
+				<Properties>
+					<recoilAmount>2.74</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_762x25mmTokarev_FMJ</defaultProjectile>
+					<warmupTime>0.65</warmupTime>
+					<range>12</range>
+					<soundCast>ERW_Shot_TT</soundCast>
+					<soundCastTail>GunTail_Light</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>8</magazineSize>
+					<reloadTime>4</reloadTime>
+					<ammoSet>AmmoSet_762x25mmTokarev</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>FALSE</aiUseBurstMode>
+					<aiAimMode>Snapshot</aiAimMode>
+				</FireModes>
+				<weaponTags>
+					<li>CE_AI_Pistol</li>
+					<li>CE_Sidearm</li>
+					<li>CE_OneHandedWeapon</li>
+				</weaponTags>
+				<AllowWithRunAndGun>false</AllowWithRunAndGun>
+			</Operation>
+
+            <!--===== SR_1 =====-->
+
+			<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>ERW_Gun_SR_1_Pistol</defName>
+				<statBases>
+					<Mass>1.1</Mass>
+					<RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+					<SightsEfficiency>0.7</SightsEfficiency>
+
+					<ShotSpread>0.17</ShotSpread>
+					<SwayFactor>1.06</SwayFactor>
+					<Bulk>2.11</Bulk>
+					<WorkToMake>7200</WorkToMake>
+				</statBases>
+					<costList>
+						<Steel>30</Steel>
+						<ComponentIndustrial>3</ComponentIndustrial>
+					</costList>
+				<Properties>
+					<recoilAmount>2.68</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_9x21mmGyurza_FMJ</defaultProjectile>
+					<warmupTime>0.65</warmupTime>
+					<range>12</range>
+					<soundCast>ERW_Shot_TT</soundCast>
+					<soundCastTail>GunTail_Light</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>18</magazineSize>
+					<reloadTime>4</reloadTime>
+					<ammoSet>AmmoSet_9x21mmGyurza</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>FALSE</aiUseBurstMode>
+					<aiAimMode>Snapshot</aiAimMode>
+				</FireModes>
+				<weaponTags>
+					<li>CE_AI_Pistol</li>
+					<li>CE_Sidearm</li>
+					<li>CE_OneHandedWeapon</li>
+				</weaponTags>
+				<AllowWithRunAndGun>false</AllowWithRunAndGun>
+			</Operation>
+
+            <!--===== PL_15 =====-->
+
+			<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>ERW_Gun_PL_15_Pistol</defName>
+				<statBases>
+					<Mass>1</Mass>
+					<RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
+					<SightsEfficiency>0.7</SightsEfficiency>
+
+					<ShotSpread>0.16</ShotSpread>
+					<SwayFactor>1.03</SwayFactor>
+					<Bulk>2.03</Bulk>
+					<WorkToMake>7400</WorkToMake>
+				</statBases>
+					<costList>
+						<Steel>30</Steel>
+						<ComponentIndustrial>3</ComponentIndustrial>
+					</costList>
+				<Properties>
+					<recoilAmount>2.61</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
+					<warmupTime>0.6</warmupTime>
+					<range>12</range>
+					<soundCast>ERW_Shot_TT</soundCast>
+					<soundCastTail>GunTail_Light</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>16</magazineSize>
+					<reloadTime>4</reloadTime>
+					<ammoSet>AmmoSet_9x19mmPara</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>FALSE</aiUseBurstMode>
+					<aiAimMode>Snapshot</aiAimMode>
+				</FireModes>
+				<weaponTags>
+					<li>CE_AI_Pistol</li>
+					<li>CE_Sidearm</li>
+					<li>CE_OneHandedWeapon</li>
+				</weaponTags>
+				<AllowWithRunAndGun>false</AllowWithRunAndGun>
+			</Operation>
+
+            <!--===== RSh_12 =====-->
+
+			<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>ERW_Gun_RSh_12_Pistol</defName>
+				<statBases>
+					<Mass>2.2</Mass>
+					<RangedWeapon_Cooldown>0.55</RangedWeapon_Cooldown>
+					<SightsEfficiency>0.7</SightsEfficiency>
+
+					<ShotSpread>0.19</ShotSpread>
+					<SwayFactor>1.39</SwayFactor>
+					<Bulk>2.5</Bulk>
+					<WorkToMake>8500</WorkToMake>
+				</statBases>
+					<costList>
+						<Steel>35</Steel>
+						<ComponentIndustrial>4</ComponentIndustrial>
+					</costList>
+				<Properties>
+					<recoilAmount>3.1</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_127x55mm_FMJ</defaultProjectile>
+					<warmupTime>0.8</warmupTime>
+					<range>18</range>
+					<soundCast>ERW_Shot_TT</soundCast>
+					<soundCastTail>GunTail_Light</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>5</magazineSize>
+					<reloadOneAtATime>true</reloadOneAtATime>
+					<reloadTime>5</reloadTime>
+					<ammoSet>AmmoSet_127x55mm</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>FALSE</aiUseBurstMode>
+					<aiAimMode>AimedShot</aiAimMode>
+				</FireModes>
+				<weaponTags>
+					<li>CE_AI_Pistol</li>
+					<li>CE_Sidearm</li>
+					<li>CE_OneHandedWeapon</li>
+				</weaponTags>
+				<AllowWithRunAndGun>false</AllowWithRunAndGun>
+			</Operation>
+
+            <!--========================= Melee stats ========================-->
+
+			<Operation Class="PatchOperationReplace">
+				<xpath>
+				/Defs/ThingDef[
+				defName = "ERW_Gun_PB_Pistol" or
+				defName = "ERW_Gun_MP_443_Pistol" or
+				defName = "ERW_Gun_APS_Pistol" or
+				defName = "ERW_Gun_TT_Pistol" or
+				defName = "ERW_Gun_SR_1_Pistol" or
+				defName = "ERW_Gun_PL_15_Pistol" or
+				defName = "ERW_Gun_RSh_12_Pistol"
+				]/tools
+				</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>stock</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>8</power>
+							<cooldownTime>1.55</cooldownTime>
+							<chanceFactor>1.5</chanceFactor>
+							<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>barrel</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>5</power>
+							<cooldownTime>2.02</cooldownTime>
+							<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>muzzle</label>
+							<capacities>
+								<li>Poke</li>
+							</capacities>
+							<power>8</power>
+							<cooldownTime>1.55</cooldownTime>
+							<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</Operation>
+
+			<!--==== Draw size ====-->
+			<Operation Class="PatchOperationAddModExtension">
+				<xpath>Defs/ThingDef[
+				defName = "ERW_Gun_PB_Pistol" or
+				defName = "ERW_Gun_MP_443_Pistol" or
+				defName = "ERW_Gun_APS_Pistol" or
+				defName = "ERW_Gun_TT_Pistol" or
+				defName = "ERW_Gun_SR_1_Pistol" or
+				defName = "ERW_Gun_PL_15_Pistol" or
+				defName = "ERW_Gun_RSh_12_Pistol"
+				]</xpath>
+				<value>
+					<li Class="CombatExtended.GunDrawExtension">
+					<DrawSize>0.93,0.93</DrawSize>
+					<DrawOffset>0.0,0.0</DrawOffset>
+					</li>
+				</value>
+			</Operation>
+</Patch>

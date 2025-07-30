@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <ThingDef Name="ERWBaseGunWithQuality" Abstract="True" ParentName="ERWBaseGun">
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+    </ThingDef>   
+
+    <ThingDef Name="ERWMakeableGun" ParentName="ERWBaseGunWithQuality" Abstract="True">
+        <recipeMaker>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+        <!-- <researchPrerequisite>
+            <li>ERW_Weapons_Start</li>
+        </researchPrerequisite> -->
+        </recipeMaker>
+    </ThingDef>
+
+    <ThingDef Name="ERW_Pistol" ParentName="ERWMakeableGun" Abstract="True">
+
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
+
+        <recipeMaker>
+            <recipeUsers>
+                <li>TableCraftingPistols</li>
+            </recipeUsers>
+        </recipeMaker>
+	  
+    </ThingDef>
+
+    <ThingDef Name="ERW_Shotgun" ParentName="ERWMakeableGun" Abstract="True">
+
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
+
+        <recipeMaker>
+            <recipeUsers>
+                <li>TableCraftingShotguns</li>
+            </recipeUsers>
+        </recipeMaker>
+	  
+    </ThingDef>
+
+    <ThingDef Name="ERW_SMG" ParentName="ERWMakeableGun" Abstract="True">
+
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
+
+        <recipeMaker>   
+            <recipeUsers>
+                <li>TableCraftingSmg</li>
+            </recipeUsers>
+        </recipeMaker>
+	  
+    </ThingDef>
+
+    <ThingDef Name="ERW_Rifle" ParentName="ERWMakeableGun" Abstract="True">
+
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
+
+        <recipeMaker>
+            <recipeUsers>
+                <li>TableCraftingRifles</li>
+            </recipeUsers>
+        </recipeMaker>
+	  
+    </ThingDef>
+
+    <ThingDef Name="ERW_Machinegun" ParentName="ERWMakeableGun" Abstract="True">
+
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
+
+        <recipeMaker>
+            <recipeUsers>
+                <li>TableCraftingMachineguns</li>
+            </recipeUsers>
+        </recipeMaker>
+	  
+    </ThingDef>
+
+    <ThingDef Name="ERW_Sniper" ParentName="ERWMakeableGun" Abstract="True">
+
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        
+        <comps>
+            <li Class="CompProperties_Biocodable"/>
+        </comps>
+
+        <recipeMaker>
+            <recipeUsers>
+                <li>TableCraftingSniper</li>
+            </recipeUsers>
+        </recipeMaker>
+	  
+    </ThingDef>
+
+    <!--==================================== Ranged ====================================-->
+
+    <ThingDef Name="ERWBaseGun" Abstract="True" ParentName="BaseWeapon">
+        <techLevel>Industrial</techLevel>
+        <smeltable>true</smeltable>
+        <thingCategories>
+            <li>WeaponsRanged</li>
+        </thingCategories>
+        <weaponClasses>
+            <li>Ranged</li>
+        </weaponClasses>
+        <inspectorTabs>
+            <li>ITab_Art</li>
+        </inspectorTabs>
+        <statBases>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <comps>
+        <li Class="CompProperties_Art">
+            <nameMaker>NamerArtWeaponGun</nameMaker>
+            <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+            <minQualityForArtistic>Excellent</minQualityForArtistic>
+        </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

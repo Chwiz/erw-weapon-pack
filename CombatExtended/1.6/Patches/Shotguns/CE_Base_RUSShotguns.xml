@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>	
+
+			<!-- ========== MP_133 ========== -->
+			<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>ERW_Gun_MP_133_Shotgun</defName>
+				<statBases>
+					<Mass>3.3</Mass>
+					<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+                    <SightsEfficiency>1</SightsEfficiency>
+					<ShotSpread>0.14</ShotSpread>
+					<SwayFactor>1.21</SwayFactor>
+					<Bulk>9.0</Bulk>
+					<WorkToMake>9800</WorkToMake>
+					</statBases>
+				<costList>
+					<Steel>45</Steel>
+					<ComponentIndustrial>2</ComponentIndustrial>
+					<WoodLog>10</WoodLog>
+				</costList>
+				<Properties>
+                    <recoilAmount>2.81</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
+					<warmupTime>0.65</warmupTime>
+					<range>16</range>
+					<soundCast>ERW_Shot_MP_133</soundCast>
+					<soundCastTail>GunTail_Heavy</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+					<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>6</magazineSize>
+					<reloadOneAtATime>true</reloadOneAtATime>
+					<reloadTime>0.9</reloadTime>
+					<ammoSet>AmmoSet_12Gauge</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>FALSE</aiUseBurstMode>
+					<aiAimMode>Snapshot</aiAimMode>
+				</FireModes>
+				<weaponTags>
+					<li>CE_AI_AssaultWeapon</li>
+					<li>CE_AI_BROOM</li>
+				</weaponTags>
+			</Operation>
+
+            <!-- ========== MP_153 ========== -->
+			<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>ERW_Gun_MP_153_Shotgun</defName>
+				<statBases>
+					<Mass>3.5</Mass>
+					<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+                    <SightsEfficiency>1</SightsEfficiency>
+					<ShotSpread>0.15</ShotSpread>
+					<SwayFactor>1.27</SwayFactor>
+					<Bulk>9</Bulk>
+					<WorkToMake>23000</WorkToMake>
+					</statBases>
+				<costList>
+					<Steel>40</Steel>
+					<ComponentIndustrial>3</ComponentIndustrial>
+					<Chemfuel>10</Chemfuel>
+				</costList>
+				<Properties>
+                    <recoilAmount>2.59</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
+					<warmupTime>0.65</warmupTime>
+					<range>16</range>
+                    <burstShotCount>3</burstShotCount>
+					<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+					<soundCast>ERW_Shot_MP_153</soundCast>
+					<soundCastTail>GunTail_Heavy</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>8</magazineSize>
+					<reloadOneAtATime>true</reloadOneAtATime>
+					<reloadTime>0.9</reloadTime>
+					<ammoSet>AmmoSet_12Gauge</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>TRUE</aiUseBurstMode>
+					<aiAimMode>Snapshot</aiAimMode>
+                    <aimedBurstShotCount>3</aimedBurstShotCount>
+				</FireModes>
+				<weaponTags>
+					<li>CE_AI_AssaultWeapon</li>
+					<li>CE_AI_BROOM</li>
+				</weaponTags>
+			</Operation>
+
+            <!-- ========== TOZ_34 ========== -->
+			<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>ERW_Gun_TOZ_34_Shotgun</defName>
+				<statBases>
+					<Mass>3.2</Mass>
+					<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+                    <SightsEfficiency>0.9</SightsEfficiency>
+					<ShotSpread>0.15</ShotSpread>
+					<SwayFactor>1.25</SwayFactor>
+					<Bulk>8.6</Bulk>
+					<WorkToMake>9200</WorkToMake>
+					</statBases>
+				<costList>
+					<Steel>30</Steel>
+					<ComponentIndustrial>1</ComponentIndustrial>
+					<WoodLog>20</WoodLog>
+				</costList>
+				<Properties>
+                    <recoilAmount>2.91</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
+					<warmupTime>0.65</warmupTime>
+					<range>16</range>
+                    <burstShotCount>2</burstShotCount>
+					<ticksBetweenBurstShots>3.6</ticksBetweenBurstShots>
+					<soundCast>ERW_Shot_TOZ_34</soundCast>
+					<soundCastTail>GunTail_Heavy</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>2</magazineSize>
+					<reloadOneAtATime>true</reloadOneAtATime>
+					<reloadTime>0.9</reloadTime>
+					<ammoSet>AmmoSet_12Gauge</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>TRUE</aiUseBurstMode>
+					<aiAimMode>Snapshot</aiAimMode>
+                    <aimedBurstShotCount>2</aimedBurstShotCount>
+				</FireModes>
+				<weaponTags>
+					<li>CE_AI_AssaultWeapon</li>
+					<li>CE_AI_BROOM</li>
+				</weaponTags>
+			</Operation>
+
+            <!-- ========== KS_23 ========== -->
+			<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>ERW_Gun_KS_23_Shotgun</defName>
+				<statBases>
+					<Mass>4</Mass>
+					<RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+                    <SightsEfficiency>1</SightsEfficiency>
+					<ShotSpread>0.16</ShotSpread>
+					<SwayFactor>1.5</SwayFactor>
+					<Bulk>8.7</Bulk>
+					<WorkToMake>10500</WorkToMake>
+					</statBases>
+				<costList>
+					<Steel>45</Steel>
+					<ComponentIndustrial>3</ComponentIndustrial>
+					<Chemfuel>10</Chemfuel>
+				</costList>
+				<Properties>
+                    <recoilAmount>3.1</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_23x75mmR_Buck</defaultProjectile>
+					<warmupTime>0.7</warmupTime>
+					<range>16</range>
+					<soundCast>ERW_Shot_KS_23</soundCast>
+					<soundCastTail>GunTail_Heavy</soundCastTail>
+					<muzzleFlashScale>9</muzzleFlashScale>
+					<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>4</magazineSize>
+					<reloadOneAtATime>true</reloadOneAtATime>
+					<reloadTime>1</reloadTime>
+					<ammoSet>AmmoSet_23x75mmR</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiUseBurstMode>FALSE</aiUseBurstMode>
+					<aiAimMode>Snapshot</aiAimMode>
+				</FireModes>
+				<weaponTags>
+					<li>CE_AI_AssaultWeapon</li>
+					<li>CE_AI_BROOM</li>
+				</weaponTags>
+			</Operation>
+
+            <!--========================= Melee stats ========================-->
+
+			<Operation Class="PatchOperationReplace">
+				<xpath>
+				/Defs/ThingDef[
+				defName = "ERW_Gun_MP_133_Shotgun" or
+				defName = "ERW_Gun_MP_153_Shotgun" or
+				defName = "ERW_Gun_TOZ_34_Shotgun" or
+				defName = "ERW_Gun_KS_23_Shotgun"
+				]/tools
+				</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>stock</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>8</power>
+							<cooldownTime>1.55</cooldownTime>
+							<chanceFactor>1.5</chanceFactor>
+							<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>barrel</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>5</power>
+							<cooldownTime>2.02</cooldownTime>
+							<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>muzzle</label>
+							<capacities>
+								<li>Poke</li>
+							</capacities>
+							<power>8</power>
+							<cooldownTime>1.55</cooldownTime>
+							<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+							<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+						</li>
+					</tools>
+				</value>
+			</Operation>
+
+			<!--==== Draw size ====-->
+			<Operation Class="PatchOperationAddModExtension">
+				<xpath>Defs/ThingDef[
+				defName = "ERW_Gun_MP_133_Shotgun" or
+				defName = "ERW_Gun_MP_153_Shotgun" or
+				defName = "ERW_Gun_TOZ_34_Shotgun" or
+				defName = "ERW_Gun_KS_23_Shotgun"
+				]</xpath>
+				<value>
+					<li Class="CombatExtended.GunDrawExtension">
+					<DrawSize>0.93,0.93</DrawSize>
+					<DrawOffset>0.0,0.0</DrawOffset>
+					</li>
+				</value>
+			</Operation>
+</Patch>
